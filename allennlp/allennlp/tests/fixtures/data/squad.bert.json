@@ -1,0 +1,165 @@
+{
+    "data": [
+        {
+            "paragraphs": [
+                {
+                    "context": "The biographical tradition asserts that Virgil began the hexameter Eclogues (or Bucolics) in 42 BC and it is thought that the collection was published around 39\u201338 BC, although this is controversial. The Eclogues (from the Greek for \"selections\") are a group of ten poems roughly modeled on the bucolic hexameter poetry (\"pastoral poetry\") of the Hellenistic poet Theocritus. After his victory in the Battle of Philippi in 42 BC, fought against the army led by the assassins of Julius Caesar, Octavian tried to pay off his veterans with land expropriated from towns in northern Italy, supposedly including, according to the tradition, an estate near Mantua belonging to Virgil. The loss of his family farm and the attempt through poetic petitions to regain his property have traditionally been seen as Virgil's motives in the composition of the Eclogues. This is now thought to be an unsupported inference from interpretations of the Eclogues. In Eclogues 1 and 9, Virgil indeed dramatizes the contrasting feelings caused by the brutality of the land expropriations through pastoral idiom, but offers no indisputable evidence of the supposed biographic incident. While some readers have identified the poet himself with various characters and their vicissitudes, whether gratitude by an old rustic to a new god (Ecl. 1), frustrated love by a rustic singer for a distant boy (his master's pet, Ecl. 2), or a master singer's claim to have composed several eclogues (Ecl. 5), modern scholars largely reject such efforts to garner biographical details from works of fiction, preferring to interpret an author's characters and themes as illustrations of contemporary life and thought. The ten Eclogues present traditional pastoral themes with a fresh perspective. Eclogues 1 and 9 address the land confiscations and their effects on the Italian countryside. 2 and 3 are pastoral and erotic, discussing both homosexual love (Ecl. 2) and attraction toward people of any gender (Ecl. 3). Eclogue 4, addressed to Asinius Pollio, the so-called \"Messianic Eclogue\" uses the imagery of the golden age in connection with the birth of a child (who the child was meant to be has been subject to debate). 5 and 8 describe the myth of Daphnis in a song contest, 6, the cosmic and mythological song of Silenus; 7, a heated poetic contest, and 10 the sufferings of the contemporary elegiac poet Cornelius Gallus. Virgil is credited[by whom?] in the Eclogues with establishing Arcadia as a poetic ideal that still resonates in Western literature and visual arts and setting the stage for the development of Latin pastoral by Calpurnius Siculus, Nemesianus, and later writers.",
+                    "qas": [
+                        {
+                            "answers": [
+                                {
+                                    "answer_start": 364,
+                                    "text": "Theocritus"
+                                }
+                            ],
+                            "id": "56f894a19b226e1400dd0c40",
+                            "question": "Which Hellenistic poet was known for bucolic hexameter poetry?"
+                        }
+                    ]
+                }
+            ],
+            "title": "Virgil"
+        },
+        {
+            "paragraphs": [
+                {
+                    "context": "After running imperial military affairs in the states of Coahuila and Durango, General Agust\u00edn Enrique Brincourt made preparations to invade the state of Chihuahua. On July 8, 1865 Brincourt crossed the Nazas River in northern Durango, heading toward Chihuahua. On July 22 Brincourt crossed the banks of R\u00edo Florido into Ciudad Jim\u00e9nez; one day later he arrived at Valle de Allende where he sent Colonel Pyot with a garrison to take control of Hidalgo del Parral. Brincourt continued through Santa Rosalia de Camargo and Santa Cruz de Rosales. President Ju\u00e1rez remained in the state capital until August 5, 1865 when he left for El Paso del Norte (present-day Ciudad Ju\u00e1rez) due to evidence that the French were to attack the city. On the same day, the President named General Manuel Ojinaga the new governor and placed him in charge of all the republican forces. Meanwhile, General Villagran surprised the imperial forces in control of Hidalgo de Parral; after a short two-hour battle, Colonel Pyot was defeated and forced to retreat. At the Battle of Parral, the French lost 55 men to the Republican forces. On August 13, 1865, the French forces with an estimated 2,500 men arrived at the outskirts of Chihuahua City, and on August 15, 1865, General Brincourt defeated the republican forces, taking control of the state capital. Brincourt designated Tom\u00e1s Zuloaga as Prefect of Chihuahua. Fearing the French would continue their campaign to El Paso del Norte, President Ju\u00e1rez relocated to El Carrizal, a secluded place in the mountains near El Paso del Norte, in August 1865, . It would have been easy for the French forces to continue in pursuit of President Ju\u00e1rez across the border, but they feared altercations with American forces. General Fran\u00e7ois Achille Bazaine ordered the French troops to retreat back to the state of Durango after only reaching a point one days travel north of Chihuahua City. General Brincourt asked for 1,000 men to be left behind to help maintain control over the state, but his request was denied. After the death of General Ojinaga, the Republican government declared General Villagran in charge of the fight against the Imperial forces. The French left the state on October 29, 1865. President Ju\u00e1rez returned to Chihuahua City on November 20, 1865 and remained in the city until December 9, 1865 when he returned to El Paso del Norte. Shortly after the president left Chihuahua City, Terrazas was restored as governor of the state on December 11, 1865.",
+                    "qas": [
+                        {
+                            "answers": [
+                                {
+                                    "answer_start": 57,
+                                    "text": "Coahuila and Durango"
+                                }
+                            ],
+                            "id": "570717a99e06ca38007e9406",
+                            "question": "In which states had Brincourt run military affairs previously?"
+                        }
+                    ]
+                }
+            ],
+            "title": "Chihuahua_(state)"
+        },
+        {
+            "paragraphs": [
+                {
+                    "context": "Many of the non-alphanumeric characters were positioned to correspond to their shifted position on typewriters; an important subtlety is that these were based on mechanical typewriters, not electric typewriters. Mechanical typewriters followed the standard set by the Remington No. 2 (1878), the first typewriter with a shift key, and the shifted values of 23456789- were \"#$%_&'() \u2013  early typewriters omitted 0 and 1, using O (capital letter o) and l (lowercase letter L) instead, but 1! and 0) pairs became standard once 0 and 1 became common. Thus, in ASCII !\"#$% were placed in second column, rows 1\u20135, corresponding to the digits 1\u20135 in the adjacent column. The parentheses could not correspond to 9 and 0, however, because the place corresponding to 0 was taken by the space character. This was accommodated by removing _ (underscore) from 6 and shifting the remaining characters left, which corresponded to many European typewriters that placed the parentheses with 8 and 9. This discrepancy from typewriters led to bit-paired keyboards, notably the Teletype Model 33, which used the left-shifted layout corresponding to ASCII, not to traditional mechanical typewriters. Electric typewriters, notably the more recently introduced IBM Selectric (1961), used a somewhat different layout that has become standard on computers\u2014\u200b\u200bfollowing the IBM PC (1981), especially Model M (1984)\u2014\u200b\u200band thus shift values for symbols on modern keyboards do not correspond as closely to the ASCII table as earlier keyboards did. The /? pair also dates to the No. 2, and the ,< .> pairs were used on some keyboards (others, including the No. 2, did not shift , (comma) or . (full stop) so they could be used in uppercase without unshifting). However, ASCII split the ;: pair (dating to No. 2), and rearranged mathematical symbols (varied conventions, commonly -* =+) to :* ;+ -=.",
+                    "qas": [
+                        {
+                            "answers": [
+                                {
+                                    "answer_start": 1077,
+                                    "text": "which used the left-shifted layout corresponding to ASCII"
+                                }
+                            ],
+                            "id": "570bfcd5ec8fbc190045bbfe",
+                            "question": "What layout did the Teletype Model 33 use?"
+                        }
+                    ]
+                }
+            ],
+            "title": "ASCII"
+        },
+        {
+            "paragraphs": [
+                {
+                    "context": "The '98 season would begin on a somber note with the death of legendary broadcaster Harry Caray. After the retirement of Sandberg and the trade of Dunston, the Cubs had holes to fill and the signing of Henry Rodr\u00edguez, known affectionately as \"H-Rod\" to bat cleanup provided protection for Sammy Sosa in the lineup, as Rodriguez slugged 31 round-trippers in his first season in Chicago. Kevin Tapani led the club with a career high 19 wins, Rod Beck anchored a strong bullpen and Mark Grace turned in one of his best seasons. The Cubs were swamped by media attention in 1998, and the team's two biggest headliners were Sosa and rookie flamethrower Kerry Wood. Wood's signature performance was one-hitting the Houston Astros, a game in which he tied the major league record of 20 strikeouts in nine innings. His torrid strikeout numbers earned Wood the nickname \"Kid K,\" and ultimately earned him the 1998 NL Rookie of the Year award. Sosa caught fire in June, hitting a major league record 20 home runs in the month, and his home run race with Cardinals slugger Mark McGwire transformed the pair into international superstars in a matter of weeks. McGwire finished the season with a new major league record of 70 home runs, but Sosa's .308 average and 66 homers earned him the National League MVP Award. After a down-to-the-wire Wild Card chase with the San Francisco Giants, Chicago and San Francisco ended the regular season tied, and thus squared off in a one-game playoff at Wrigley Field in which third baseman Gary Gaetti hit the eventual game winning homer. The win propelled the Cubs into the postseason once again with a 90\u201373 regular season tally. Unfortunately, the bats went cold in October, as manager Jim Riggleman's club batted .183 and scored only four runs en route to being swept by Atlanta. On a positive note, the home run chase between Sosa, McGwire and Ken Griffey, Jr. helped professional baseball to bring in a new crop of fans as well as bringing back some fans who had been disillusioned by the 1994 strike. The Cubs retained many players who experienced career years in '98, and after a fast start in 1999, they collapsed again (starting with being swept at the hands of the cross-town White Sox in mid-June) and finished in the bottom of the division for the next two seasons.",
+                    "qas": [
+                        {
+                            "answers": [
+                                {
+                                    "answer_start": 202,
+                                    "text": "Henry Rodr\u00edguez"
+                                }
+                            ],
+                            "id": "5726704cf1498d1400e8dfaf",
+                            "question": "Who was affectionately known as \"H-Rod\"?"
+                        }
+                    ]
+                }
+            ],
+            "title": "Chicago_Cubs"
+        },
+        {
+            "paragraphs": [
+                {
+                    "context": "Israel's Supreme Court is at the head of the court system in the State of Israel. It is the highest judicial instance. The Supreme Court sits in Jerusalem. The area of its jurisdiction is the entire State. A ruling of the Supreme Court is binding upon every court, other than the Supreme Court itself. The Israeli supreme court is both an appellate court and the high court of justice. As an appellate court, the Supreme Court considers cases on appeal (both criminal and civil) on judgments and other decisions of the District Courts. It also considers appeals on judicial and quasi-judicial decisions of various kinds, such as matters relating to the legality of Knesset elections and disciplinary rulings of the Bar Association. As the High Court of Justice (Hebrew: Beit Mishpat Gavoha Le'Zedek \u05d1\u05d9\u05ea \u05de\u05e9\u05e4\u05d8 \u05d2\u05d1\u05d5\u05d4 \u05dc\u05e6\u05d3\u05e7; also known by its initials as Bagatz \u05d1\u05d2\"\u05e5), the Supreme Court rules as a court of first instance, primarily in matters regarding the legality of decisions of State authorities: Government decisions, those of local authorities and other bodies and persons performing public functions under the law, and direct challenges to the constitutionality of laws enacted by the Knesset. The court has broad discretionary authority to rule on matters in which it considers it necessary to grant relief in the interests of justice, and which are not within the jurisdiction of another court or tribunal. The High Court of Justice grants relief through orders such as injunction, mandamus and Habeas Corpus, as well as through declaratory judgments. The Supreme Court can also sit at a further hearing on its own judgment. In a matter on which the Supreme Court has ruled - whether as a court of appeals or as the High Court of Justice - with a panel of three or more justices, it may rule at a further hearing with a panel of a larger number of justices. A further hearing may be held if the Supreme Court makes a ruling inconsistent with a previous ruling or if the Court deems that the importance, difficulty or novelty of a ruling of the Court justifies such hearing. The Supreme Court also holds the unique power of being able to order \"trial de novo\" (a retrial).",
+                    "qas": [
+                        {
+                            "answers": [
+                                {
+                                    "answer_start": 1749,
+                                    "text": "a panel of three or more justices"
+                                }
+                            ],
+                            "id": "5727846af1498d1400e8fa6d",
+                            "question": "Israel's Supreme court has uses what internal method to review its own decisions?"
+                        }
+                    ]
+                }
+            ],
+            "title": "Supreme_court"
+        },
+        {
+            "paragraphs": [
+                {
+                    "context": "Original master discs are created by lathe-cutting: a lathe is used to cut a modulated groove into a blank record. The blank records for cutting used to be cooked up, as needed, by the cutting engineer, using what Robert K. Morrison describes as a \"metallic soap,\" containing lead litharge, ozokerite, barium sulfate, montan wax, stearin and paraffin, among other ingredients. Cut \"wax\" sound discs would be placed in a vacuum chamber and gold-sputtered to make them electrically conductive for use as mandrels in an electroforming bath, where pressing stamper parts were made. Later, the French company Pyral invented a ready-made blank disc having a thin nitro-cellulose lacquer coating (approximately 7 mils thickness on both sides) that was applied to an aluminum substrate. Lacquer cuts result in an immediately playable, or processable, master record. If vinyl pressings are wanted, the still-unplayed sound disc is used as a mandrel for electroforming nickel records that are used for manufacturing pressing stampers. The electroformed nickel records are mechanically separated from their respective mandrels. This is done with relative ease because no actual \"plating\" of the mandrel occurs in the type of electrodeposition known as electroforming, unlike with electroplating, in which the adhesion of the new phase of metal is chemical and relatively permanent. The one-molecule-thick coating of silver (that was sprayed onto the processed lacquer sound disc in order to make its surface electrically conductive) reverse-plates onto the nickel record's face. This negative impression disc (having ridges in place of grooves) is known as a nickel master, \"matrix\" or \"father.\" The \"father\" is then used as a mandrel to electroform a positive disc known as a \"mother\". Many mothers can be grown on a single \"father\" before ridges deteriorate beyond effective use. The \"mothers\" are then used as mandrels for electroforming more negative discs known as \"sons\". Each \"mother\" can be used to make many \"sons\" before deteriorating. The \"sons\" are then converted into \"stampers\" by center-punching a spindle hole (which was lost from the lacquer sound disc during initial electroforming of the \"father\"), and by custom-forming the target pressing profile. This allows them to be placed in the dies of the target (make and model) record press and, by center-roughing, to facilitate the adhesion of the label, which gets stuck onto the vinyl pressing without any glue. In this way, several million vinyl discs can be produced from a single lacquer sound disc. When only a few hundred discs are required, instead of electroforming a \"son\" (for each side), the \"father\" is removed of its silver and converted into a stamper. Production by this latter method, known as the \"two-step-process\" (as it does not entail creation of \"sons\" but does involve creation of \"mothers,\" which are used for test playing and kept as \"safeties\" for electroforming future \"sons\") is limited to a few hundred vinyl pressings. The pressing count can increase if the stamper holds out and the quality of the vinyl is high. The \"sons\" made during a \"three-step\" electroforming make better stampers since they don't require silver removal (which reduces some high fidelity because of etching erasing part of the smallest groove modulations) and also because they have a stronger metal structure than \"fathers\".",
+                    "qas": [
+                        {
+                            "answers": [
+                                {
+                                    "answer_start": 2963,
+                                    "text": "limited to a few hundred vinyl pressings"
+                                }
+                            ],
+                            "id": "5727e311ff5b5019007d9799",
+                            "question": "What is the limitation of the two step process?"
+                        }
+                    ]
+                }
+            ],
+            "title": "Gramophone_record"
+        },
+        {
+            "paragraphs": [
+                {
+                    "context": "The most persistent theme throughout his films is tension in parent-child relationships. Parents (often fathers) are reluctant, absent or ignorant. Peter Banning in Hook starts off in the beginning of the film as a reluctant married-to-his-work parent who through the course of the film regains the respect of his children. The notable absence of Elliott's father in E.T., is the most famous example of this theme. In Indiana Jones and the Last Crusade, it is revealed that Indy has always had a very strained relationship with his father, who is a professor of medieval literature, as his father always seemed more interested in his work, specifically in his studies of the Holy Grail, than in his own son, although his father does not seem to realize or understand the negative effect that his aloof nature had on Indy (he even believes he was a good father in the sense that he taught his son \"self reliance,\" which is not how Indy saw it). Even Oskar Schindler, from Schindler's List, is reluctant to have a child with his wife. Munich depicts Avner as a man away from his wife and newborn daughter. There are of course exceptions; Brody in Jaws is a committed family man, while John Anderton in Minority Report is a shattered man after the disappearance of his son. This theme is arguably the most autobiographical aspect of Spielberg's films, since Spielberg himself was affected by his parents' divorce as a child and by the absence of his father. Furthermore, to this theme, protagonists in his films often come from families with divorced parents, most notably E.T. the Extra-Terrestrial (protagonist Elliot's mother is divorced) and Catch Me If You Can (Frank Abagnale's mother and father split early on in the film). Little known also is Tim in Jurassic Park (early in the film, another secondary character mentions Tim and Lex's parents' divorce). The family often shown divided is often resolved in the ending as well. Following this theme of reluctant fathers and father figures, Tim looks to Dr. Alan Grant as a father figure. Initially, Dr. Grant is reluctant to return those paternal feelings to Tim. However, by the end of the film, he has changed, and the kids even fall asleep with their heads on his shoulders.",
+                    "qas": [
+                        {
+                            "answers": [
+                                {
+                                    "answer_start": 1664,
+                                    "text": "Frank Abagnale"
+                                }
+                            ],
+                            "id": "5731cbbce99e3014001e629a",
+                            "question": "Whose parents divorced in 'Catch Me If You Can'?"
+                        }
+                    ]
+                }
+            ],
+            "title": "Steven_Spielberg"
+        },
+        {
+            "paragraphs": [
+                {
+                    "context": "But in the mid-18th century, during the French Enlightenment, a more ideological use of the term had come into use. In 1765, the author of an anonymous article in a French Enlightenment periodical spoke of \"The general love of humanity ... a virtue hitherto quite nameless among us, and which we will venture to call 'humanism', for the time has come to create a word for such a beautiful and necessary thing\". The latter part of the 18th and the early 19th centuries saw the creation of numerous grass-roots \"philanthropic\" and benevolent societies dedicated to human betterment and the spreading of knowledge (some Christian, some not). After the French Revolution, the idea that human virtue could be created by human reason alone independently from traditional religious institutions, attributed by opponents of the Revolution to Enlightenment philosophes such as Rousseau, was violently attacked by influential religious and political conservatives, such as Edmund Burke and Joseph de Maistre, as a deification or idolatry of humanity. Humanism began to acquire a negative sense. The Oxford English Dictionary records the use of the word \"humanism\" by an English clergyman in 1812 to indicate those who believe in the \"mere humanity\" (as opposed to the divine nature) of Christ, i.e., Unitarians and Deists. In this polarised atmosphere, in which established ecclesiastical bodies tended to circle the wagons and reflexively oppose political and social reforms like extending the franchise, universal schooling, and the like, liberal reformers and radicals embraced the idea of Humanism as an alternative religion of humanity. The anarchist Proudhon (best known for declaring that \"property is theft\") used the word \"humanism\" to describe a \"culte, d\u00e9ification de l\u2019humanit\u00e9\" (\"worship, deification of humanity\") and Ernest Renan in L\u2019avenir de la science: pens\u00e9es de 1848 (\"The Future of Knowledge: Thoughts on 1848\") (1848\u201349), states: \"It is my deep conviction that pure humanism will be the religion of the future, that is, the cult of all that pertains to humanity\u2014all of life, sanctified and raised to the level of a moral value.\"",
+                    "qas": [
+                        {
+                            "answers": [
+                                {
+                                    "answer_start": 1531,
+                                    "text": "liberal reformers and radicals"
+                                }
+                            ],
+                            "id": "57327a00e17f3d140042299f",
+                            "question": "Who continued to support the belief system despite its critics?"
+                        }
+                    ]
+                }
+            ],
+            "title": "Humanism"
+        }
+    ],
+    "version": "debug"
+}

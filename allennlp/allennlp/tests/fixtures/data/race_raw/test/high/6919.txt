@@ -1,0 +1,50 @@
+{
+  "answers": [
+    "C",
+    "C",
+    "B",
+    "C",
+    "A"
+  ],
+  "options": [
+    [
+      "you have more time to recover from mistakes",
+      "most of the parts of your body still work great",
+      "you have many responsibilities and complete independence",
+      "you have a world of opportunity in front of you"
+    ],
+    [
+      "My father would burst into the kitchen bouncing a football.",
+      "The wind was bouncing the branches of the big oak trees.",
+      "I was an army brat, I always bounced a lot when I was young",
+      "The ex-boxer's job is to bounce people who want to enter this private club."
+    ],
+    [
+      "You should purposely go out and make these mistakes so that you can learn from them and not have them ruin your entire life.",
+      "There are certain mistakes that are much better made while you're still young and have plenty of time to recover.",
+      "When you get older, you'll have rich experiences to share with your friends and families however dumb you were",
+      "The younger you start, the fewer risks you can withstand and still come out with a positive return."
+    ],
+    [
+      "about 50% of first marriages end in divorce in the U.S, much higher than other parts of the world",
+      "never tie the knot before you make sure he or she will not divorce you",
+      "it usually takes 7-10 years to rebuild one's credit if it is broken for any reason",
+      "it's unusual for people in their 20's to have money these days"
+    ],
+    [
+      "if you are to take risks, the earlier, the better",
+      "it's better for the young to take any risk than the older",
+      "that they should make big purchases such as a house when they get older",
+      "if you don't take risks when young, your youth will be dumb"
+    ]
+  ],
+  "questions": [
+    "The following are all the advantages of being young EXCEPT   _  .",
+    "You can bounce around a little bit and find out what you want to do. \"Bounce\" in this sentence is most similar in meaning to   _  .",
+    "What does the author really mean by saying \"it's a lot better to take risks when you're younger\"?",
+    "We can infer from the passage that   _  .",
+    "The author wrote this article mainly to tell the young   _  ."
+  ],
+  "article": "Being young is great. Most of the parts of your body still work great, you have a full head of hair, you're energetic, and you have a world of opportunity in front of you. However, there's going to come a time when you start to get older. And as you get older, you'll have new responsibilities, complete independence, and perhaps most importantly, less time to recover from mistakes.\nYou see, we all make mistakes in life. Maybe you spent more money than you should have on a car, you passed up on a great job opportunity, or you didn't try as hard as you could have in school. It's a part of life and we learn from it. But there are certain mistakes that are much better made while you're still young and have plenty of time to recover.\nI'm definitely not telling you that you should purposely go out and make these mistakes (because they're a pain to recover from). But these are all mistakes that are much better made when you're younger so that you can learn from them and not have them ruin your entire life.\nStarting the wrong career\nWouldn't you hate to be 45 years old and discover that you absolutely hate what you do for a living? It's a reality that a lot of people face and it can be difficult to fix. You see, when you're 23 and find out you don't like the career path you've chosen, you can easily explore new career options.\nWe no longer live in an age when people are expected to stay with one company until they retire. You can bounce around a little bit and find out what you want to do. When you get older, just switching careers whenever you want isn't as simple.\nYou have to consider your family, retirement, the difficulties you might run into with starting from the bottom in a new industry, and plenty of other issues that someone in their early 20's just doesn't have to deal with.\nDating the wrong person\nThe divorce rate in the U.S is extremely high. Other parts of the world aren't doing too much better either. While everyone gets divorced for their own reasons, I think we can all agree that it's better to find out that the person you're with is wrong for you sooner rather than later.\nHopefully you find out whether or not the person you're with is right for you before you tie the knot, because around 50% of first marriages end in divorce.\nMessing up your credit\nRuining your credit is never a good idea. Even if you ruin it while you're young, it could affect you in the future. The upside of having bad credit while you're young instead of older is that you have time to build it back up.\nIt can take 7-10 years to rebuild your credit if you have a history of late payments, loan defaults, foreclosures, or bankruptcy. During those 7-10 years, you'll have a hard time financing anything unless you have a cosigner or put down a substantial down payment.\nMost people tend to make most of the bigger purchases in life when they get older such as a house or their dream car. If you have bad credit, you can kiss all of that goodbye.\nMaking bad investments\nIf you're investing money for your retirement, making bad decisions can mean you'll be working your entire life. Whether you choose to pay someone to do the investing for you or handle it all yourself, it's a lot better to take risks when you're younger.\nIf you invest in stock or even real estate while you're young and the market takes a hit, you're not ruined. Investing is a long-term venture, so the younger you start, the more fluctuation you can withstand and still come out with a positive return.\nBlowing your money\nWhat would you do if you went broke at 60 years old? You would be working your behind off when you really should be relaxing and getting ready to retire soon.\nBut if you're 25 and broke, you still have plenty of time to earn more money. Also, nobody will judge you because it's not unusual for people in their 20's to not have money these days. You might have blown your money on a nice car or have an obsession with all the newest gadgets.\nWhen you get older, you'll be able to look back and realize how dumb you were for spending $20,000 on a brand new car when you were only 20 years old. But when you're older and waste your money, you'll REALLY have nothing to show for it.",
+  "id": "high6919.txt"
+}

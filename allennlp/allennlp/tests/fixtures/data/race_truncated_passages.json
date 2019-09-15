@@ -1,0 +1,345 @@
+{
+    "data": [
+        {
+            "paragraphs": [
+                {
+                    "context": "in England 1st in America 2nd by Alice 3rd in 1910 4th In a small village in England about 150 years ago",
+                    "qas": [
+                        {
+                            "answers": [
+                                {
+                                    "answer_start": 11,
+                                    "text": "1st"
+                                }
+                            ],
+                            "char_answer_choice_spans": [
+                                [
+                                    0,
+                                    14
+                                ],
+                                [
+                                    15,
+                                    29
+                                ],
+                                [
+                                    30,
+                                    42
+                                ],
+                                [
+                                    43,
+                                    54
+                                ]
+                            ],
+                            "id": "6ccc2247ee523b13",
+                            "question": "The first postage stamp was made   _   ."
+                        }
+                    ]
+                },
+                {
+                    "context": "she didn't know whose letter it was 1st she had no money to pay the postage 2nd she received the letter but she didn't want to open it 3rd she had already known what was written in the letter 4th In a small village in England about 150 years ago",
+                    "qas": [
+                        {
+                            "answers": [
+                                {
+                                    "answer_start": 192,
+                                    "text": "4th"
+                                }
+                            ],
+                            "char_answer_choice_spans": [
+                                [
+                                    0,
+                                    39
+                                ],
+                                [
+                                    40,
+                                    79
+                                ],
+                                [
+                                    80,
+                                    138
+                                ],
+                                [
+                                    139,
+                                    195
+                                ]
+                            ],
+                            "id": "153a5c16c5706f5c",
+                            "question": "The girl handed the letter back to the mailman because   _   ."
+                        }
+                    ]
+                },
+                {
+                    "context": "Tom had told her what the signs meant before leaving 1st Alice was clever and could guess the meaning of the signs 2nd Alice had put the signs on the envelope herself 3rd Tom had put the signs as Alice had told him to 4th In a small village in England about 150 years ago",
+                    "qas": [
+                        {
+                            "answers": [
+                                {
+                                    "answer_start": 53,
+                                    "text": "1st"
+                                }
+                            ],
+                            "char_answer_choice_spans": [
+                                [
+                                    0,
+                                    56
+                                ],
+                                [
+                                    57,
+                                    118
+                                ],
+                                [
+                                    119,
+                                    170
+                                ],
+                                [
+                                    171,
+                                    221
+                                ]
+                            ],
+                            "id": "x3f963fb89143c48b",
+                            "question": "We can know from Alice's words that   _   ."
+                        }
+                    ]
+                },
+                {
+                    "context": "the government 1st Sir Rowland Hill 2nd Alice Brown 3rd Tom 4th In a small village in England about 150 years ago",
+                    "qas": [
+                        {
+                            "answers": [
+                                {
+                                    "answer_start": 36,
+                                    "text": "2nd"
+                                }
+                            ],
+                            "char_answer_choice_spans": [
+                                [
+                                    0,
+                                    18
+                                ],
+                                [
+                                    19,
+                                    39
+                                ],
+                                [
+                                    40,
+                                    55
+                                ],
+                                [
+                                    56,
+                                    63
+                                ]
+                            ],
+                            "id": "x166d4475017e7884",
+                            "question": "The idea of using stamps was thought of by   _   ."
+                        }
+                    ]
+                },
+                {
+                    "context": "People never send each other letters 1st lovers almost lose every touch with each other 2nd people try their best to avoid  paying it 3rd receivers refuse to pay the coming letters 4th In a small village in England about 150 years ago",
+                    "qas": [
+                        {
+                            "answers": [
+                                {
+                                    "answer_start": 134,
+                                    "text": "3rd"
+                                }
+                            ],
+                            "char_answer_choice_spans": [
+                                [
+                                    0,
+                                    40
+                                ],
+                                [
+                                    41,
+                                    91
+                                ],
+                                [
+                                    92,
+                                    137
+                                ],
+                                [
+                                    138,
+                                    184
+                                ]
+                            ],
+                            "id": "45ec4f29d82d5262",
+                            "question": "From the passage we know the high postage made   _   ."
+                        }
+                    ]
+                }
+            ],
+            "title": "middle3540.txt"
+        },
+        {
+            "paragraphs": [
+                {
+                    "context": "You should never eat delicious foods. 1st Drinking some water or soup before eating helps you to eat less. 2nd Holidays are happy days but they may bring you weight problems. 3rd Physical exercise can reduce the chance of putting on weight. 4th Do you love holidays but hate gaining weight?",
+                    "qas": [
+                        {
+                            "answers": [
+                                {
+                                    "answer_start": 38,
+                                    "text": "1st"
+                                }
+                            ],
+                            "char_answer_choice_spans": [
+                                [
+                                    0,
+                                    41
+                                ],
+                                [
+                                    42,
+                                    110
+                                ],
+                                [
+                                    111,
+                                    178
+                                ],
+                                [
+                                    179,
+                                    244
+                                ]
+                            ],
+                            "id": "x2d3ed5c47095c583",
+                            "question": "Which of the following statements is WRONG according to the passage?"
+                        }
+                    ]
+                },
+                {
+                    "context": "Eating lean meat. 1st Creamy food. 2nd Eating raw fruit or vegetables. 3rd Physical exercise. 4th Do you love holidays but hate gaining weight?",
+                    "qas": [
+                        {
+                            "answers": [
+                                {
+                                    "answer_start": 35,
+                                    "text": "2nd"
+                                }
+                            ],
+                            "char_answer_choice_spans": [
+                                [
+                                    0,
+                                    21
+                                ],
+                                [
+                                    22,
+                                    38
+                                ],
+                                [
+                                    39,
+                                    74
+                                ],
+                                [
+                                    75,
+                                    97
+                                ]
+                            ],
+                            "id": "6894dd842a59d52f",
+                            "question": "Which of the following can NOT help people to lose weight according to the passage?"
+                        }
+                    ]
+                },
+                {
+                    "context": "can't help eating too much 1st take part in too many parties 2nd enjoy delicious foods sometimes 3rd can't help turning away from foods. 4th Do you love holidays but hate gaining weight?",
+                    "qas": [
+                        {
+                            "answers": [
+                                {
+                                    "answer_start": 27,
+                                    "text": "1st"
+                                }
+                            ],
+                            "char_answer_choice_spans": [
+                                [
+                                    0,
+                                    30
+                                ],
+                                [
+                                    31,
+                                    64
+                                ],
+                                [
+                                    65,
+                                    100
+                                ],
+                                [
+                                    101,
+                                    140
+                                ]
+                            ],
+                            "id": "x59dde23d364945b9",
+                            "question": "Many people can't control their weight during the holidays mainly because they   _  ."
+                        }
+                    ]
+                },
+                {
+                    "context": "Holidays and Festivals section 1st Health and Fitness section 2nd Fashion section 3rd Student Times Club section 4th Do you love holidays but hate gaining weight?",
+                    "qas": [
+                        {
+                            "answers": [
+                                {
+                                    "answer_start": 62,
+                                    "text": "2nd"
+                                }
+                            ],
+                            "char_answer_choice_spans": [
+                                [
+                                    0,
+                                    34
+                                ],
+                                [
+                                    35,
+                                    65
+                                ],
+                                [
+                                    66,
+                                    85
+                                ],
+                                [
+                                    86,
+                                    116
+                                ]
+                            ],
+                            "id": "13bd70ee24d6d4bb",
+                            "question": "If the passage appeared in a newspaper, which section is the most suitable one?"
+                        }
+                    ]
+                },
+                {
+                    "context": "How to avoid holiday feasting. 1st Do's and don'ts for keeping slim and fit. 2nd How to avoid weight gain over holidays. 3rd Wonderful holidays, boring experiences. 4th Do you love holidays but hate gaining weight?",
+                    "qas": [
+                        {
+                            "answers": [
+                                {
+                                    "answer_start": 121,
+                                    "text": "3rd"
+                                }
+                            ],
+                            "char_answer_choice_spans": [
+                                [
+                                    0,
+                                    34
+                                ],
+                                [
+                                    35,
+                                    80
+                                ],
+                                [
+                                    81,
+                                    124
+                                ],
+                                [
+                                    125,
+                                    168
+                                ]
+                            ],
+                            "id": "x13931780ed51580",
+                            "question": "What is the best title of the passage?"
+                        }
+                    ]
+                }
+            ],
+            "title": "high9216.txt"
+        }
+    ],
+    "version": "pos-answer-spans"
+}

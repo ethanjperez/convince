@@ -1,0 +1,50 @@
+{
+  "answers": [
+    "A",
+    "D",
+    "A",
+    "B",
+    "C"
+  ],
+  "options": [
+    [
+      "in England",
+      "in America",
+      "by Alice",
+      "in 1910"
+    ],
+    [
+      "she didn't know whose letter it was",
+      "she had no money to pay the postage",
+      "she received the letter but she didn't want to open it",
+      "she had already known what was written in the letter"
+    ],
+    [
+      "Tom had told her what the signs meant before leaving",
+      "Alice was clever and could guess the meaning of the signs",
+      "Alice had put the signs on the envelope herself",
+      "Tom had put the signs as Alice had told him to"
+    ],
+    [
+      "the government",
+      "Sir Rowland Hill",
+      "Alice Brown",
+      "Tom"
+    ],
+    [
+      "People never send each other letters",
+      "lovers almost lose every touch with each other",
+      "people try their best to avoid  paying it",
+      "receivers refuse to pay the coming letters"
+    ]
+  ],
+  "questions": [
+    "The first postage stamp was made   _   .",
+    "The girl handed the letter back to the mailman because   _   .",
+    "We can know from Alice's words that   _   .",
+    "The idea of using stamps was thought of by   _   .",
+    "From the passage we know the high postage made   _   ."
+  ],
+  "article": "In a small village in England about 150 years ago, a mail coach (    ) was standing on the street . It didn't come to that village often  . People had to pay a lot to get a letter . The person who sent the letter didn't have to pay the postage (     )  , while the receiver had to .\n\"Here's a letter for Miss Alice Brown , \" said the mailman .\n\" I'm  Alice Brown , \" a girl of about 18 said in a low voice .\nAlice looked at the envelope  for a minute , and then handed it back to the mailman .\n\" I'm sorry I can't take it , I don't have enough money to pay it\", she said .\nA gentleman standing around were very sorry for her . Then he came up and paid the postage for her .\nWhen the gentleman gave the letter to her , she said with a smile , \" Thank you very much ,This letter is from Tom . I'm going to marry him . He went to London to look for work . I've waited a long time for this letter , but now I don't need it , there is nothing in it .\"\n\" Really ? How do you know that ? \" the gentleman said in surprise .\n\" He told me that he would put some signs on the envelope . Look ,sir ,this cross in the corner means that he is well and this circle means he has found work . That's good news .\"\nThe gentleman was Sir Rowland Hill . He didn't forgot Alice and her letter .\n\" The postage to be paid by the receiver has to be changed ,\" he said to himself and had a good plan .\n\" The postage has to be much lower , what about a penny (    ) ? And the person who sends the letter pays the postage . He has to buy a stamp and put it on the envelope .\" he said .\nThe government accepted his plan . Then the first stamp was put out in 1840 . It was called the \" Penny Black \" . It had a picture of the Queen on it .",
+  "id": "middle3540.txt"
+}

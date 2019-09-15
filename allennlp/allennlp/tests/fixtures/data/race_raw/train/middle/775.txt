@@ -1,0 +1,50 @@
+{
+  "answers": [
+    "C",
+    "B",
+    "B",
+    "D",
+    "B"
+  ],
+  "options": [
+    [
+      "name",
+      "sister",
+      "brother",
+      "father"
+    ],
+    [
+      "two; one",
+      "one; two",
+      "three; no",
+      "no; three"
+    ],
+    [
+      "apples",
+      "hamburgers",
+      "broccolis",
+      "A, B and C"
+    ],
+    [
+      "My sister",
+      "My brother",
+      "My father",
+      "Jenny"
+    ],
+    [
+      "hamburgers",
+      "French fries",
+      "oranges",
+      "broccoli"
+    ]
+  ],
+  "questions": [
+    "My   _   is Paul.",
+    "My parents have   _   sons and   _   daughter(s).",
+    "My sister likes   _  .",
+    "_   doesn't like salad.",
+    "My mother likes   _  ."
+  ],
+  "article": "My name is Jenny . I have a sister and a brother, Rose and Paul. We like apples very much. Rose and I like hamburgers. But I don't like salad. Paul doesn't like broccoli. But Rose does. My parents like tomatoes and French fries.",
+  "id": "middle775.txt"
+}

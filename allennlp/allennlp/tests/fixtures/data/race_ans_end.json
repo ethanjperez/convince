@@ -1,0 +1,134 @@
+{
+    "data": [
+        {
+            "title": "middle2572.txt",
+            "paragraphs": [
+                {
+                    "context": "Do you know HFMD? It's short for Hand-Foot-Mouth Disease. This year, in China, thousands of children were suffering from it. What's HFMD? How to prevent it? Now, read the passage please.\nHFMD usually affects babies who are 1~4 years old, but adults can also be infected. Both EV71 and Cox A16 can cause HFMD, which usually starts with a slight fever followed by blisters   and ulcers   in the mouth and rashes   on the hands and feet.\nIt can be spread through people with the mucus   or feces   of an _ person. It usually appears during the summer and autumn months. HFMD isn't Bird Flu, SARS or Mad Cow Disease, but it's not a new one, either. It first appeared in New Zealand in 1957. About forty years later, it appears in Asia. It's reported that it breaks out every 2 or 3 years.\nHFMD is very terrible and there is no vaccine   now, but we can do something helpful to prevent it. 'Children with HFMD should seek medical treatment as early as possible', experts say. They also suggest that parents keep the air fresh in a child's room, which should be kept clean, tidy and dry. Children should be taught to wash their hands regularly. Staying away from crowded public places is also basic. A_START>>> feces A_END<<<  B_START>>> feces of an infected person B_END<<<  C_START>>> water C_END<<<  D_START>>> mucus D_END<<< ",
+                    "qas": [
+                        {
+                            "answers": [
+                                {
+                                    "answer_start": 1221,
+                                    "text": "B_START>>> feces of an infected person B_END<<<"
+                                }
+                            ],
+                            "question": "HFMD is usually spread with   _  .",
+                            "id": "21c5f9f5121603c"
+                        }
+                    ]
+                },
+                {
+                    "context": "Do you know HFMD? It's short for Hand-Foot-Mouth Disease. This year, in China, thousands of children were suffering from it. What's HFMD? How to prevent it? Now, read the passage please.\nHFMD usually affects babies who are 1~4 years old, but adults can also be infected. Both EV71 and Cox A16 can cause HFMD, which usually starts with a slight fever followed by blisters   and ulcers   in the mouth and rashes   on the hands and feet.\nIt can be spread through people with the mucus   or feces   of an _ person. It usually appears during the summer and autumn months. HFMD isn't Bird Flu, SARS or Mad Cow Disease, but it's not a new one, either. It first appeared in New Zealand in 1957. About forty years later, it appears in Asia. It's reported that it breaks out every 2 or 3 years.\nHFMD is very terrible and there is no vaccine   now, but we can do something helpful to prevent it. 'Children with HFMD should seek medical treatment as early as possible', experts say. They also suggest that parents keep the air fresh in a child's room, which should be kept clean, tidy and dry. Children should be taught to wash their hands regularly. Staying away from crowded public places is also basic. A_START>>> to keep the air fresh in a child's room A_END<<<  B_START>>> wash hands regularly B_END<<<  C_START>>> see a doctor C_END<<<  D_START>>> stay in crowded public places D_END<<< ",
+                    "qas": [
+                        {
+                            "answers": [
+                                {
+                                    "answer_start": 1331,
+                                    "text": "D_START>>> stay in crowded public places D_END<<<"
+                                }
+                            ],
+                            "question": "Which isn't helpful to prevent HFMD?",
+                            "id": "xa6e14c02c3b9ccb"
+                        }
+                    ]
+                },
+                {
+                    "context": "Do you know HFMD? It's short for Hand-Foot-Mouth Disease. This year, in China, thousands of children were suffering from it. What's HFMD? How to prevent it? Now, read the passage please.\nHFMD usually affects babies who are 1~4 years old, but adults can also be infected. Both EV71 and Cox A16 can cause HFMD, which usually starts with a slight fever followed by blisters   and ulcers   in the mouth and rashes   on the hands and feet.\nIt can be spread through people with the mucus   or feces   of an _ person. It usually appears during the summer and autumn months. HFMD isn't Bird Flu, SARS or Mad Cow Disease, but it's not a new one, either. It first appeared in New Zealand in 1957. About forty years later, it appears in Asia. It's reported that it breaks out every 2 or 3 years.\nHFMD is very terrible and there is no vaccine   now, but we can do something helpful to prevent it. 'Children with HFMD should seek medical treatment as early as possible', experts say. They also suggest that parents keep the air fresh in a child's room, which should be kept clean, tidy and dry. Children should be taught to wash their hands regularly. Staying away from crowded public places is also basic. A_START>>> It's the same as Mad Cow Disease . A_END<<<  B_START>>> It first appeared in China. B_END<<<  C_START>>> Adults can be infected too. C_END<<<  D_START>>> There is vaccine now. D_END<<< ",
+                    "qas": [
+                        {
+                            "answers": [
+                                {
+                                    "answer_start": 1299,
+                                    "text": "C_START>>> Adults can be infected too. C_END<<<"
+                                }
+                            ],
+                            "question": "About HFMD, which one is right?",
+                            "id": "x7a4a826d6cfc129c"
+                        }
+                    ]
+                },
+                {
+                    "context": "Do you know HFMD? It's short for Hand-Foot-Mouth Disease. This year, in China, thousands of children were suffering from it. What's HFMD? How to prevent it? Now, read the passage please.\nHFMD usually affects babies who are 1~4 years old, but adults can also be infected. Both EV71 and Cox A16 can cause HFMD, which usually starts with a slight fever followed by blisters   and ulcers   in the mouth and rashes   on the hands and feet.\nIt can be spread through people with the mucus   or feces   of an _ person. It usually appears during the summer and autumn months. HFMD isn't Bird Flu, SARS or Mad Cow Disease, but it's not a new one, either. It first appeared in New Zealand in 1957. About forty years later, it appears in Asia. It's reported that it breaks out every 2 or 3 years.\nHFMD is very terrible and there is no vaccine   now, but we can do something helpful to prevent it. 'Children with HFMD should seek medical treatment as early as possible', experts say. They also suggest that parents keep the air fresh in a child's room, which should be kept clean, tidy and dry. Children should be taught to wash their hands regularly. Staying away from crowded public places is also basic. A_START>>> The history of SARS A_END<<<  B_START>>> What's and how to prevent HFMD B_END<<<  C_START>>> HFMD in China C_END<<<  D_START>>> How to prevent HFMD D_END<<< ",
+                    "qas": [
+                        {
+                            "answers": [
+                                {
+                                    "answer_start": 1235,
+                                    "text": "B_START>>> What's and how to prevent HFMD B_END<<<"
+                                }
+                            ],
+                            "question": "Can you give a title for the article?",
+                            "id": "x6f4cbb88e5023f37"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "middle2994.txt",
+            "paragraphs": [
+                {
+                    "context": "Thomas Edison lit up the world with his invention of the electric light. Without him, the world might still be in the dark. However, the electric light was not his only invention. He also invented the motion picture camera and 1200 other things. About every two weeks he created something new.\nThomas Edison was born in 1847. He attended school for only three months. His mother taught him at home, but Thomas was mostly self-educated. He started experimenting at a young age.\nWhen he was 12 years old, he got his first job. He became a newsboy on a train. He did experiments on the train in his spare time. Unluckily, his first work experience did not end well. They _ him when he accidentally set fire to the floor of the train. Then Edison worked for five years as a telegraph operator, but he continued to spend much of his time in experimenting his first patent  in 1868 for a vote recorder run by electricity.\nThomas Edison was totally deaf in one ear and hard of hearing in the other, but he thought of his deafness as a blessing in many ways. It kept conversations short, so that he could have more time for work. He always worked 16 out of every 24hours. Sometimes his wife had to remind him to sleep and eat.\nThomas Edison died at the age of 84. He left a great many inventions that greatly improved the quality of life all over the world. A_START>>> About every fourteen days A_END<<<  B_START>>> About every seven days B_END<<<  C_START>>> About once a week C_END<<<  D_START>>> About twice a week D_END<<< ",
+                    "qas": [
+                        {
+                            "answers": [
+                                {
+                                    "answer_start": 1350,
+                                    "text": "A_START>>> About every fourteen days A_END<<<"
+                                }
+                            ],
+                            "question": "How often did Edison make a new invention?",
+                            "id": "292c426389b966c2"
+                        }
+                    ]
+                },
+                {
+                    "context": "Thomas Edison lit up the world with his invention of the electric light. Without him, the world might still be in the dark. However, the electric light was not his only invention. He also invented the motion picture camera and 1200 other things. About every two weeks he created something new.\nThomas Edison was born in 1847. He attended school for only three months. His mother taught him at home, but Thomas was mostly self-educated. He started experimenting at a young age.\nWhen he was 12 years old, he got his first job. He became a newsboy on a train. He did experiments on the train in his spare time. Unluckily, his first work experience did not end well. They _ him when he accidentally set fire to the floor of the train. Then Edison worked for five years as a telegraph operator, but he continued to spend much of his time in experimenting his first patent  in 1868 for a vote recorder run by electricity.\nThomas Edison was totally deaf in one ear and hard of hearing in the other, but he thought of his deafness as a blessing in many ways. It kept conversations short, so that he could have more time for work. He always worked 16 out of every 24hours. Sometimes his wife had to remind him to sleep and eat.\nThomas Edison died at the age of 84. He left a great many inventions that greatly improved the quality of life all over the world. A_START>>> something bad A_END<<<  B_START>>> a gift from god B_END<<<  C_START>>> a kind of ability C_END<<<  D_START>>> a disadvantage D_END<<< ",
+                    "qas": [
+                        {
+                            "answers": [
+                                {
+                                    "answer_start": 1385,
+                                    "text": "B_START>>> a gift from god B_END<<<"
+                                }
+                            ],
+                            "question": "Edison considered his deafness as  _  .",
+                            "id": "x51b3abfc12c03a34"
+                        }
+                    ]
+                },
+                {
+                    "context": "Thomas Edison lit up the world with his invention of the electric light. Without him, the world might still be in the dark. However, the electric light was not his only invention. He also invented the motion picture camera and 1200 other things. About every two weeks he created something new.\nThomas Edison was born in 1847. He attended school for only three months. His mother taught him at home, but Thomas was mostly self-educated. He started experimenting at a young age.\nWhen he was 12 years old, he got his first job. He became a newsboy on a train. He did experiments on the train in his spare time. Unluckily, his first work experience did not end well. They _ him when he accidentally set fire to the floor of the train. Then Edison worked for five years as a telegraph operator, but he continued to spend much of his time in experimenting his first patent  in 1868 for a vote recorder run by electricity.\nThomas Edison was totally deaf in one ear and hard of hearing in the other, but he thought of his deafness as a blessing in many ways. It kept conversations short, so that he could have more time for work. He always worked 16 out of every 24hours. Sometimes his wife had to remind him to sleep and eat.\nThomas Edison died at the age of 84. He left a great many inventions that greatly improved the quality of life all over the world. A_START>>> Edison had only 8 hours rest each day after his deafness A_END<<<  B_START>>> Edison got his education mostly by self-teaching B_END<<<  C_START>>> Edison had his first job in 1869 C_END<<<  D_START>>> Edison's inventions greatly improved the quality of people's life D_END<<< ",
+                    "qas": [
+                        {
+                            "answers": [
+                                {
+                                    "answer_start": 1498,
+                                    "text": "C_START>>> Edison had his first job in 1869 C_END<<<"
+                                }
+                            ],
+                            "question": "which of the following sentence is NOT true according to the passage?",
+                            "id": "xd9da7b74efd9d8"
+                        }
+                    ]
+                },
+                {
+                    "context": "Thomas Edison lit up the world with his invention of the electric light. Without him, the world might still be in the dark. However, the electric light was not his only invention. He also invented the motion picture camera and 1200 other things. About every two weeks he created something new.\nThomas Edison was born in 1847. He attended school for only three months. His mother taught him at home, but Thomas was mostly self-educated. He started experimenting at a young age.\nWhen he was 12 years old, he got his first job. He became a newsboy on a train. He did experiments on the train in his spare time. Unluckily, his first work experience did not end well. They _ him when he accidentally set fire to the floor of the train. Then Edison worked for five years as a telegraph operator, but he continued to spend much of his time in experimenting his first patent  in 1868 for a vote recorder run by electricity.\nThomas Edison was totally deaf in one ear and hard of hearing in the other, but he thought of his deafness as a blessing in many ways. It kept conversations short, so that he could have more time for work. He always worked 16 out of every 24hours. Sometimes his wife had to remind him to sleep and eat.\nThomas Edison died at the age of 84. He left a great many inventions that greatly improved the quality of life all over the world. A_START>>> The function of the electric light A_END<<<  B_START>>> Edison and his experiments B_END<<<  C_START>>> The importance of inventions C_END<<<  D_START>>> The whole life of Edison. D_END<<< ",
+                    "qas": [
+                        {
+                            "answers": [
+                                {
+                                    "answer_start": 1504,
+                                    "text": "D_START>>> The whole life of Edison. D_END<<<"
+                                }
+                            ],
+                            "question": "What does the passage mainly talk about?",
+                            "id": "7e84766d61cdab94"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,25 @@
+{
+    "data": [
+        {
+            "paragraphs": [
+                {
+                    "context": "The battle in the Marshall Islands caused irreparable damage, especially on Japanese bases. During the American bombing, the islands' population suffered from lack of food and various injuries. U.S. attacks started in mid-1943, and caused half the Japanese garrison of 5,100 people in the atoll Mili to die from hunger by August 1945.",
+                    "qas": [
+                        {
+                            "answers": [
+                                {
+                                    "answer_start": 222,
+                                    "text": "1943"
+                                }
+                            ],
+                            "id": "56f95ca49e9bad19000a088b",
+                            "question": "In what year did American air attacks on the Marshalls begin?"
+                        }
+                    ]
+                }
+            ],
+            "title": "Marshall_Islands"
+        }
+    ],
+    "version": "debug-answer-mismatch"
+}

@@ -1,0 +1,3802 @@
+{
+  "12-509-q0": {
+    "passage": "F : Why do you throw your pen away ? M : It does n't work well .",
+    "question": "Why does the man throw the pen away ?",
+    "debate_mode": [
+      "\u2160"
+    ],
+    "sentences_chosen": [
+      "F : Why do you throw your pen away ?"
+    ],
+    "stances": [
+      "\u2160"
+    ],
+    "num_sents": 2,
+    "prob_dist": [
+      [
+        0.0022738799452781677,
+        0.6841925978660583,
+        0.31353357434272766
+      ]
+    ],
+    "option_logits": [
+      [
+        -2.957435369491577,
+        2.7493162155151367,
+        1.9689832925796509
+      ]
+    ],
+    "options": [
+      "He does n't like the color .",
+      "It 's not his pen .",
+      "The pen does n't work well ."
+    ],
+    "answer_index": 2,
+    "final_pred_answer_index": 1,
+    "advantage": 0.0009692214662209153,
+    "prob": 0.31353357434272766,
+    "em": 0.0
+  },
+  "4-433-q0": {
+    "passage": "W : Should I ask John what we have to read for tomorrow ? M : How would he know ?",
+    "question": "What does the man mean ?",
+    "debate_mode": [
+      "\u2160"
+    ],
+    "sentences_chosen": [
+      "M : How would he know ?"
+    ],
+    "stances": [
+      "\u2160"
+    ],
+    "num_sents": 2,
+    "prob_dist": [
+      [
+        0.13054011762142181,
+        0.4880552589893341,
+        0.3814045786857605
+      ]
+    ],
+    "option_logits": [
+      [
+        -0.7988671064376831,
+        0.5198808908462524,
+        0.2733130156993866
+      ]
+    ],
+    "options": [
+      "He knows John well enough .",
+      "John wo n't know at all .",
+      "John would be the one to ask ."
+    ],
+    "answer_index": 1,
+    "final_pred_answer_index": 1,
+    "advantage": 0.060806483030319214,
+    "prob": 0.4880552589893341,
+    "em": 1.0
+  },
+  "13-55-q0": {
+    "passage": "W : Does Mr. White still live in your village ? M : No , he died three years ago .",
+    "question": "What does the man mean ?",
+    "debate_mode": [
+      "\u2160"
+    ],
+    "sentences_chosen": [
+      "W : Does Mr. White still live in your village ?"
+    ],
+    "stances": [
+      "\u2160"
+    ],
+    "num_sents": 2,
+    "prob_dist": [
+      [
+        0.9472128748893738,
+        0.004547414369881153,
+        0.04823973402380943
+      ]
+    ],
+    "option_logits": [
+      [
+        5.717066287994385,
+        0.3781011700630188,
+        2.7397255897521973
+      ]
+    ],
+    "options": [
+      "Mr. White is still living in the village .",
+      "Mr. White has moved to a big city .",
+      "Mr. White no longer lives in this world ."
+    ],
+    "answer_index": 2,
+    "final_pred_answer_index": 0,
+    "advantage": 0.009804487228393555,
+    "prob": 0.04823973402380943,
+    "em": 0.0
+  },
+  "12-68-q0": {
+    "passage": "W : It 's a fine day today , is n't it ? M : Yes , but yesterday was very cold .",
+    "question": "What was the weather like yesterday ?",
+    "debate_mode": [
+      "\u2160"
+    ],
+    "sentences_chosen": [
+      "W : It 's a fine day today , is n't it ?"
+    ],
+    "stances": [
+      "\u2160"
+    ],
+    "num_sents": 2,
+    "prob_dist": [
+      [
+        0.9969534873962402,
+        0.0019187744474038482,
+        0.001127750612795353
+      ]
+    ],
+    "option_logits": [
+      [
+        4.076244831085205,
+        -2.176772356033325,
+        -2.7082340717315674
+      ]
+    ],
+    "options": [
+      "Fine .",
+      "Cold .",
+      "Cook"
+    ],
+    "answer_index": 1,
+    "final_pred_answer_index": 0,
+    "advantage": 0.4984699487686157,
+    "prob": 0.0019187744474038482,
+    "em": 0.0
+  },
+  "12-317-q0": {
+    "passage": "A : Hi , Zhang Hong ! What are you doing ? B : I ca n't move the box by myself .",
+    "question": "What 's happened to Zhang Hong ?",
+    "debate_mode": [
+      "\u2160"
+    ],
+    "sentences_chosen": [
+      "A : Hi , Zhang Hong !"
+    ],
+    "stances": [
+      "\u2160"
+    ],
+    "num_sents": 3,
+    "prob_dist": [
+      [
+        0.9133396148681641,
+        0.08428420126438141,
+        0.002376195043325424
+      ]
+    ],
+    "option_logits": [
+      [
+        4.226692199707031,
+        1.8437788486480713,
+        -1.7249149084091187
+      ]
+    ],
+    "options": [
+      "He is calling .",
+      "He needs help .",
+      "He is ill ."
+    ],
+    "answer_index": 1,
+    "final_pred_answer_index": 0,
+    "advantage": 0.5026764869689941,
+    "prob": 0.08428420126438141,
+    "em": 0.0
+  },
+  "8-33-q0": {
+    "passage": "M : Is this your new bike ? W : Yes . My old one does n't work well .",
+    "question": "Why does the woman buy a new bike ?",
+    "debate_mode": [
+      "\u2160"
+    ],
+    "sentences_chosen": [
+      "M : Is this your new bike ?"
+    ],
+    "stances": [
+      "\u2160"
+    ],
+    "num_sents": 3,
+    "prob_dist": [
+      [
+        0.5305957794189453,
+        0.4587039649486542,
+        0.010700237937271595
+      ]
+    ],
+    "option_logits": [
+      [
+        0.7068884968757629,
+        0.5612931847572327,
+        -3.1968460083007812
+      ]
+    ],
+    "options": [
+      "The old one is broken .",
+      "She does n't like the old one .",
+      "The old one is lost ."
+    ],
+    "answer_index": 0,
+    "final_pred_answer_index": 0,
+    "advantage": 0.07360877841711044,
+    "prob": 0.5305957794189453,
+    "em": 1.0
+  },
+  "12-482-q0": {
+    "passage": "M : Shall we go fishing this Saturday afternoon ? F : That sounds great , but only if it does n't rain .",
+    "question": "Will they go fishing this Saturday afternoon ?",
+    "debate_mode": [
+      "\u2160"
+    ],
+    "sentences_chosen": [
+      "M : Shall we go fishing this Saturday afternoon ?"
+    ],
+    "stances": [
+      "\u2160"
+    ],
+    "num_sents": 2,
+    "prob_dist": [
+      [
+        0.9941493272781372,
+        0.0015824378933757544,
+        0.004268163815140724
+      ]
+    ],
+    "option_logits": [
+      [
+        8.171409606933594,
+        1.7284889221191406,
+        2.72070574760437
+      ]
+    ],
+    "options": [
+      "Yes .",
+      "No .",
+      "It depends on the weather ."
+    ],
+    "answer_index": 2,
+    "final_pred_answer_index": 0,
+    "advantage": 0.4832216203212738,
+    "prob": 0.004268163815140724,
+    "em": 0.0
+  },
+  "13-179-q0": {
+    "passage": "W : The film will begin at seven o'clock . M : Oh , it 's six fifty . We must hurry .",
+    "question": "When will the film begin ?",
+    "debate_mode": [
+      "\u2160"
+    ],
+    "sentences_chosen": [
+      "M : Oh , it 's six fifty ."
+    ],
+    "stances": [
+      "\u2160"
+    ],
+    "num_sents": 3,
+    "prob_dist": [
+      [
+        0.7590126395225525,
+        0.04723716154694557,
+        0.19375023245811462
+      ]
+    ],
+    "option_logits": [
+      [
+        2.7839736938476562,
+        0.007135995663702488,
+        1.4185250997543335
+      ]
+    ],
+    "options": [
+      "At six fifty",
+      "At seven",
+      "At seven fifty"
+    ],
+    "answer_index": 1,
+    "final_pred_answer_index": 0,
+    "advantage": 0.34256646037101746,
+    "prob": 0.04723716154694557,
+    "em": 0.0
+  },
+  "11-133-q0": {
+    "passage": "M : Can I help you , Madam ? F : Yes , I want a kilo of fish and some fruit .",
+    "question": "What is the woman doing ?",
+    "debate_mode": [
+      "\u2160"
+    ],
+    "sentences_chosen": [
+      "M : Can I help you , Madam ?"
+    ],
+    "stances": [
+      "\u2160"
+    ],
+    "num_sents": 2,
+    "prob_dist": [
+      [
+        0.8397351503372192,
+        0.10553151369094849,
+        0.05473341792821884
+      ]
+    ],
+    "option_logits": [
+      [
+        2.2109835147857666,
+        0.13690651953220367,
+        -0.5196285843849182
+      ]
+    ],
+    "options": [
+      "She is cooking supper .",
+      "She is buying clothes .",
+      "She is buying some food ."
+    ],
+    "answer_index": 2,
+    "final_pred_answer_index": 0,
+    "advantage": 0.4147755801677704,
+    "prob": 0.05473341792821884,
+    "em": 0.0
+  },
+  "3-24-q0": {
+    "passage": "M : Only tea ? Oh , come on , have something stronger . W : No , just tea . It 's the doctor 's orders .",
+    "question": "What did the doctor advise the man to do ?",
+    "debate_mode": [
+      "\u2160"
+    ],
+    "sentences_chosen": [
+      "M : Only tea ?"
+    ],
+    "stances": [
+      "\u2160"
+    ],
+    "num_sents": 4,
+    "prob_dist": [
+      [
+        0.935269832611084,
+        0.052266158163547516,
+        0.012464014813303947
+      ]
+    ],
+    "option_logits": [
+      [
+        -1.2655956745147705,
+        -4.150081634521484,
+        -5.583584785461426
+      ]
+    ],
+    "options": [
+      "To take less wine .",
+      "To give up smoking .",
+      "Not to drink hard drinks ."
+    ],
+    "answer_index": 2,
+    "final_pred_answer_index": 0,
+    "advantage": 0.2719026207923889,
+    "prob": 0.012464014813303947,
+    "em": 0.0
+  },
+  "15-28-q0": {
+    "passage": "W : Let me get the check . M : No . You picked it up last time . It 's my turn today .",
+    "question": "Where does the conversation probably take place ?",
+    "debate_mode": [
+      "\u2160"
+    ],
+    "sentences_chosen": [
+      "M : No ."
+    ],
+    "stances": [
+      "\u2160"
+    ],
+    "num_sents": 4,
+    "prob_dist": [
+      [
+        0.2956123650074005,
+        0.2432624101638794,
+        0.4611252546310425
+      ]
+    ],
+    "option_logits": [
+      [
+        -0.665919303894043,
+        -0.8608275055885315,
+        -0.22129859030246735
+      ]
+    ],
+    "options": [
+      "At home .",
+      "At a bank .",
+      "At a restaurant ."
+    ],
+    "answer_index": 2,
+    "final_pred_answer_index": 2,
+    "advantage": 0.09885679185390472,
+    "prob": 0.4611252546310425,
+    "em": 1.0
+  },
+  "17-150-q0": {
+    "passage": "M : You certainly have n't changed much . You look the same . You must be living a happy life . W : You 're right !",
+    "question": "Which is true according to the woman ?",
+    "debate_mode": [
+      "\u2160"
+    ],
+    "sentences_chosen": [
+      "M : You certainly have n't changed much ."
+    ],
+    "stances": [
+      "\u2160"
+    ],
+    "num_sents": 4,
+    "prob_dist": [
+      [
+        0.24821965396404266,
+        0.5870487689971924,
+        0.16473160684108734
+      ]
+    ],
+    "option_logits": [
+      [
+        -3.7931408882141113,
+        -2.932347059249878,
+        -4.203137397766113
+      ]
+    ],
+    "options": [
+      "She lives a sad life .",
+      "She is living a happy life .",
+      "She is happy ."
+    ],
+    "answer_index": 1,
+    "final_pred_answer_index": 1,
+    "advantage": 0.17496588826179504,
+    "prob": 0.5870487689971924,
+    "em": 1.0
+  },
+  "4-366-q0": {
+    "passage": "W : Henry , why were you late this morning ? M : My neighbour had a sudden heart attack and I had to take him to the hospital .",
+    "question": "What 's wrong with Henry ?",
+    "debate_mode": [
+      "\u2160"
+    ],
+    "sentences_chosen": [
+      "M : My neighbour had a sudden heart attack and I had to take him to the hospital ."
+    ],
+    "stances": [
+      "\u2160"
+    ],
+    "num_sents": 2,
+    "prob_dist": [
+      [
+        0.12720200419425964,
+        0.8703228831291199,
+        0.0024751219898462296
+      ]
+    ],
+    "option_logits": [
+      [
+        -0.13270725309848785,
+        1.790380597114563,
+        -4.0721940994262695
+      ]
+    ],
+    "options": [
+      "He was in hospital .",
+      "He had a heart attack .",
+      "He was late for work ."
+    ],
+    "answer_index": 2,
+    "final_pred_answer_index": 1,
+    "advantage": 0.06295421719551086,
+    "prob": 0.0024751219898462296,
+    "em": 0.0
+  },
+  "12-127-q0": {
+    "passage": "F : I feel tired , and I do n't feel like cooking this evening . M : All right , we 'd better eat out .",
+    "question": "What will they do ?",
+    "debate_mode": [
+      "\u2160"
+    ],
+    "sentences_chosen": [
+      "M : All right , we 'd better eat out ."
+    ],
+    "stances": [
+      "\u2160"
+    ],
+    "num_sents": 2,
+    "prob_dist": [
+      [
+        0.9831251502037048,
+        0.0052460720762610435,
+        0.011628723703324795
+      ]
+    ],
+    "option_logits": [
+      [
+        4.139901161193848,
+        -1.093355655670166,
+        -0.2973572909832001
+      ]
+    ],
+    "options": [
+      "They will go out to have their supper in a restaurant .",
+      "The man will cook instead .",
+      "They will do without supper ."
+    ],
+    "answer_index": 0,
+    "final_pred_answer_index": 0,
+    "advantage": 0.4751063883304596,
+    "prob": 0.9831251502037048,
+    "em": 1.0
+  },
+  "10-18-q0": {
+    "passage": "W : Check in here ? M : Yes , can I see your flight ticket please ? W : Here it is . I 'm going to Lanzhou .",
+    "question": "Where does the conversation probably take place ?",
+    "debate_mode": [
+      "\u2160"
+    ],
+    "sentences_chosen": [
+      "W : Check in here ?"
+    ],
+    "stances": [
+      "\u2160"
+    ],
+    "num_sents": 4,
+    "prob_dist": [
+      [
+        0.6261370778083801,
+        0.007595245260745287,
+        0.3662676215171814
+      ]
+    ],
+    "option_logits": [
+      [
+        4.327024936676025,
+        -0.08502204716205597,
+        3.7908198833465576
+      ]
+    ],
+    "options": [
+      "In a hotel .",
+      "At a bus station .",
+      "At an airport ."
+    ],
+    "answer_index": 2,
+    "final_pred_answer_index": 0,
+    "advantage": 0.3176784813404083,
+    "prob": 0.3662676215171814,
+    "em": 0.0
+  },
+  "5-736-q0": {
+    "passage": "W : Listen to me , Joe , the exam is already a thing of the past . Just forget about it . M : That 's easier said than done .",
+    "question": "What can we infer from the conversation ?",
+    "debate_mode": [
+      "\u2160"
+    ],
+    "sentences_chosen": [
+      "M : That 's easier said than done ."
+    ],
+    "stances": [
+      "\u2160"
+    ],
+    "num_sents": 3,
+    "prob_dist": [
+      [
+        0.16916251182556152,
+        0.020880255848169327,
+        0.8099572062492371
+      ]
+    ],
+    "option_logits": [
+      [
+        1.1549670696258545,
+        -0.9370887279510498,
+        2.7210886478424072
+      ]
+    ],
+    "options": [
+      "The exam was easier than the previous one .",
+      "Joe is sure that he will do better in the next exam .",
+      "Joe probably failed in the exam ."
+    ],
+    "answer_index": 2,
+    "final_pred_answer_index": 2,
+    "advantage": 0.08977685868740082,
+    "prob": 0.8099572062492371,
+    "em": 1.0
+  },
+  "4-597-q0": {
+    "passage": "M : The car was badly damaged . Did you see it ? W : Yes . And to think that three women and a baby were in that horrible accident without being hurt .",
+    "question": "Who were injured in the accident ?",
+    "debate_mode": [
+      "\u2160"
+    ],
+    "sentences_chosen": [
+      "W : Yes ."
+    ],
+    "stances": [
+      "\u2160"
+    ],
+    "num_sents": 4,
+    "prob_dist": [
+      [
+        0.45369842648506165,
+        0.2921072542667389,
+        0.25419434905052185
+      ]
+    ],
+    "option_logits": [
+      [
+        -1.1974951028823853,
+        -1.63780677318573,
+        -1.776828646659851
+      ]
+    ],
+    "options": [
+      "A baby .",
+      "Three women .",
+      "No one ."
+    ],
+    "answer_index": 2,
+    "final_pred_answer_index": 0,
+    "advantage": 0.21132859587669373,
+    "prob": 0.25419434905052185,
+    "em": 0.0
+  },
+  "12-604-q0": {
+    "passage": "M : I hope it will be fine tomorrow . I 'm going beating with Tom . W : Oh , I think it will be fine . Because I heard it on the radio .",
+    "question": "What are the two speakers talking about ?",
+    "debate_mode": [
+      "\u2160"
+    ],
+    "sentences_chosen": [
+      "W : Oh , I think it will be fine ."
+    ],
+    "stances": [
+      "\u2160"
+    ],
+    "num_sents": 4,
+    "prob_dist": [
+      [
+        0.178630068898201,
+        0.3100825548171997,
+        0.5112873911857605
+      ]
+    ],
+    "option_logits": [
+      [
+        -3.8286898136138916,
+        -3.2771682739257812,
+        -2.7770750522613525
+      ]
+    ],
+    "options": [
+      "A fine boat .",
+      "Their friend Tom .",
+      "The weather ."
+    ],
+    "answer_index": 2,
+    "final_pred_answer_index": 2,
+    "advantage": 0.1207779198884964,
+    "prob": 0.5112873911857605,
+    "em": 1.0
+  },
+  "7-84-q0": {
+    "passage": "W : Tom said he would come to repair our solar heater when he had time . M : He often says he is willing to help , but he never seems to have time .",
+    "question": "What does the man imply about Tom ?",
+    "debate_mode": [
+      "\u2160"
+    ],
+    "sentences_chosen": [
+      "W : Tom said he would come to repair our solar heater when he had time ."
+    ],
+    "stances": [
+      "\u2160"
+    ],
+    "num_sents": 2,
+    "prob_dist": [
+      [
+        0.023606639355421066,
+        0.08129329979419708,
+        0.8950999975204468
+      ]
+    ],
+    "option_logits": [
+      [
+        -2.159085988998413,
+        -0.9225504398345947,
+        1.4763213396072388
+      ]
+    ],
+    "options": [
+      "He is not a good mechanic .",
+      "He does n't keep his word .",
+      "He spends his spare time doing repairs ."
+    ],
+    "answer_index": 1,
+    "final_pred_answer_index": 2,
+    "advantage": 0.004139592405408621,
+    "prob": 0.08129329979419708,
+    "em": 0.0
+  },
+  "14-208-q0": {
+    "passage": "W : Susan has been ill for a few days . Shall we go and see her in hospital ? M : Yes , but she is now back home . She just got out this morning .",
+    "question": "What do we learn about Susan ?",
+    "debate_mode": [
+      "\u2160"
+    ],
+    "sentences_chosen": [
+      "W : Susan has been ill for a few days ."
+    ],
+    "stances": [
+      "\u2160"
+    ],
+    "num_sents": 4,
+    "prob_dist": [
+      [
+        0.9820080995559692,
+        0.003569930326193571,
+        0.014421951025724411
+      ]
+    ],
+    "option_logits": [
+      [
+        5.442104339599609,
+        -0.17494922876358032,
+        1.2212560176849365
+      ]
+    ],
+    "options": [
+      "She is still in hospital .",
+      "She left hospital this morning .",
+      "She is in very good health ."
+    ],
+    "answer_index": 1,
+    "final_pred_answer_index": 0,
+    "advantage": 0.5751960277557373,
+    "prob": 0.003569930326193571,
+    "em": 0.0
+  },
+  "4-920-q0": {
+    "passage": "W : What 're you doing ? M : Reading The Joy Luck Club . W : What 's it about ? M : It 's about a group of American - born Chinese women .",
+    "question": "What are the speakers talking about ?",
+    "debate_mode": [
+      "\u2160"
+    ],
+    "sentences_chosen": [
+      "M : Reading The Joy Luck Club ."
+    ],
+    "stances": [
+      "\u2160"
+    ],
+    "num_sents": 4,
+    "prob_dist": [
+      [
+        0.9902411699295044,
+        0.0001871936983661726,
+        0.009571658447384834
+      ]
+    ],
+    "option_logits": [
+      [
+        2.307521343231201,
+        -6.266038417816162,
+        -2.331620693206787
+      ]
+    ],
+    "options": [
+      "A book .",
+      "An American .",
+      "A club ."
+    ],
+    "answer_index": 0,
+    "final_pred_answer_index": 0,
+    "advantage": 0.6125787496566772,
+    "prob": 0.9902411699295044,
+    "em": 1.0
+  },
+  "5-644-q0": {
+    "passage": "M : Do you know Professor Johnson 's brother ? W : I 've never met him , but I 've heard that he is as well - known as Johnson herself .",
+    "question": "What do we learn from the woman 's reply ?",
+    "debate_mode": [
+      "\u2160"
+    ],
+    "sentences_chosen": [
+      "M : Do you know Professor Johnson 's brother ?"
+    ],
+    "stances": [
+      "\u2160"
+    ],
+    "num_sents": 2,
+    "prob_dist": [
+      [
+        0.48924121260643005,
+        0.5050552487373352,
+        0.005703584756702185
+      ]
+    ],
+    "option_logits": [
+      [
+        5.319398403167725,
+        5.351210594177246,
+        0.8676376342773438
+      ]
+    ],
+    "options": [
+      "She does not know Prof . Johnson 's brother .",
+      "She has not heard of Prof . Johnson 's brother .",
+      "She is a good friend of Prof . Johnson 's brother ."
+    ],
+    "answer_index": 0,
+    "final_pred_answer_index": 1,
+    "advantage": 0.050878167152404785,
+    "prob": 0.48924121260643005,
+    "em": 0.0
+  },
+  "4-481-q0": {
+    "passage": "M : Do you know where I can find Stella ? I have been looking for her in the library and in her office . W : Goodness ! She thought she had to meet you in the conference room .",
+    "question": "Where could the man find Stella ?",
+    "debate_mode": [
+      "\u2160"
+    ],
+    "sentences_chosen": [
+      "She thought she had to meet you in the conference room ."
+    ],
+    "stances": [
+      "\u2160"
+    ],
+    "num_sents": 4,
+    "prob_dist": [
+      [
+        0.7497819662094116,
+        0.0004925149260088801,
+        0.24972550570964813
+      ]
+    ],
+    "option_logits": [
+      [
+        0.35116511583328247,
+        -6.9768476486206055,
+        -0.7482550144195557
+      ]
+    ],
+    "options": [
+      "In her office .",
+      "In the library .",
+      "In the conference room ."
+    ],
+    "answer_index": 2,
+    "final_pred_answer_index": 0,
+    "advantage": 0.3133777976036072,
+    "prob": 0.24972550570964813,
+    "em": 0.0
+  },
+  "4-199-q0": {
+    "passage": "W : The movie next Tuesday has been cancelled due to lack of interest . M : What do you mean ? W : Well , by last night only a few tickets has been sold .",
+    "question": "What can we conclude about the movie ?",
+    "debate_mode": [
+      "\u2160"
+    ],
+    "sentences_chosen": [
+      "W : Well , by last night only a few tickets has been sold ."
+    ],
+    "stances": [
+      "\u2160"
+    ],
+    "num_sents": 3,
+    "prob_dist": [
+      [
+        0.44730767607688904,
+        0.42074546217918396,
+        0.13194680213928223
+      ]
+    ],
+    "option_logits": [
+      [
+        0.759109377861023,
+        0.6978907585144043,
+        -0.4617384970188141
+      ]
+    ],
+    "options": [
+      "They want to buy the tickets for the movie .",
+      "The tickets for the movie were sold .",
+      "The movie will not be shown ."
+    ],
+    "answer_index": 2,
+    "final_pred_answer_index": 0,
+    "advantage": 0.20361557602882385,
+    "prob": 0.13194680213928223,
+    "em": 0.0
+  },
+  "21-140-q0": {
+    "passage": "M : Morning , Lily . What kept you ? W : Morning , Stan . Sorry I 'm so late , but you know , it 's impossible to find a parking place round here .",
+    "question": "Why was the woman late ?",
+    "debate_mode": [
+      "\u2160"
+    ],
+    "sentences_chosen": [
+      "W : Morning , Stan ."
+    ],
+    "stances": [
+      "\u2160"
+    ],
+    "num_sents": 4,
+    "prob_dist": [
+      [
+        0.5043059587478638,
+        0.4451645314693451,
+        0.05052952468395233
+      ]
+    ],
+    "option_logits": [
+      [
+        0.04640386626124382,
+        -0.07833535969257355,
+        -2.2542214393615723
+      ]
+    ],
+    "options": [
+      "There was something wrong with her car .",
+      "She got up too late .",
+      "There was no parking place nearby ."
+    ],
+    "answer_index": 2,
+    "final_pred_answer_index": 0,
+    "advantage": 0.3074941039085388,
+    "prob": 0.05052952468395233,
+    "em": 0.0
+  },
+  "3-220-q0": {
+    "passage": "M : Did you watch the football match on TV yesterday evening ? W : No I did n't . I had dinner with a friend and did n't go back home until eight o'clock .",
+    "question": "What did the woman do yesterday evening ?",
+    "debate_mode": [
+      "\u2160"
+    ],
+    "sentences_chosen": [
+      "I had dinner with a friend and did n't go back home until eight o'clock ."
+    ],
+    "stances": [
+      "\u2160"
+    ],
+    "num_sents": 3,
+    "prob_dist": [
+      [
+        0.4665243625640869,
+        0.42381423711776733,
+        0.10966146737337112
+      ]
+    ],
+    "option_logits": [
+      [
+        -1.4698750972747803,
+        -1.5658900737762451,
+        -2.9177873134613037
+      ]
+    ],
+    "options": [
+      "She ate out .",
+      "She watched TV .",
+      "She watched a match ."
+    ],
+    "answer_index": 0,
+    "final_pred_answer_index": 0,
+    "advantage": 0.26355600357055664,
+    "prob": 0.4665243625640869,
+    "em": 1.0
+  },
+  "7-297-q0": {
+    "passage": "W : Which is your favorite TV channel ? M : I like to watch the sports channel , ESPN . W : Do n't you watch any other channels ? M : Sometimes I also watch Discovery , History and some news channels .",
+    "question": "Which program does the man like most ?",
+    "debate_mode": [
+      "\u2160"
+    ],
+    "sentences_chosen": [
+      "M : I like to watch the sports channel , ESPN ."
+    ],
+    "stances": [
+      "\u2160"
+    ],
+    "num_sents": 4,
+    "prob_dist": [
+      [
+        0.9999949932098389,
+        4.882307962361665e-07,
+        4.557215106615331e-06
+      ]
+    ],
+    "option_logits": [
+      [
+        6.667636394500732,
+        -7.864836692810059,
+        -5.631157398223877
+      ]
+    ],
+    "options": [
+      "Sports .",
+      "History .",
+      "News ."
+    ],
+    "answer_index": 0,
+    "final_pred_answer_index": 0,
+    "advantage": 0.5833365321159363,
+    "prob": 0.9999949932098389,
+    "em": 1.0
+  },
+  "21-182-q0": {
+    "passage": "W : Why do n't you join me at the gym sometime ? I can get you a guest pass . M : Well , maybe someday , but I 'm pretty lazy about things like that .",
+    "question": "What do you know about the man ?",
+    "debate_mode": [
+      "\u2160"
+    ],
+    "sentences_chosen": [
+      "M : Well , maybe someday , but I 'm pretty lazy about things like that ."
+    ],
+    "stances": [
+      "\u2160"
+    ],
+    "num_sents": 3,
+    "prob_dist": [
+      [
+        0.980811357498169,
+        0.008701493963599205,
+        0.010487194173038006
+      ]
+    ],
+    "option_logits": [
+      [
+        2.241100549697876,
+        -2.4837849140167236,
+        -2.2971243858337402
+      ]
+    ],
+    "options": [
+      "He is a pretty lazy man .",
+      "He does n't like gym .",
+      "He does n't want a guest pass ."
+    ],
+    "answer_index": 1,
+    "final_pred_answer_index": 0,
+    "advantage": 0.38827309012413025,
+    "prob": 0.008701493963599205,
+    "em": 0.0
+  },
+  "4-713-q0": {
+    "passage": "M : Linda speaks English almost as well as an American . W : Do n't you know her family lived in the U.S. until she was 12 years old ? She 's never forgotten her English .",
+    "question": "What can we learn about Linda ?",
+    "debate_mode": [
+      "\u2160"
+    ],
+    "sentences_chosen": [
+      "M : Linda speaks English almost as well as an American ."
+    ],
+    "stances": [
+      "\u2160"
+    ],
+    "num_sents": 3,
+    "prob_dist": [
+      [
+        0.8387405872344971,
+        0.025304250419139862,
+        0.13595515489578247
+      ]
+    ],
+    "option_logits": [
+      [
+        2.0900251865386963,
+        -1.4109039306640625,
+        0.27044883370399475
+      ]
+    ],
+    "options": [
+      "She has been staying in the U.S. for 12 years .",
+      "She went to America at the age of 12 .",
+      "She did n't leave the U.S. until she was 12 ."
+    ],
+    "answer_index": 2,
+    "final_pred_answer_index": 0,
+    "advantage": 0.48382771015167236,
+    "prob": 0.13595515489578247,
+    "em": 0.0
+  },
+  "4-883-q0": {
+    "passage": "W : You look fit . You must be a sports fan . M : Well , I often spend some time jogging with my son in the morning , and I occasionally play basketball with my friends , but my favorite is still swimming though .",
+    "question": "What sport does the man like most ?",
+    "debate_mode": [
+      "\u2160"
+    ],
+    "sentences_chosen": [
+      "W : You look fit ."
+    ],
+    "stances": [
+      "\u2160"
+    ],
+    "num_sents": 3,
+    "prob_dist": [
+      [
+        0.19599974155426025,
+        0.37546810507774353,
+        0.42853212356567383
+      ]
+    ],
+    "option_logits": [
+      [
+        -6.6066365242004395,
+        -5.956576347351074,
+        -5.8243842124938965
+      ]
+    ],
+    "options": [
+      "Jogging .",
+      "Playing basketball .",
+      "Swimming ."
+    ],
+    "answer_index": 2,
+    "final_pred_answer_index": 2,
+    "advantage": 0.06701530516147614,
+    "prob": 0.42853212356567383,
+    "em": 1.0
+  },
+  "17-99-q0": {
+    "passage": "W : Do you like fried chicken ? M : Yes , it 's my favorite dish . What about you ? W : I do n't care much for chicken . I prefer seafood . M : But seafood is expensive . I should say .",
+    "question": "What are they talking about ?",
+    "debate_mode": [
+      "\u2160"
+    ],
+    "sentences_chosen": [
+      "I prefer seafood ."
+    ],
+    "stances": [
+      "\u2160"
+    ],
+    "num_sents": 7,
+    "prob_dist": [
+      [
+        0.3907560408115387,
+        0.0032531435135751963,
+        0.6059907674789429
+      ]
+    ],
+    "option_logits": [
+      [
+        -2.3069701194763184,
+        -7.095431804656982,
+        -1.868188738822937
+      ]
+    ],
+    "options": [
+      "The taste of food .",
+      "The cost of food .",
+      "The food they like and dislike ."
+    ],
+    "answer_index": 2,
+    "final_pred_answer_index": 2,
+    "advantage": 0.17034177482128143,
+    "prob": 0.6059907674789429,
+    "em": 1.0
+  },
+  "16-78-q0": {
+    "passage": "W : If you had listened to me , we 'd be at the party , Marty . More over , I 'll drive . M : I was sure I knew the way there . I 'll turn around .",
+    "question": "What 's the problem ?",
+    "debate_mode": [
+      "\u2160"
+    ],
+    "sentences_chosen": [
+      "More over , I 'll drive ."
+    ],
+    "stances": [
+      "\u2160"
+    ],
+    "num_sents": 4,
+    "prob_dist": [
+      [
+        0.9773572087287903,
+        0.021758759394288063,
+        0.0008840635418891907
+      ]
+    ],
+    "option_logits": [
+      [
+        0.22516246140003204,
+        -3.5796732902526855,
+        -6.782916069030762
+      ]
+    ],
+    "options": [
+      "The man ca n't drive .",
+      "The party is over .",
+      "They are lost ."
+    ],
+    "answer_index": 2,
+    "final_pred_answer_index": 0,
+    "advantage": 0.5665068030357361,
+    "prob": 0.0008840635418891907,
+    "em": 0.0
+  },
+  "14-150-q0": {
+    "passage": "M : I 'm still waiting for the clerk to come back and make some copies of this paper for me . W : Why trouble him ? I 'll show you how easy it is to work with the machine .",
+    "question": "What does the woman mean ?",
+    "debate_mode": [
+      "\u2160"
+    ],
+    "sentences_chosen": [
+      "M : I 'm still waiting for the clerk to come back and make some copies of this paper for me ."
+    ],
+    "stances": [
+      "\u2160"
+    ],
+    "num_sents": 3,
+    "prob_dist": [
+      [
+        0.5364128351211548,
+        0.31770870089530945,
+        0.14587846398353577
+      ]
+    ],
+    "option_logits": [
+      [
+        -3.3702540397644043,
+        -3.8940231800079346,
+        -4.672384262084961
+      ]
+    ],
+    "options": [
+      "She can help the man .",
+      "The machine was just repaired .",
+      "The clerk does n't like to be troubled ."
+    ],
+    "answer_index": 0,
+    "final_pred_answer_index": 0,
+    "advantage": 0.21099379658699036,
+    "prob": 0.5364128351211548,
+    "em": 1.0
+  },
+  "7-296-q0": {
+    "passage": "M : Can you type ? W : Yes , about eighty words a minute . I have been working as a typist for fifteen years . M : That 's great . I ca n't type more than forty - five .",
+    "question": "How fast can the woman type ?",
+    "debate_mode": [
+      "\u2160"
+    ],
+    "sentences_chosen": [
+      "M : That 's great ."
+    ],
+    "stances": [
+      "\u2160"
+    ],
+    "num_sents": 5,
+    "prob_dist": [
+      [
+        0.3155503571033478,
+        0.34214791655540466,
+        0.34230169653892517
+      ]
+    ],
+    "option_logits": [
+      [
+        -1.3461532592773438,
+        -1.2652283906936646,
+        -1.2647790908813477
+      ]
+    ],
+    "options": [
+      "15 words a minute .",
+      "45 words a minute .",
+      "80 words a minute ."
+    ],
+    "answer_index": 2,
+    "final_pred_answer_index": 2,
+    "advantage": 0.13965564966201782,
+    "prob": 0.34230169653892517,
+    "em": 1.0
+  },
+  "5-847-q0": {
+    "passage": "M : I hope you do n't mind but I want very much to watch the game this coming Sunday . W : I certainly do mind , but there 's not very much I can do about it , is there ?",
+    "question": "What was the woman objecting to ?",
+    "debate_mode": [
+      "\u2160"
+    ],
+    "sentences_chosen": [
+      "W : I certainly do mind , but there 's not very much I can do about it , is there ?"
+    ],
+    "stances": [
+      "\u2160"
+    ],
+    "num_sents": 2,
+    "prob_dist": [
+      [
+        0.24954932928085327,
+        0.3946049213409424,
+        0.35584577918052673
+      ]
+    ],
+    "option_logits": [
+      [
+        -0.8743427395820618,
+        -0.4161142408847809,
+        -0.5195018649101257
+      ]
+    ],
+    "options": [
+      "Her husband 's watching a game .",
+      "Going to a game .",
+      "Missing an engagement ."
+    ],
+    "answer_index": 0,
+    "final_pred_answer_index": 1,
+    "advantage": 0.09486951678991318,
+    "prob": 0.24954932928085327,
+    "em": 0.0
+  },
+  "4-823-q0": {
+    "passage": "W : Excuse me , Sir . Visiting hours are over now . You must leave , so your wife can get some sleep . M : Pardon me , nurse . I did n't hear the bell , or I would have left earlier .",
+    "question": "Where does this conversation take place ?",
+    "debate_mode": [
+      "\u2160"
+    ],
+    "sentences_chosen": [
+      "M : Pardon me , nurse ."
+    ],
+    "stances": [
+      "\u2160"
+    ],
+    "num_sents": 5,
+    "prob_dist": [
+      [
+        0.9999827146530151,
+        1.32039558593533e-05,
+        4.039895884488942e-06
+      ]
+    ],
+    "option_logits": [
+      [
+        4.170557975769043,
+        -7.064418792724609,
+        -8.248716354370117
+      ]
+    ],
+    "options": [
+      "In a hospital .",
+      "In a church .",
+      "In a museum ."
+    ],
+    "answer_index": 0,
+    "final_pred_answer_index": 0,
+    "advantage": 0.32365885376930237,
+    "prob": 0.9999827146530151,
+    "em": 1.0
+  },
+  "7-307-q0": {
+    "passage": "W : Can I help you ? M : I 'm looking for some suit that I can wear at the office as well as on weekends . W : Let me show you a new summer collection . There 're several styles that you 're just looking for .",
+    "question": "Where does the conversation most probably take place ?",
+    "debate_mode": [
+      "\u2160"
+    ],
+    "sentences_chosen": [
+      "W : Can I help you ?"
+    ],
+    "stances": [
+      "\u2160"
+    ],
+    "num_sents": 4,
+    "prob_dist": [
+      [
+        0.9326282739639282,
+        0.0007337728166021407,
+        0.06663797050714493
+      ]
+    ],
+    "option_logits": [
+      [
+        2.068366050720215,
+        -5.079196453094482,
+        -0.5703661441802979
+      ]
+    ],
+    "options": [
+      "In an office .",
+      "In a museum .",
+      "In a clothing store ."
+    ],
+    "answer_index": 2,
+    "final_pred_answer_index": 0,
+    "advantage": 0.6432960033416748,
+    "prob": 0.06663797050714493,
+    "em": 0.0
+  },
+  "7-386-q0": {
+    "passage": "W : Now that you are on the business , what 's your advice for someone to become a fashion designer ? M : Go to school . I mean it . Find a good school and learn as much as you can .",
+    "question": "What does the man mean ?",
+    "debate_mode": [
+      "\u2160"
+    ],
+    "sentences_chosen": [
+      "W : Now that you are on the business , what 's your advice for someone to become a fashion designer ?"
+    ],
+    "stances": [
+      "\u2160"
+    ],
+    "num_sents": 4,
+    "prob_dist": [
+      [
+        0.8852881193161011,
+        0.094370998442173,
+        0.020340869203209877
+      ]
+    ],
+    "option_logits": [
+      [
+        -1.904030680656433,
+        -4.142710208892822,
+        -5.677311897277832
+      ]
+    ],
+    "options": [
+      "Fashion designing is a booming business .",
+      "School learning is a must for fashion designers .",
+      "He hopes to attend a good fashion school ."
+    ],
+    "answer_index": 1,
+    "final_pred_answer_index": 0,
+    "advantage": 0.5302606821060181,
+    "prob": 0.094370998442173,
+    "em": 0.0
+  },
+  "5-142-q0": {
+    "passage": "W : Excuse me , do you have any apartments available for under 500 dollars a month ? I need to move in next week when my new job starts . M : The only vacant one I have is 600 dollars . Have you inquired at the apartment complex down the street ?",
+    "question": "What does the man suggest the woman do ?",
+    "debate_mode": [
+      "\u2160"
+    ],
+    "sentences_chosen": [
+      "M : The only vacant one I have is 600 dollars ."
+    ],
+    "stances": [
+      "\u2160"
+    ],
+    "num_sents": 4,
+    "prob_dist": [
+      [
+        0.8118041753768921,
+        0.0811140164732933,
+        0.10708173364400864
+      ]
+    ],
+    "option_logits": [
+      [
+        1.6342248916625977,
+        -0.6691785454750061,
+        -0.39144182205200195
+      ]
+    ],
+    "options": [
+      "Look for a place near her office .",
+      "Find a new job down the street .",
+      "Make inquires elsewhere ."
+    ],
+    "answer_index": 2,
+    "final_pred_answer_index": 0,
+    "advantage": 0.4953841269016266,
+    "prob": 0.10708173364400864,
+    "em": 0.0
+  },
+  "5-258-q0": {
+    "passage": "M : I used to go to the cinema a lot . It did make a nice night out , but not now . W : No , I do n't either . There are n't any good adventurous stories like the movies they made when I was young .",
+    "question": "What can be concluded from this conversation ?",
+    "debate_mode": [
+      "\u2160"
+    ],
+    "sentences_chosen": [
+      "It did make a nice night out , but not now ."
+    ],
+    "stances": [
+      "\u2160"
+    ],
+    "num_sents": 4,
+    "prob_dist": [
+      [
+        0.8957642316818237,
+        0.05339081212878227,
+        0.050844956189394
+      ]
+    ],
+    "option_logits": [
+      [
+        -3.834757089614868,
+        -6.6547956466674805,
+        -6.703653335571289
+      ]
+    ],
+    "options": [
+      "They think cinemas are too far away from their homes .",
+      "They are disappointed with the films produced these days .",
+      "They both dislike films about adventure stories ."
+    ],
+    "answer_index": 1,
+    "final_pred_answer_index": 0,
+    "advantage": 0.4660179316997528,
+    "prob": 0.05339081212878227,
+    "em": 0.0
+  },
+  "17-277-q0": {
+    "passage": "W : What do you feel like doing this weekend , John ? M : This weekend ? Well , how about going to the new Italian restaurant in Chauncey ? W : Yes , good idea . I like Italian food very much . M : Me , too .",
+    "question": "What are the speakers talking about ?",
+    "debate_mode": [
+      "\u2160"
+    ],
+    "sentences_chosen": [
+      "I like Italian food very much ."
+    ],
+    "stances": [
+      "\u2160"
+    ],
+    "num_sents": 6,
+    "prob_dist": [
+      [
+        0.6362243294715881,
+        0.36354538798332214,
+        0.00023036362836137414
+      ]
+    ],
+    "option_logits": [
+      [
+        1.6341575384140015,
+        1.0745105743408203,
+        -6.28948974609375
+      ]
+    ],
+    "options": [
+      "How to cook Italian food for the weekend",
+      "How to manage their Italian restaurant",
+      "How to spend the coming weekend"
+    ],
+    "answer_index": 2,
+    "final_pred_answer_index": 0,
+    "advantage": 0.5053106546401978,
+    "prob": 0.00023036362836137414,
+    "em": 0.0
+  },
+  "14-181-q0": {
+    "passage": "W : Now , you 've told me a lot about your parents . Are there any other members in your family ? M : Yes . There are also my grandparents and my younger brother . W : Oh . You are lucky to have such a family .",
+    "question": "How many people are there in the man 's family ?",
+    "debate_mode": [
+      "\u2160"
+    ],
+    "sentences_chosen": [
+      "You are lucky to have such a family ."
+    ],
+    "stances": [
+      "\u2160"
+    ],
+    "num_sents": 6,
+    "prob_dist": [
+      [
+        0.3981682062149048,
+        0.22755476832389832,
+        0.3742769956588745
+      ]
+    ],
+    "option_logits": [
+      [
+        0.2841894328594208,
+        -0.2752941846847534,
+        0.22231099009513855
+      ]
+    ],
+    "options": [
+      "Four",
+      "Five",
+      "Six"
+    ],
+    "answer_index": 2,
+    "final_pred_answer_index": 0,
+    "advantage": 0.04873548820614815,
+    "prob": 0.3742769956588745,
+    "em": 0.0
+  },
+  "17-96-q0": {
+    "passage": "W : What happened to you , Jack ? You look upset . M : I had my car stolen . W : Oh , I 'm sorry to hear that . You should report it to the police right away . M : I guess you are right .",
+    "question": "What can we learn from the conversation ?",
+    "debate_mode": [
+      "\u2160"
+    ],
+    "sentences_chosen": [
+      "You look upset ."
+    ],
+    "stances": [
+      "\u2160"
+    ],
+    "num_sents": 6,
+    "prob_dist": [
+      [
+        0.77339768409729,
+        0.16560299694538116,
+        0.060999322682619095
+      ]
+    ],
+    "option_logits": [
+      [
+        1.7048903703689575,
+        0.16369028389453888,
+        -0.835040271282196
+      ]
+    ],
+    "options": [
+      "Jack will go to the police station .",
+      "Jack has just been to the police station .",
+      "Jack 's friend has reported the case to the police ."
+    ],
+    "answer_index": 0,
+    "final_pred_answer_index": 0,
+    "advantage": 0.46843257546424866,
+    "prob": 0.77339768409729,
+    "em": 1.0
+  },
+  "14-175-q1": {
+    "passage": "M : Do you believe in life after death , Mary ? W : Yes , sir . M : Well , then , that makes everything just fine . About an hour after you left yesterday to go to your grandfather 's funeral , he dropped in to see you .",
+    "question": "What did you suppose Mary 's grandfather did the day before ?",
+    "debate_mode": [
+      "\u2160"
+    ],
+    "sentences_chosen": [
+      "W : Yes , sir ."
+    ],
+    "stances": [
+      "\u2160"
+    ],
+    "num_sents": 4,
+    "prob_dist": [
+      [
+        0.4666118621826172,
+        0.18206891417503357,
+        0.35131925344467163
+      ]
+    ],
+    "option_logits": [
+      [
+        0.26661768555641174,
+        -0.6744948029518127,
+        -0.01718471571803093
+      ]
+    ],
+    "options": [
+      "He knew Mary had cheated her boss and came to expose her .",
+      "He was dying but was saved by the doctors .",
+      "He was thought to be dead but in fact was well and alive ."
+    ],
+    "answer_index": 2,
+    "final_pred_answer_index": 0,
+    "advantage": 0.2709483504295349,
+    "prob": 0.35131925344467163,
+    "em": 0.0
+  },
+  "14-175-q0": {
+    "passage": "M : Do you believe in life after death , Mary ? W : Yes , sir . M : Well , then , that makes everything just fine . About an hour after you left yesterday to go to your grandfather 's funeral , he dropped in to see you .",
+    "question": "What do you suppose Mary did the day before ?",
+    "debate_mode": [
+      "\u2160"
+    ],
+    "sentences_chosen": [
+      "M : Do you believe in life after death , Mary ?"
+    ],
+    "stances": [
+      "\u2160"
+    ],
+    "num_sents": 4,
+    "prob_dist": [
+      [
+        0.6193673014640808,
+        0.014632887206971645,
+        0.36599984765052795
+      ]
+    ],
+    "option_logits": [
+      [
+        -0.0848531424999237,
+        -3.830280065536499,
+        -0.6109187602996826
+      ]
+    ],
+    "options": [
+      "She attended her grandfather 's funeral .",
+      "She told a lie to get the day off .",
+      "She meant to attend a funeral but she did n't ."
+    ],
+    "answer_index": 1,
+    "final_pred_answer_index": 0,
+    "advantage": 0.2239793837070465,
+    "prob": 0.014632887206971645,
+    "em": 0.0
+  },
+  "5-249-q0": {
+    "passage": "W : The strike of the porters has hold up export orders for two weeks . Do you think it will end soon ? M : So far as I know , the management side has made an improved pay offer but the unions are just holding out for the original demands .",
+    "question": "What does the man think of the strike ?",
+    "debate_mode": [
+      "\u2160"
+    ],
+    "sentences_chosen": [
+      "W : The strike of the porters has hold up export orders for two weeks ."
+    ],
+    "stances": [
+      "\u2160"
+    ],
+    "num_sents": 3,
+    "prob_dist": [
+      [
+        0.059941962361335754,
+        0.27588552236557007,
+        0.6641725301742554
+      ]
+    ],
+    "option_logits": [
+      [
+        -0.7715429663658142,
+        0.7550663352012634,
+        1.6336222887039185
+      ]
+    ],
+    "options": [
+      "It will last for two weeks .",
+      "It has come to a halt .",
+      "It will probably continue ."
+    ],
+    "answer_index": 2,
+    "final_pred_answer_index": 2,
+    "advantage": 0.026163719594478607,
+    "prob": 0.6641725301742554,
+    "em": 1.0
+  },
+  "5-555-q0": {
+    "passage": "M : Excuse me , Miss ? Did anyone happen to turn in a new handbag ? You know , it 's a birthday gift for my wife . W : Let me see . Oh , we 've got quite a lot of women 's bags here . Can you give me more detailed information , such as its color , the size and the trademark ?",
+    "question": "Where does this conversation most probably take place ?",
+    "debate_mode": [
+      "\u2160"
+    ],
+    "sentences_chosen": [
+      "Did anyone happen to turn in a new handbag ?"
+    ],
+    "stances": [
+      "\u2160"
+    ],
+    "num_sents": 6,
+    "prob_dist": [
+      [
+        0.8108630180358887,
+        0.01433553732931614,
+        0.1748015135526657
+      ]
+    ],
+    "option_logits": [
+      [
+        1.589341163635254,
+        -2.446016550064087,
+        0.05489318072795868
+      ]
+    ],
+    "options": [
+      "At a \" Lost and Found \" .",
+      "At an exhibition .",
+      "At a trade fair ."
+    ],
+    "answer_index": 0,
+    "final_pred_answer_index": 0,
+    "advantage": 0.40707525610923767,
+    "prob": 0.8108630180358887,
+    "em": 1.0
+  },
+  "4-1105-q0": {
+    "passage": "M : This is my new favorite store . I got 5 shirts , 3 pairs of pants , and 2 belts for less than $ 100 . And they are all designer clothes ! W : I found some great stuff , too ! I ca n't believe how low the prices are . This purse was only $ 25 , and it is real leather !",
+    "question": "What type of clothing does the store sell ?",
+    "debate_mode": [
+      "\u2160"
+    ],
+    "sentences_chosen": [
+      "W : I found some great stuff , too !"
+    ],
+    "stances": [
+      "\u2160"
+    ],
+    "num_sents": 6,
+    "prob_dist": [
+      [
+        0.9899139404296875,
+        0.0018127751536667347,
+        0.008273225277662277
+      ]
+    ],
+    "option_logits": [
+      [
+        -0.5724527835845947,
+        -6.8752121925354,
+        -5.357046604156494
+      ]
+    ],
+    "options": [
+      "Expensive , high - quality clothing .",
+      "Cheap , low - quality clothing .",
+      "Cheap , designer clothing ."
+    ],
+    "answer_index": 2,
+    "final_pred_answer_index": 0,
+    "advantage": 0.4055064022541046,
+    "prob": 0.008273225277662277,
+    "em": 0.0
+  },
+  "14-314-q0": {
+    "passage": "M : Hi , Maggie . Nice to see you again . I want all these books here . W : Oh , my God , that might be a lot for your dad to buy at one time . M : But you see my dad always gets me all the books I want . W : Well , that 's really very nice of him . You 've got a good father .",
+    "question": "Where are the speakers ?",
+    "debate_mode": [
+      "\u2160"
+    ],
+    "sentences_chosen": [
+      "I want all these books here ."
+    ],
+    "stances": [
+      "\u2160"
+    ],
+    "num_sents": 7,
+    "prob_dist": [
+      [
+        0.9865869879722595,
+        0.0016035685548558831,
+        0.011809425428509712
+      ]
+    ],
+    "option_logits": [
+      [
+        -0.6495497822761536,
+        -7.071569919586182,
+        -5.07490348815918
+      ]
+    ],
+    "options": [
+      "In a bookstore .",
+      "On a bus .",
+      "At home ."
+    ],
+    "answer_index": 0,
+    "final_pred_answer_index": 0,
+    "advantage": 0.6080027222633362,
+    "prob": 0.9865869879722595,
+    "em": 1.0
+  },
+  "14-314-q1": {
+    "passage": "M : Hi , Maggie . Nice to see you again . I want all these books here . W : Oh , my God , that might be a lot for your dad to buy at one time . M : But you see my dad always gets me all the books I want . W : Well , that 's really very nice of him . You 've got a good father .",
+    "question": "Will the man 's father get him all the books ?",
+    "debate_mode": [
+      "\u2160"
+    ],
+    "sentences_chosen": [
+      "M : But you see my dad always gets me all the books I want ."
+    ],
+    "stances": [
+      "\u2160"
+    ],
+    "num_sents": 7,
+    "prob_dist": [
+      [
+        0.9896922707557678,
+        0.006990961730480194,
+        0.0033168215304613113
+      ]
+    ],
+    "option_logits": [
+      [
+        2.862283945083618,
+        -2.090492010116577,
+        -2.8361029624938965
+      ]
+    ],
+    "options": [
+      "Yes .",
+      "No .",
+      "Unclear ."
+    ],
+    "answer_index": 0,
+    "final_pred_answer_index": 0,
+    "advantage": 0.3754604756832123,
+    "prob": 0.9896922707557678,
+    "em": 1.0
+  },
+  "3-240-q1": {
+    "passage": "M : Mrs. White looks worried these days . W : So she does . Steven hurt himself a week ago . M : Oh , I 'm sorry to hear that . What happened to him ? W : He forgot to cut off the electricity before he mended the light . She was sorry that her husband was n't at home then . M : The child is too young to do that , I think . W : So do I. He almost cut his finger off . It nearly broke Mother 's heart .",
+    "question": "When did Steven hurt himself ?",
+    "debate_mode": [
+      "\u2160"
+    ],
+    "sentences_chosen": [
+      "What happened to him ?"
+    ],
+    "stances": [
+      "\u2160"
+    ],
+    "num_sents": 10,
+    "prob_dist": [
+      [
+        0.818476140499115,
+        0.13195227086544037,
+        0.049571577459573746
+      ]
+    ],
+    "option_logits": [
+      [
+        3.5101704597473145,
+        1.6851664781570435,
+        0.7061439752578735
+      ]
+    ],
+    "options": [
+      "Last week .",
+      "This week .",
+      "A month ago ."
+    ],
+    "answer_index": 0,
+    "final_pred_answer_index": 0,
+    "advantage": 0.42461931705474854,
+    "prob": 0.818476140499115,
+    "em": 1.0
+  },
+  "3-240-q2": {
+    "passage": "M : Mrs. White looks worried these days . W : So she does . Steven hurt himself a week ago . M : Oh , I 'm sorry to hear that . What happened to him ? W : He forgot to cut off the electricity before he mended the light . She was sorry that her husband was n't at home then . M : The child is too young to do that , I think . W : So do I. He almost cut his finger off . It nearly broke Mother 's heart .",
+    "question": "What part of the body did Steven hurt ?",
+    "debate_mode": [
+      "\u2160"
+    ],
+    "sentences_chosen": [
+      "Steven hurt himself a week ago ."
+    ],
+    "stances": [
+      "\u2160"
+    ],
+    "num_sents": 10,
+    "prob_dist": [
+      [
+        0.8911874890327454,
+        0.07001058757305145,
+        0.03880186378955841
+      ]
+    ],
+    "option_logits": [
+      [
+        3.817073106765747,
+        1.2731647491455078,
+        0.6829864978790283
+      ]
+    ],
+    "options": [
+      "His leg .",
+      "His heart .",
+      "His hand ."
+    ],
+    "answer_index": 2,
+    "final_pred_answer_index": 0,
+    "advantage": 0.6108827590942383,
+    "prob": 0.03880186378955841,
+    "em": 0.0
+  },
+  "4-510-q0": {
+    "passage": "M : Can you have dinner with me tonight , Anna ? W : I 'm sorry I ca n't . I have to work late . M : It 's dangerous to go home alone at night . W : One of the guards drives me home in the van . M : That 's good . Do you have to work on Friday ? W : No , I do n't . We can have dinner on Friday night . M : Fine . I 'll make dinner reservation for 6 and I 'll pick you up at 5 .",
+    "question": "What is this dialogue about ?",
+    "debate_mode": [
+      "\u2160"
+    ],
+    "sentences_chosen": [
+      "Do you have to work on Friday ?"
+    ],
+    "stances": [
+      "\u2160"
+    ],
+    "num_sents": 11,
+    "prob_dist": [
+      [
+        0.9974002838134766,
+        0.0009386902675032616,
+        0.001661015092395246
+      ]
+    ],
+    "option_logits": [
+      [
+        -0.4148189425468445,
+        -7.383240699768066,
+        -6.812541961669922
+      ]
+    ],
+    "options": [
+      "Work .",
+      "Driving .",
+      "Dinner ."
+    ],
+    "answer_index": 2,
+    "final_pred_answer_index": 0,
+    "advantage": 0.787141740322113,
+    "prob": 0.001661015092395246,
+    "em": 0.0
+  },
+  "3-240-q0": {
+    "passage": "M : Mrs. White looks worried these days . W : So she does . Steven hurt himself a week ago . M : Oh , I 'm sorry to hear that . What happened to him ? W : He forgot to cut off the electricity before he mended the light . She was sorry that her husband was n't at home then . M : The child is too young to do that , I think . W : So do I. He almost cut his finger off . It nearly broke Mother 's heart .",
+    "question": "Who is Steven ?",
+    "debate_mode": [
+      "\u2160"
+    ],
+    "sentences_chosen": [
+      "M : Oh , I 'm sorry to hear that ."
+    ],
+    "stances": [
+      "\u2160"
+    ],
+    "num_sents": 10,
+    "prob_dist": [
+      [
+        0.6665952801704407,
+        0.22187520563602448,
+        0.11152948439121246
+      ]
+    ],
+    "option_logits": [
+      [
+        -1.0273247957229614,
+        -2.1273927688598633,
+        -2.815218925476074
+      ]
+    ],
+    "options": [
+      "The woman 's husband .",
+      "Mrs. White 's son .",
+      "The women 's uncle ."
+    ],
+    "answer_index": 1,
+    "final_pred_answer_index": 0,
+    "advantage": 0.31768858432769775,
+    "prob": 0.22187520563602448,
+    "em": 0.0
+  },
+  "4-510-q1": {
+    "passage": "M : Can you have dinner with me tonight , Anna ? W : I 'm sorry I ca n't . I have to work late . M : It 's dangerous to go home alone at night . W : One of the guards drives me home in the van . M : That 's good . Do you have to work on Friday ? W : No , I do n't . We can have dinner on Friday night . M : Fine . I 'll make dinner reservation for 6 and I 'll pick you up at 5 .",
+    "question": "How does Anna go home ?",
+    "debate_mode": [
+      "\u2160"
+    ],
+    "sentences_chosen": [
+      "We can have dinner on Friday night ."
+    ],
+    "stances": [
+      "\u2160"
+    ],
+    "num_sents": 11,
+    "prob_dist": [
+      [
+        0.6892483830451965,
+        0.277590811252594,
+        0.03316078707575798
+      ]
+    ],
+    "option_logits": [
+      [
+        -2.581387996673584,
+        -3.4908416271209717,
+        -5.615621566772461
+      ]
+    ],
+    "options": [
+      "With the man speaker .",
+      "A lone .",
+      "In a van ."
+    ],
+    "answer_index": 2,
+    "final_pred_answer_index": 0,
+    "advantage": 0.4280855357646942,
+    "prob": 0.03316078707575798,
+    "em": 0.0
+  },
+  "21-162-q0": {
+    "passage": "W : Hilton Hotel . May I help you ? M : Yes . I like to reserve two rooms , please . W : Certainly , sir . When would you like to come ? M : Next week . From the first to the third of May. Two nights . W : Certainly . What kind of rooms would you like ? M : A single with a shower and a double with two beds . W : Fine . What is your name , please ? M : Tome Jones . W : Thank you . Mr. Jones , your rooms are reserved . M : Thank you very much . W : You are welcome .",
+    "question": "What kind of rooms does the man want to reserve ?",
+    "debate_mode": [
+      "\u2160"
+    ],
+    "sentences_chosen": [
+      "M : Tome Jones ."
+    ],
+    "stances": [
+      "\u2160"
+    ],
+    "num_sents": 18,
+    "prob_dist": [
+      [
+        0.3797798156738281,
+        0.2570389211177826,
+        0.3631812334060669
+      ]
+    ],
+    "option_logits": [
+      [
+        -1.6689780950546265,
+        -2.0593421459198,
+        -1.7136677503585815
+      ]
+    ],
+    "options": [
+      "A single room .",
+      "A double room .",
+      "A single room and a double room ."
+    ],
+    "answer_index": 2,
+    "final_pred_answer_index": 0,
+    "advantage": 0.13557547330856323,
+    "prob": 0.3631812334060669,
+    "em": 0.0
+  },
+  "21-274-q1": {
+    "passage": "W : Sam , have you seen the pictures I took in Paris ? M : No , I have n't . Where are they ? W : Here are some . I took them at the Eiffel Tower last week . M : How beautiful the Eiffel Tower is ! W : Yes , it is really beautiful . M : And your pictures are wonderful , too . Did you have a good time in France ? W : Yes , I had a wonderful time there . Have you ever been to France ? M : No , I have n't . How do you like France , Kate ? W : It 's great ! I like the French people and food . I 've made many French friends there .",
+    "question": "What does Kate think of France ?",
+    "debate_mode": [
+      "\u2160"
+    ],
+    "sentences_chosen": [
+      "W : Sam , have you seen the pictures I took in Paris ?"
+    ],
+    "stances": [
+      "\u2160"
+    ],
+    "num_sents": 16,
+    "prob_dist": [
+      [
+        0.7805379033088684,
+        0.06156075745820999,
+        0.15790130198001862
+      ]
+    ],
+    "option_logits": [
+      [
+        -3.9730284214019775,
+        -6.51298713684082,
+        -5.571041584014893
+      ]
+    ],
+    "options": [
+      "She thinks France is not so beautiful .",
+      "She likes the French food a little .",
+      "She likes its people and food ."
+    ],
+    "answer_index": 2,
+    "final_pred_answer_index": 0,
+    "advantage": 0.6183250546455383,
+    "prob": 0.15790130198001862,
+    "em": 0.0
+  },
+  "21-162-q1": {
+    "passage": "W : Hilton Hotel . May I help you ? M : Yes . I like to reserve two rooms , please . W : Certainly , sir . When would you like to come ? M : Next week . From the first to the third of May. Two nights . W : Certainly . What kind of rooms would you like ? M : A single with a shower and a double with two beds . W : Fine . What is your name , please ? M : Tome Jones . W : Thank you . Mr. Jones , your rooms are reserved . M : Thank you very much . W : You are welcome .",
+    "question": "When will the man come to the hotel ?",
+    "debate_mode": [
+      "\u2160"
+    ],
+    "sentences_chosen": [
+      "W : Certainly , sir ."
+    ],
+    "stances": [
+      "\u2160"
+    ],
+    "num_sents": 18,
+    "prob_dist": [
+      [
+        0.32717350125312805,
+        0.3176267445087433,
+        0.35519975423812866
+      ]
+    ],
+    "option_logits": [
+      [
+        0.43244457244873047,
+        0.4028308391571045,
+        0.5146343111991882
+      ]
+    ],
+    "options": [
+      "On May 1st .",
+      "On May 2nd .",
+      "On May 3rd ."
+    ],
+    "answer_index": 0,
+    "final_pred_answer_index": 2,
+    "advantage": 0.0639292523264885,
+    "prob": 0.32717350125312805,
+    "em": 0.0
+  },
+  "4-329-q2": {
+    "passage": "M : Hello , Jane . W : Hi , Harry . Did you have a good summer holiday ? M : Sure . I went for my holiday on my uncle 's farm . W : Really ? What interesting things did you do there ? M : I helped get in some rice , take care of the fruit garden and drive the tractor . W : Drive a tractor ? M : Yes . It was easy to learn . Did you go away for your holiday , Jane ? W : Oh , no . I just stayed at home . My mother has been in hospital . I had to look after her and help do some cooking and washing at home . M : I 'm sorry . Oh , it 's late . I must be off now . Bye bye .",
+    "question": "Which is right according to the dialogue ?",
+    "debate_mode": [
+      "\u2160"
+    ],
+    "sentences_chosen": [
+      "I went for my holiday on my uncle 's farm ."
+    ],
+    "stances": [
+      "\u2160"
+    ],
+    "num_sents": 20,
+    "prob_dist": [
+      [
+        0.9874562621116638,
+        0.008297375403344631,
+        0.004246309399604797
+      ]
+    ],
+    "option_logits": [
+      [
+        1.8886593580245972,
+        -2.890533447265625,
+        -3.560422658920288
+      ]
+    ],
+    "options": [
+      "Harry had a holiday on a farm .",
+      "Harry 's mother was ill .",
+      "Harry 's uncle is a doctor ."
+    ],
+    "answer_index": 0,
+    "final_pred_answer_index": 0,
+    "advantage": 0.5637417435646057,
+    "prob": 0.9874562621116638,
+    "em": 1.0
+  },
+  "4-329-q1": {
+    "passage": "M : Hello , Jane . W : Hi , Harry . Did you have a good summer holiday ? M : Sure . I went for my holiday on my uncle 's farm . W : Really ? What interesting things did you do there ? M : I helped get in some rice , take care of the fruit garden and drive the tractor . W : Drive a tractor ? M : Yes . It was easy to learn . Did you go away for your holiday , Jane ? W : Oh , no . I just stayed at home . My mother has been in hospital . I had to look after her and help do some cooking and washing at home . M : I 'm sorry . Oh , it 's late . I must be off now . Bye bye .",
+    "question": "Where did Jane spend her summer holiday ?",
+    "debate_mode": [
+      "\u2160"
+    ],
+    "sentences_chosen": [
+      "W : Drive a tractor ?"
+    ],
+    "stances": [
+      "\u2160"
+    ],
+    "num_sents": 20,
+    "prob_dist": [
+      [
+        0.9979378581047058,
+        0.0018097921274602413,
+        0.00025229857419617474
+      ]
+    ],
+    "option_logits": [
+      [
+        4.195773601531982,
+        -2.1167056560516357,
+        -4.08705997467041
+      ]
+    ],
+    "options": [
+      "On a farm .",
+      "At home .",
+      "In a fruit garden ."
+    ],
+    "answer_index": 1,
+    "final_pred_answer_index": 0,
+    "advantage": 0.6075997948646545,
+    "prob": 0.0018097921274602413,
+    "em": 0.0
+  },
+  "4-329-q0": {
+    "passage": "M : Hello , Jane . W : Hi , Harry . Did you have a good summer holiday ? M : Sure . I went for my holiday on my uncle 's farm . W : Really ? What interesting things did you do there ? M : I helped get in some rice , take care of the fruit garden and drive the tractor . W : Drive a tractor ? M : Yes . It was easy to learn . Did you go away for your holiday , Jane ? W : Oh , no . I just stayed at home . My mother has been in hospital . I had to look after her and help do some cooking and washing at home . M : I 'm sorry . Oh , it 's late . I must be off now . Bye bye .",
+    "question": "What are they talking about ?",
+    "debate_mode": [
+      "\u2160"
+    ],
+    "sentences_chosen": [
+      "I must be off now ."
+    ],
+    "stances": [
+      "\u2160"
+    ],
+    "num_sents": 20,
+    "prob_dist": [
+      [
+        0.7355811595916748,
+        0.0031583078671246767,
+        0.2612604796886444
+      ]
+    ],
+    "option_logits": [
+      [
+        -2.566073179244995,
+        -8.016697883605957,
+        -3.6012160778045654
+      ]
+    ],
+    "options": [
+      "Where to spend their holiday .",
+      "How to drive a tractor .",
+      "Their summer vacation ."
+    ],
+    "answer_index": 2,
+    "final_pred_answer_index": 0,
+    "advantage": 0.5620144605636597,
+    "prob": 0.2612604796886444,
+    "em": 0.0
+  },
+  "21-274-q0": {
+    "passage": "W : Sam , have you seen the pictures I took in Paris ? M : No , I have n't . Where are they ? W : Here are some . I took them at the Eiffel Tower last week . M : How beautiful the Eiffel Tower is ! W : Yes , it is really beautiful . M : And your pictures are wonderful , too . Did you have a good time in France ? W : Yes , I had a wonderful time there . Have you ever been to France ? M : No , I have n't . How do you like France , Kate ? W : It 's great ! I like the French people and food . I 've made many French friends there .",
+    "question": "What do you know about the pictures ?",
+    "debate_mode": [
+      "\u2160"
+    ],
+    "sentences_chosen": [
+      "I 've made many French friends there ."
+    ],
+    "stances": [
+      "\u2160"
+    ],
+    "num_sents": 16,
+    "prob_dist": [
+      [
+        0.9988242983818054,
+        0.0005144000751897693,
+        0.0006613510777242482
+      ]
+    ],
+    "option_logits": [
+      [
+        2.0413928031921387,
+        -5.529940128326416,
+        -5.278656482696533
+      ]
+    ],
+    "options": [
+      "They were taken in France .",
+      "Kate is good at taking pictures .",
+      "They were taken by Sam ."
+    ],
+    "answer_index": 0,
+    "final_pred_answer_index": 0,
+    "advantage": 0.3761079013347626,
+    "prob": 0.9988242983818054,
+    "em": 1.0
+  },
+  "21-233-q0": {
+    "passage": "W : Good afternoon . ABC company . May I help you ? M : Yes , may I speak to Mr. James Potter , please ? W : I 'm afraid Mr. James Potter is n't available right now . Would you like to leave a message ? M : This is Martin Richard with Sun Electronics . It 's very important that he returns my call this afternoon . W : Does he have your office number and your mobile phone number ? M : I think so . but let me give them to you again . W : Okay . M : My office number is 714 - 888 - 3765 ; my cell phone number is 909 - 333 - 8739 . He can reach me at my office number before 6:00 p.m. or anytime today on my mobile . W : Very well . I 'll give him your message as soon as he returns to the office .",
+    "question": "At what time can Mr. James Potter call Martin Richard on his mobile ?",
+    "debate_mode": [
+      "\u2160"
+    ],
+    "sentences_chosen": [
+      "I 'll give him your message as soon as he returns to the office ."
+    ],
+    "stances": [
+      "\u2160"
+    ],
+    "num_sents": 16,
+    "prob_dist": [
+      [
+        0.7003298401832581,
+        0.20018430054187775,
+        0.09948591142892838
+      ]
+    ],
+    "option_logits": [
+      [
+        1.7643191814422607,
+        0.5120063424110413,
+        -0.1872161328792572
+      ]
+    ],
+    "options": [
+      "Before 6:00 p.m.",
+      "After 6:00 p.m.",
+      "Anytime that day ."
+    ],
+    "answer_index": 2,
+    "final_pred_answer_index": 0,
+    "advantage": 0.19197197258472443,
+    "prob": 0.09948591142892838,
+    "em": 0.0
+  },
+  "7-140-q0": {
+    "passage": "M : It 's a great art show , is n't it ? By the way , I 'm Jim . W : Yes , it 's successful . I 'm Nancy . Nice to meet you . M : Me too . Are you from France ? W : Actually , I was born in London , and I grew up in Paris . What about you ? M : Oh , I 'm a local man in New York . I 'm an art teacher in New York University . This art show is held by my students . W : Really ? Great ! I 'm a student majoring in piano performance in the same college . I 'll hold a piano party next Saturday night at the Silver Bar . Would you like to come ? M : I 'd love to . Could I take my daughter with me ? Besides painting , she is fond of piano as well . W : Sure .",
+    "question": "What 's the probable relationship between the two speakers ?",
+    "debate_mode": [
+      "\u2160"
+    ],
+    "sentences_chosen": [
+      "What about you ?"
+    ],
+    "stances": [
+      "\u2160"
+    ],
+    "num_sents": 21,
+    "prob_dist": [
+      [
+        0.5551304817199707,
+        0.22311289608478546,
+        0.22175663709640503
+      ]
+    ],
+    "option_logits": [
+      [
+        3.533734083175659,
+        2.622208833694458,
+        2.6161115169525146
+      ]
+    ],
+    "options": [
+      "Friends .",
+      "Strangers .",
+      "Classmates ."
+    ],
+    "answer_index": 1,
+    "final_pred_answer_index": 0,
+    "advantage": 0.28059011697769165,
+    "prob": 0.22311289608478546,
+    "em": 0.0
+  },
+  "7-140-q2": {
+    "passage": "M : It 's a great art show , is n't it ? By the way , I 'm Jim . W : Yes , it 's successful . I 'm Nancy . Nice to meet you . M : Me too . Are you from France ? W : Actually , I was born in London , and I grew up in Paris . What about you ? M : Oh , I 'm a local man in New York . I 'm an art teacher in New York University . This art show is held by my students . W : Really ? Great ! I 'm a student majoring in piano performance in the same college . I 'll hold a piano party next Saturday night at the Silver Bar . Would you like to come ? M : I 'd love to . Could I take my daughter with me ? Besides painting , she is fond of piano as well . W : Sure .",
+    "question": "What do we know about the man 's daughter ?",
+    "debate_mode": [
+      "\u2160"
+    ],
+    "sentences_chosen": [
+      "Are you from France ?"
+    ],
+    "stances": [
+      "\u2160"
+    ],
+    "num_sents": 21,
+    "prob_dist": [
+      [
+        0.9990192651748657,
+        6.105915235821158e-05,
+        0.0009196421015076339
+      ]
+    ],
+    "option_logits": [
+      [
+        3.0658345222473145,
+        -6.636851787567139,
+        -3.924710273742676
+      ]
+    ],
+    "options": [
+      "She grew up in Paris .",
+      "She teaches art in New York University .",
+      "She likes painting and playing the piano ."
+    ],
+    "answer_index": 2,
+    "final_pred_answer_index": 0,
+    "advantage": 0.7076484560966492,
+    "prob": 0.0009196421015076339,
+    "em": 0.0
+  },
+  "7-140-q1": {
+    "passage": "M : It 's a great art show , is n't it ? By the way , I 'm Jim . W : Yes , it 's successful . I 'm Nancy . Nice to meet you . M : Me too . Are you from France ? W : Actually , I was born in London , and I grew up in Paris . What about you ? M : Oh , I 'm a local man in New York . I 'm an art teacher in New York University . This art show is held by my students . W : Really ? Great ! I 'm a student majoring in piano performance in the same college . I 'll hold a piano party next Saturday night at the Silver Bar . Would you like to come ? M : I 'd love to . Could I take my daughter with me ? Besides painting , she is fond of piano as well . W : Sure .",
+    "question": "Who will hold a piano party next Saturday night ?",
+    "debate_mode": [
+      "\u2160"
+    ],
+    "sentences_chosen": [
+      "I 'm Nancy ."
+    ],
+    "stances": [
+      "\u2160"
+    ],
+    "num_sents": 21,
+    "prob_dist": [
+      [
+        0.9847411513328552,
+        0.002594274003058672,
+        0.012664497829973698
+      ]
+    ],
+    "option_logits": [
+      [
+        -0.06399916112422943,
+        -6.003071308135986,
+        -4.417575359344482
+      ]
+    ],
+    "options": [
+      "The woman .",
+      "The man .",
+      "The man 's students ."
+    ],
+    "answer_index": 0,
+    "final_pred_answer_index": 0,
+    "advantage": 0.6558480858802795,
+    "prob": 0.9847411513328552,
+    "em": 1.0
+  },
+  "3-218-q1": {
+    "passage": "W : Come on , Peter ! It 's nearly seven . M : I 'm almost ready . W : We 'll be late if you do n't hurry . M : One minute , please . I 'm packing my things . W : The teachers wo n't let us in if we are late . M : OK . I 'm ready . W : Come on , then . M : Oh , I 'll have to get my money . W : You do n't need money when you are having the exam , do you ? M : Of course not . OK , Let 's go ... Oh , my God . I 've forgot my watch . W : You 'll forget your head if you 're not careful . M : My mother says that , too . W : I hope you 'll be more careful in the exam .",
+    "question": "What are they going to do ?",
+    "debate_mode": [
+      "\u2160"
+    ],
+    "sentences_chosen": [
+      "W : You do n't need money when you are having the exam , do you ?"
+    ],
+    "stances": [
+      "\u2160"
+    ],
+    "num_sents": 18,
+    "prob_dist": [
+      [
+        0.9996446371078491,
+        5.075434819445945e-05,
+        0.00030459638219326735
+      ]
+    ],
+    "option_logits": [
+      [
+        1.698556661605835,
+        -8.189600944519043,
+        -6.397611141204834
+      ]
+    ],
+    "options": [
+      "They are going to have an exam .",
+      "They are going to travel .",
+      "They are going to buy a watch ."
+    ],
+    "answer_index": 0,
+    "final_pred_answer_index": 0,
+    "advantage": 0.44371119141578674,
+    "prob": 0.9996446371078491,
+    "em": 1.0
+  },
+  "3-218-q0": {
+    "passage": "W : Come on , Peter ! It 's nearly seven . M : I 'm almost ready . W : We 'll be late if you do n't hurry . M : One minute , please . I 'm packing my things . W : The teachers wo n't let us in if we are late . M : OK . I 'm ready . W : Come on , then . M : Oh , I 'll have to get my money . W : You do n't need money when you are having the exam , do you ? M : Of course not . OK , Let 's go ... Oh , my God . I 've forgot my watch . W : You 'll forget your head if you 're not careful . M : My mother says that , too . W : I hope you 'll be more careful in the exam .",
+    "question": "What 's the relationship between the speakers ?",
+    "debate_mode": [
+      "\u2160"
+    ],
+    "sentences_chosen": [
+      "OK , Let 's go ... Oh , my God ."
+    ],
+    "stances": [
+      "\u2160"
+    ],
+    "num_sents": 18,
+    "prob_dist": [
+      [
+        0.6290735602378845,
+        0.2518436908721924,
+        0.1190827339887619
+      ]
+    ],
+    "option_logits": [
+      [
+        -3.887852191925049,
+        -4.8032917976379395,
+        -5.552281856536865
+      ]
+    ],
+    "options": [
+      "Brother and sister .",
+      "Mother and son .",
+      "Classmates ."
+    ],
+    "answer_index": 2,
+    "final_pred_answer_index": 0,
+    "advantage": 0.21894940733909607,
+    "prob": 0.1190827339887619,
+    "em": 0.0
+  },
+  "3-218-q2": {
+    "passage": "W : Come on , Peter ! It 's nearly seven . M : I 'm almost ready . W : We 'll be late if you do n't hurry . M : One minute , please . I 'm packing my things . W : The teachers wo n't let us in if we are late . M : OK . I 'm ready . W : Come on , then . M : Oh , I 'll have to get my money . W : You do n't need money when you are having the exam , do you ? M : Of course not . OK , Let 's go ... Oh , my God . I 've forgot my watch . W : You 'll forget your head if you 're not careful . M : My mother says that , too . W : I hope you 'll be more careful in the exam .",
+    "question": "What does the woman think of the man ?",
+    "debate_mode": [
+      "\u2160"
+    ],
+    "sentences_chosen": [
+      "OK , Let 's go ... Oh , my God ."
+    ],
+    "stances": [
+      "\u2160"
+    ],
+    "num_sents": 18,
+    "prob_dist": [
+      [
+        0.9408634901046753,
+        0.052298787981271744,
+        0.006837694440037012
+      ]
+    ],
+    "option_logits": [
+      [
+        0.4918340742588043,
+        -2.3979907035827637,
+        -4.432513236999512
+      ]
+    ],
+    "options": [
+      "He is very serious .",
+      "He is too careless .",
+      "He is very lazy ."
+    ],
+    "answer_index": 1,
+    "final_pred_answer_index": 0,
+    "advantage": 0.6081089377403259,
+    "prob": 0.052298787981271744,
+    "em": 0.0
+  },
+  "15-111-q3": {
+    "passage": "M : My God ! Where is my suitcase ? W : Oh ! I think that they 've unloaded all the luggage . Well , it 's not here . M : I suppose that suitcase is lost , does n't it ? W : Which suitcase was it ? M : The one with all the souvenirs , the one that you told me not to pack . W : Are you sure you checked it ? M : Sure . W : It might be , loaded on another flight . M : Do you think that it could be left behind ? W : That 's always a possibility . Sooner or later , it 'll be traced and rerouted . M : I hope you are right . W : Well ... What do we do now ? M : I should report it to the airline , look , why do n't you wait for me in the coffee shop ? I 'll meet you there as soon as I 'm through . W : Ok ! Good luck !",
+    "question": "What will the man do about his lost suitcase ?",
+    "debate_mode": [
+      "\u2160"
+    ],
+    "sentences_chosen": [
+      "Sooner or later , it 'll be traced and rerouted ."
+    ],
+    "stances": [
+      "\u2160"
+    ],
+    "num_sents": 20,
+    "prob_dist": [
+      [
+        0.9957129955291748,
+        0.0033280476927757263,
+        0.0009589636465534568
+      ]
+    ],
+    "option_logits": [
+      [
+        5.468039512634277,
+        -0.23303382098674774,
+        -1.4773218631744385
+      ]
+    ],
+    "options": [
+      "Wait until it reported .",
+      "Report to the staff .",
+      "Forget it ."
+    ],
+    "answer_index": 1,
+    "final_pred_answer_index": 0,
+    "advantage": 0.5035226345062256,
+    "prob": 0.0033280476927757263,
+    "em": 0.0
+  },
+  "14-203-q0": {
+    "passage": "W : Look at this picture ! Is it the Great Pyramid ? M : You 've got it . I took many pictures of it . W : You mean you have been in Egypt ? When did you go there ? M : Last summer . It was so interesting . W : Tell me something about the Great Pyramid . M : It was very high , about 137 meters . The sides are as long as 230 meters . W : And it 's very old ? M : Yes , it has a long history of about 4500 years . W : Really ? I ca n't believe it ! M : Yes , seeing is believing . You must go and see it by yourself . W : It sounds nice . So Egypt is the place where I 'm going to spend my next holiday . M : By the way , where did you spend your vacation last summer ? W : I went to Japan and it 's not so much fun . M : I bet you 'll have great fun in Egypt .",
+    "question": "When did the man visit Egypt ?",
+    "debate_mode": [
+      "\u2160"
+    ],
+    "sentences_chosen": [
+      "So Egypt is the place where I 'm going to spend my next holiday ."
+    ],
+    "stances": [
+      "\u2160"
+    ],
+    "num_sents": 22,
+    "prob_dist": [
+      [
+        0.9563471674919128,
+        0.036542948335409164,
+        0.007109883241355419
+      ]
+    ],
+    "option_logits": [
+      [
+        2.228957414627075,
+        -1.0356751680374146,
+        -2.672677993774414
+      ]
+    ],
+    "options": [
+      "This summer .",
+      "Last summer .",
+      "This winter ."
+    ],
+    "answer_index": 1,
+    "final_pred_answer_index": 0,
+    "advantage": 0.465585321187973,
+    "prob": 0.036542948335409164,
+    "em": 0.0
+  },
+  "14-203-q2": {
+    "passage": "W : Look at this picture ! Is it the Great Pyramid ? M : You 've got it . I took many pictures of it . W : You mean you have been in Egypt ? When did you go there ? M : Last summer . It was so interesting . W : Tell me something about the Great Pyramid . M : It was very high , about 137 meters . The sides are as long as 230 meters . W : And it 's very old ? M : Yes , it has a long history of about 4500 years . W : Really ? I ca n't believe it ! M : Yes , seeing is believing . You must go and see it by yourself . W : It sounds nice . So Egypt is the place where I 'm going to spend my next holiday . M : By the way , where did you spend your vacation last summer ? W : I went to Japan and it 's not so much fun . M : I bet you 'll have great fun in Egypt .",
+    "question": "How old is the Pyramid ?",
+    "debate_mode": [
+      "\u2160"
+    ],
+    "sentences_chosen": [
+      "M : Last summer ."
+    ],
+    "stances": [
+      "\u2160"
+    ],
+    "num_sents": 22,
+    "prob_dist": [
+      [
+        0.70054692029953,
+        0.23752199113368988,
+        0.0619310662150383
+      ]
+    ],
+    "option_logits": [
+      [
+        -4.68025016784668,
+        -5.7618513107299805,
+        -7.1060895919799805
+      ]
+    ],
+    "options": [
+      "450 years old .",
+      "4500 years old .",
+      "5000 years old ."
+    ],
+    "answer_index": 1,
+    "final_pred_answer_index": 0,
+    "advantage": 0.27472615242004395,
+    "prob": 0.23752199113368988,
+    "em": 0.0
+  },
+  "15-111-q1": {
+    "passage": "M : My God ! Where is my suitcase ? W : Oh ! I think that they 've unloaded all the luggage . Well , it 's not here . M : I suppose that suitcase is lost , does n't it ? W : Which suitcase was it ? M : The one with all the souvenirs , the one that you told me not to pack . W : Are you sure you checked it ? M : Sure . W : It might be , loaded on another flight . M : Do you think that it could be left behind ? W : That 's always a possibility . Sooner or later , it 'll be traced and rerouted . M : I hope you are right . W : Well ... What do we do now ? M : I should report it to the airline , look , why do n't you wait for me in the coffee shop ? I 'll meet you there as soon as I 'm through . W : Ok ! Good luck !",
+    "question": "What did the man do with his lost suitcase ?",
+    "debate_mode": [
+      "\u2160"
+    ],
+    "sentences_chosen": [
+      "M : My God !"
+    ],
+    "stances": [
+      "\u2160"
+    ],
+    "num_sents": 20,
+    "prob_dist": [
+      [
+        0.5836543440818787,
+        0.28249257802963257,
+        0.13385307788848877
+      ]
+    ],
+    "option_logits": [
+      [
+        -1.0412700176239014,
+        -1.766926646232605,
+        -2.513836145401001
+      ]
+    ],
+    "options": [
+      "He found his lost suitcase .",
+      "He put all his clothes in his lost suitcase .",
+      "He checked his lost suitcase ."
+    ],
+    "answer_index": 2,
+    "final_pred_answer_index": 0,
+    "advantage": 0.32404476404190063,
+    "prob": 0.13385307788848877,
+    "em": 0.0
+  },
+  "14-203-q1": {
+    "passage": "W : Look at this picture ! Is it the Great Pyramid ? M : You 've got it . I took many pictures of it . W : You mean you have been in Egypt ? When did you go there ? M : Last summer . It was so interesting . W : Tell me something about the Great Pyramid . M : It was very high , about 137 meters . The sides are as long as 230 meters . W : And it 's very old ? M : Yes , it has a long history of about 4500 years . W : Really ? I ca n't believe it ! M : Yes , seeing is believing . You must go and see it by yourself . W : It sounds nice . So Egypt is the place where I 'm going to spend my next holiday . M : By the way , where did you spend your vacation last summer ? W : I went to Japan and it 's not so much fun . M : I bet you 'll have great fun in Egypt .",
+    "question": "How high is the Great Pyramid ?",
+    "debate_mode": [
+      "\u2160"
+    ],
+    "sentences_chosen": [
+      "M : It was very high , about 137 meters ."
+    ],
+    "stances": [
+      "\u2160"
+    ],
+    "num_sents": 22,
+    "prob_dist": [
+      [
+        0.9719924926757812,
+        0.013791714794933796,
+        0.014215783216059208
+      ]
+    ],
+    "option_logits": [
+      [
+        4.854412078857422,
+        0.5991320610046387,
+        0.6294168829917908
+      ]
+    ],
+    "options": [
+      "137 meters .",
+      "173 meters .",
+      "230 meters ."
+    ],
+    "answer_index": 0,
+    "final_pred_answer_index": 0,
+    "advantage": 0.6109512448310852,
+    "prob": 0.9719924926757812,
+    "em": 1.0
+  },
+  "14-184-q0": {
+    "passage": "W : May I help you , sir ? M : Yes . I 'm looking for a nice gift for my mother . It 's her birthday tomorrow . W : Do you have anything special in mind ? M : No , not really . W : Perhaps she would like a necklace . We have many choices here . M : No , thanks . My mom does n't like jewels . W : Well , then . Maybe a watch would be nice . M : Yes , that 's it . She does need a new watch with big , clear numbers . She has complained a lot about the small numbers on her watch . W : This gold one is pretty , and I 'm sure it will be easy for her to read the time . M : Do n't you think it 's a bit too fancy for old ladies ? W : No , it actually sells very well and the old ladies like it very much . M : Maybe you are right . I 'll take it . W : I 'm sure your mother will love it . M : I hope so .",
+    "question": "What was the man doing ?",
+    "debate_mode": [
+      "\u2160"
+    ],
+    "sentences_chosen": [
+      "She has complained a lot about the small numbers on her watch ."
+    ],
+    "stances": [
+      "\u2160"
+    ],
+    "num_sents": 22,
+    "prob_dist": [
+      [
+        0.9995960593223572,
+        0.0001615026267245412,
+        0.0002424679696559906
+      ]
+    ],
+    "option_logits": [
+      [
+        1.342027187347412,
+        -7.388557434082031,
+        -6.9822096824646
+      ]
+    ],
+    "options": [
+      "Looking for a watch for his mother .",
+      "Looking for a necklace for his mother .",
+      "Looking for a birthday gift for his mother ."
+    ],
+    "answer_index": 2,
+    "final_pred_answer_index": 0,
+    "advantage": 0.6851577758789062,
+    "prob": 0.0002424679696559906,
+    "em": 0.0
+  },
+  "15-111-q2": {
+    "passage": "M : My God ! Where is my suitcase ? W : Oh ! I think that they 've unloaded all the luggage . Well , it 's not here . M : I suppose that suitcase is lost , does n't it ? W : Which suitcase was it ? M : The one with all the souvenirs , the one that you told me not to pack . W : Are you sure you checked it ? M : Sure . W : It might be , loaded on another flight . M : Do you think that it could be left behind ? W : That 's always a possibility . Sooner or later , it 'll be traced and rerouted . M : I hope you are right . W : Well ... What do we do now ? M : I should report it to the airline , look , why do n't you wait for me in the coffee shop ? I 'll meet you there as soon as I 'm through . W : Ok ! Good luck !",
+    "question": "Where does the man let the woman wait ?",
+    "debate_mode": [
+      "\u2160"
+    ],
+    "sentences_chosen": [
+      "Good luck !"
+    ],
+    "stances": [
+      "\u2160"
+    ],
+    "num_sents": 20,
+    "prob_dist": [
+      [
+        0.5551581382751465,
+        0.1223604753613472,
+        0.3224813640117645
+      ]
+    ],
+    "option_logits": [
+      [
+        0.1540517657995224,
+        -1.3582298755645752,
+        -0.3891559839248657
+      ]
+    ],
+    "options": [
+      "At the book shop .",
+      "The place where the suitcase is lost .",
+      "At the coffee shop ."
+    ],
+    "answer_index": 2,
+    "final_pred_answer_index": 0,
+    "advantage": 0.381446897983551,
+    "prob": 0.3224813640117645,
+    "em": 0.0
+  },
+  "15-111-q0": {
+    "passage": "M : My God ! Where is my suitcase ? W : Oh ! I think that they 've unloaded all the luggage . Well , it 's not here . M : I suppose that suitcase is lost , does n't it ? W : Which suitcase was it ? M : The one with all the souvenirs , the one that you told me not to pack . W : Are you sure you checked it ? M : Sure . W : It might be , loaded on another flight . M : Do you think that it could be left behind ? W : That 's always a possibility . Sooner or later , it 'll be traced and rerouted . M : I hope you are right . W : Well ... What do we do now ? M : I should report it to the airline , look , why do n't you wait for me in the coffee shop ? I 'll meet you there as soon as I 'm through . W : Ok ! Good luck !",
+    "question": "Where does the conversation most likely take place ?",
+    "debate_mode": [
+      "\u2160"
+    ],
+    "sentences_chosen": [
+      "W : Well ... What do we do now ?"
+    ],
+    "stances": [
+      "\u2160"
+    ],
+    "num_sents": 20,
+    "prob_dist": [
+      [
+        0.6003981828689575,
+        0.15839536488056183,
+        0.24120642244815826
+      ]
+    ],
+    "option_logits": [
+      [
+        0.38683125376701355,
+        -0.9456676840782166,
+        -0.5251087546348572
+      ]
+    ],
+    "options": [
+      "At the railway station .",
+      "At the bus station .",
+      "At the airport ."
+    ],
+    "answer_index": 2,
+    "final_pred_answer_index": 0,
+    "advantage": 0.3464335799217224,
+    "prob": 0.24120642244815826,
+    "em": 0.0
+  },
+  "2-41-q1": {
+    "passage": "W : Good morning . This is Shanghai Car Rental . M : Good morning , Miss. A friend of mine suggested I call you to hire a car . W : Oh , yes . A lot of people do this these days . M : Yes , we are just on holiday here for a few days and they said it would be a good idea to hire a car to get around the city . W : Well , it certainly is . What kind of car do you want to hire ? M : What can you suggest ? W : We have a variety of choice , such as Xiali , which is the cheapest , 200 yuan a day , Citroen , Jatta , Elysee , but Santana sedans are the big favorite these days . M : How much if I hire a Santana for three days ? W : Oh , that will be 1,200 yuan . M : On , it sounds a bit too expensive . What about a Jetta ? W : It will be 300 yuan a day . M : Then I 'd better hire a Jetta tomorrow morning , would there be any problem ? W : No problem at all . Now let me take down your name and telephone number .",
+    "question": "What is the rental money for a Santana ?",
+    "debate_mode": [
+      "\u2160"
+    ],
+    "sentences_chosen": [
+      "M : On , it sounds a bit too expensive ."
+    ],
+    "stances": [
+      "\u2160"
+    ],
+    "num_sents": 18,
+    "prob_dist": [
+      [
+        0.3471940755844116,
+        0.37072286009788513,
+        0.28208300471305847
+      ]
+    ],
+    "option_logits": [
+      [
+        2.0815086364746094,
+        2.1470794677734375,
+        1.8738261461257935
+      ]
+    ],
+    "options": [
+      "400 yuan a day .",
+      "300 yuan a day .",
+      "200 yuan a day ."
+    ],
+    "answer_index": 0,
+    "final_pred_answer_index": 1,
+    "advantage": 0.06455352157354355,
+    "prob": 0.3471940755844116,
+    "em": 0.0
+  },
+  "2-41-q2": {
+    "passage": "W : Good morning . This is Shanghai Car Rental . M : Good morning , Miss. A friend of mine suggested I call you to hire a car . W : Oh , yes . A lot of people do this these days . M : Yes , we are just on holiday here for a few days and they said it would be a good idea to hire a car to get around the city . W : Well , it certainly is . What kind of car do you want to hire ? M : What can you suggest ? W : We have a variety of choice , such as Xiali , which is the cheapest , 200 yuan a day , Citroen , Jatta , Elysee , but Santana sedans are the big favorite these days . M : How much if I hire a Santana for three days ? W : Oh , that will be 1,200 yuan . M : On , it sounds a bit too expensive . What about a Jetta ? W : It will be 300 yuan a day . M : Then I 'd better hire a Jetta tomorrow morning , would there be any problem ? W : No problem at all . Now let me take down your name and telephone number .",
+    "question": "Which of the following is true according to the conversation ?",
+    "debate_mode": [
+      "\u2160"
+    ],
+    "sentences_chosen": [
+      "This is Shanghai Car Rental ."
+    ],
+    "stances": [
+      "\u2160"
+    ],
+    "num_sents": 18,
+    "prob_dist": [
+      [
+        0.6603493690490723,
+        0.19774457812309265,
+        0.14190605282783508
+      ]
+    ],
+    "option_logits": [
+      [
+        0.5727760791778564,
+        -0.6330168843269348,
+        -0.9648276567459106
+      ]
+    ],
+    "options": [
+      "The man is on holiday in Shanghai .",
+      "The man has decided to hire a Santana for 3 days .",
+      "Jettas are the most popular with the tourists ."
+    ],
+    "answer_index": 0,
+    "final_pred_answer_index": 0,
+    "advantage": 0.30881553888320923,
+    "prob": 0.6603493690490723,
+    "em": 1.0
+  },
+  "14-184-q1": {
+    "passage": "W : May I help you , sir ? M : Yes . I 'm looking for a nice gift for my mother . It 's her birthday tomorrow . W : Do you have anything special in mind ? M : No , not really . W : Perhaps she would like a necklace . We have many choices here . M : No , thanks . My mom does n't like jewels . W : Well , then . Maybe a watch would be nice . M : Yes , that 's it . She does need a new watch with big , clear numbers . She has complained a lot about the small numbers on her watch . W : This gold one is pretty , and I 'm sure it will be easy for her to read the time . M : Do n't you think it 's a bit too fancy for old ladies ? W : No , it actually sells very well and the old ladies like it very much . M : Maybe you are right . I 'll take it . W : I 'm sure your mother will love it . M : I hope so .",
+    "question": "What was wrong with the watch of his mother 's ?",
+    "debate_mode": [
+      "\u2160"
+    ],
+    "sentences_chosen": [
+      "W : Well , then ."
+    ],
+    "stances": [
+      "\u2160"
+    ],
+    "num_sents": 22,
+    "prob_dist": [
+      [
+        0.6678680777549744,
+        0.16252465546131134,
+        0.1696072667837143
+      ]
+    ],
+    "option_logits": [
+      [
+        -3.074573040008545,
+        -4.4878339767456055,
+        -4.445178031921387
+      ]
+    ],
+    "options": [
+      "It 's broken .",
+      "It 's too small .",
+      "Its numbers are too small for his mother ."
+    ],
+    "answer_index": 2,
+    "final_pred_answer_index": 0,
+    "advantage": 0.2550540566444397,
+    "prob": 0.1696072667837143,
+    "em": 0.0
+  },
+  "14-184-q2": {
+    "passage": "W : May I help you , sir ? M : Yes . I 'm looking for a nice gift for my mother . It 's her birthday tomorrow . W : Do you have anything special in mind ? M : No , not really . W : Perhaps she would like a necklace . We have many choices here . M : No , thanks . My mom does n't like jewels . W : Well , then . Maybe a watch would be nice . M : Yes , that 's it . She does need a new watch with big , clear numbers . She has complained a lot about the small numbers on her watch . W : This gold one is pretty , and I 'm sure it will be easy for her to read the time . M : Do n't you think it 's a bit too fancy for old ladies ? W : No , it actually sells very well and the old ladies like it very much . M : Maybe you are right . I 'll take it . W : I 'm sure your mother will love it . M : I hope so .",
+    "question": "What would the man buy at last ?",
+    "debate_mode": [
+      "\u2160"
+    ],
+    "sentences_chosen": [
+      "W : Perhaps she would like a necklace ."
+    ],
+    "stances": [
+      "\u2160"
+    ],
+    "num_sents": 22,
+    "prob_dist": [
+      [
+        0.7400379776954651,
+        0.039892375469207764,
+        0.22006963193416595
+      ]
+    ],
+    "option_logits": [
+      [
+        0.45127394795417786,
+        -2.4692423343658447,
+        -0.7614836096763611
+      ]
+    ],
+    "options": [
+      "A gold ring .",
+      "A gold watch .",
+      "A gold necklace ."
+    ],
+    "answer_index": 1,
+    "final_pred_answer_index": 0,
+    "advantage": 0.38154423236846924,
+    "prob": 0.039892375469207764,
+    "em": 0.0
+  },
+  "4-90-q2": {
+    "passage": "M : Hello , Mary , it 's me , Mike . Am I calling at a bad time ? W : No , not really . M : I have invited some of my friends to dinner at my house this evening . I thought maybe you 'd like to come , too . W : Well , that sounds good , but I 'm afraid I 've got to do some reading for my English course . M : Today is Friday . You 've got to relax and enjoy yourself at the weekend . W : I know . But there is a lot of reading to do . Besides , I really ought to do my washing this evening . M : Then would you like to come just for a drink later on instead ? W : Actually , I 'd like to go to bed early tonight . I 'm a bit tired . M : All right . Have a good rest . I 'll call you again tomorrow . W : Do n't call me early . I usually sleep until eleven on Saturdays . M : What ? That 'll be too late for our Saturday country drive . W : Did I say I 'll go with you for a drive to the country ? M : No , but I have already planned everything . W : Listen , Mike . I like to plan my own days myself .",
+    "question": "How does the woman feel about the man 's plan for this Saturday ?",
+    "debate_mode": [
+      "\u2160"
+    ],
+    "sentences_chosen": [
+      "You 've got to relax and enjoy yourself at the weekend ."
+    ],
+    "stances": [
+      "\u2160"
+    ],
+    "num_sents": 25,
+    "prob_dist": [
+      [
+        0.8934633731842041,
+        0.02029521018266678,
+        0.08624140173196793
+      ]
+    ],
+    "option_logits": [
+      [
+        0.6990688443183899,
+        -3.0856516361236572,
+        -1.6388862133026123
+      ]
+    ],
+    "options": [
+      "She is very satisfied .",
+      "She is pretty sad .",
+      "She is a little angry ."
+    ],
+    "answer_index": 2,
+    "final_pred_answer_index": 0,
+    "advantage": 0.7629035115242004,
+    "prob": 0.08624140173196793,
+    "em": 0.0
+  },
+  "4-1083-q3": {
+    "passage": "M : This hotel in India just got ranked the number one hotel in the world ! W : What , by some silly website that specializes in top ten lists just to sell more ads ? M : No , by Travel + Leisure magazine . W : Oh , really ? They really know their stuff . Hey , that looks more like a palace ! M : It 's designed after the ancient palaces of northern India . W : It looks like a lot of the rooms have balconies . M : Yeah , those are the suites that have direct access to private pools . But all the rooms have Wi - Fi , flat screen TVs , king - size beds , daily newspapers , and ... W : OK , stop talking ! We 've got to make our reservations ! M : Well , hang on a second . You do n't really like Indian food . W : But I thought they offer other choices besides Indian food ... M : Maybe . Also , this part of India is pretty quiet . There 's no shopping or clubbing . People go there to relax . W : That 's OK . I can go shopping anywhere . M : The rooms start at $ 350 per night , and those suites are $ 750 per night . W : Whoa ! I thought India was supposed to be inexpensive !",
+    "question": "What may have changed the woman 's mind about the hotel ?",
+    "debate_mode": [
+      "\u2160"
+    ],
+    "sentences_chosen": [
+      "W : It looks like a lot of the rooms have balconies ."
+    ],
+    "stances": [
+      "\u2160"
+    ],
+    "num_sents": 22,
+    "prob_dist": [
+      [
+        0.9815087914466858,
+        0.0061299907974898815,
+        0.012361252680420876
+      ]
+    ],
+    "option_logits": [
+      [
+        4.103201389312744,
+        -0.9726964235305786,
+        -0.2713227868080139
+      ]
+    ],
+    "options": [
+      "The area around the hotel .",
+      "The price of the rooms .",
+      "The food that is available ."
+    ],
+    "answer_index": 1,
+    "final_pred_answer_index": 0,
+    "advantage": 0.4894270896911621,
+    "prob": 0.0061299907974898815,
+    "em": 0.0
+  },
+  "4-1083-q1": {
+    "passage": "M : This hotel in India just got ranked the number one hotel in the world ! W : What , by some silly website that specializes in top ten lists just to sell more ads ? M : No , by Travel + Leisure magazine . W : Oh , really ? They really know their stuff . Hey , that looks more like a palace ! M : It 's designed after the ancient palaces of northern India . W : It looks like a lot of the rooms have balconies . M : Yeah , those are the suites that have direct access to private pools . But all the rooms have Wi - Fi , flat screen TVs , king - size beds , daily newspapers , and ... W : OK , stop talking ! We 've got to make our reservations ! M : Well , hang on a second . You do n't really like Indian food . W : But I thought they offer other choices besides Indian food ... M : Maybe . Also , this part of India is pretty quiet . There 's no shopping or clubbing . People go there to relax . W : That 's OK . I can go shopping anywhere . M : The rooms start at $ 350 per night , and those suites are $ 750 per night . W : Whoa ! I thought India was supposed to be inexpensive !",
+    "question": "What do all the rooms in the hotel have ?",
+    "debate_mode": [
+      "\u2160"
+    ],
+    "sentences_chosen": [
+      "W : It looks like a lot of the rooms have balconies ."
+    ],
+    "stances": [
+      "\u2160"
+    ],
+    "num_sents": 22,
+    "prob_dist": [
+      [
+        0.9998766183853149,
+        7.149812972784275e-06,
+        0.00011623319005593657
+      ]
+    ],
+    "option_logits": [
+      [
+        6.461170673370361,
+        -5.3871307373046875,
+        -2.5986180305480957
+      ]
+    ],
+    "options": [
+      "Balconies .",
+      "King - size beds .",
+      "Direct access to private pools ."
+    ],
+    "answer_index": 1,
+    "final_pred_answer_index": 0,
+    "advantage": 0.7781080007553101,
+    "prob": 7.149812972784275e-06,
+    "em": 0.0
+  },
+  "4-1083-q2": {
+    "passage": "M : This hotel in India just got ranked the number one hotel in the world ! W : What , by some silly website that specializes in top ten lists just to sell more ads ? M : No , by Travel + Leisure magazine . W : Oh , really ? They really know their stuff . Hey , that looks more like a palace ! M : It 's designed after the ancient palaces of northern India . W : It looks like a lot of the rooms have balconies . M : Yeah , those are the suites that have direct access to private pools . But all the rooms have Wi - Fi , flat screen TVs , king - size beds , daily newspapers , and ... W : OK , stop talking ! We 've got to make our reservations ! M : Well , hang on a second . You do n't really like Indian food . W : But I thought they offer other choices besides Indian food ... M : Maybe . Also , this part of India is pretty quiet . There 's no shopping or clubbing . People go there to relax . W : That 's OK . I can go shopping anywhere . M : The rooms start at $ 350 per night , and those suites are $ 750 per night . W : Whoa ! I thought India was supposed to be inexpensive !",
+    "question": "What do people mainly go to the hotel for ?",
+    "debate_mode": [
+      "\u2160"
+    ],
+    "sentences_chosen": [
+      "I can go shopping anywhere ."
+    ],
+    "stances": [
+      "\u2160"
+    ],
+    "num_sents": 22,
+    "prob_dist": [
+      [
+        0.9960021376609802,
+        0.003581456607207656,
+        0.00041637386311776936
+      ]
+    ],
+    "option_logits": [
+      [
+        1.3292099237442017,
+        -4.298769950866699,
+        -6.450711250305176
+      ]
+    ],
+    "options": [
+      "Shopping .",
+      "Relaxing .",
+      "Enjoying the club ."
+    ],
+    "answer_index": 1,
+    "final_pred_answer_index": 0,
+    "advantage": 0.7963268756866455,
+    "prob": 0.003581456607207656,
+    "em": 0.0
+  },
+  "2-41-q0": {
+    "passage": "W : Good morning . This is Shanghai Car Rental . M : Good morning , Miss. A friend of mine suggested I call you to hire a car . W : Oh , yes . A lot of people do this these days . M : Yes , we are just on holiday here for a few days and they said it would be a good idea to hire a car to get around the city . W : Well , it certainly is . What kind of car do you want to hire ? M : What can you suggest ? W : We have a variety of choice , such as Xiali , which is the cheapest , 200 yuan a day , Citroen , Jatta , Elysee , but Santana sedans are the big favorite these days . M : How much if I hire a Santana for three days ? W : Oh , that will be 1,200 yuan . M : On , it sounds a bit too expensive . What about a Jetta ? W : It will be 300 yuan a day . M : Then I 'd better hire a Jetta tomorrow morning , would there be any problem ? W : No problem at all . Now let me take down your name and telephone number .",
+    "question": "Why does the man want to hire a car ?",
+    "debate_mode": [
+      "\u2160"
+    ],
+    "sentences_chosen": [
+      "Now let me take down your name and telephone number ."
+    ],
+    "stances": [
+      "\u2160"
+    ],
+    "num_sents": 18,
+    "prob_dist": [
+      [
+        0.5567941665649414,
+        0.34954166412353516,
+        0.09366413950920105
+      ]
+    ],
+    "option_logits": [
+      [
+        -6.456920623779297,
+        -6.9224934577941895,
+        -8.239400863647461
+      ]
+    ],
+    "options": [
+      "To go and see his friends .",
+      "To visit the city .",
+      "To go shopping ."
+    ],
+    "answer_index": 1,
+    "final_pred_answer_index": 0,
+    "advantage": 0.24869178235530853,
+    "prob": 0.34954166412353516,
+    "em": 0.0
+  },
+  "4-90-q1": {
+    "passage": "M : Hello , Mary , it 's me , Mike . Am I calling at a bad time ? W : No , not really . M : I have invited some of my friends to dinner at my house this evening . I thought maybe you 'd like to come , too . W : Well , that sounds good , but I 'm afraid I 've got to do some reading for my English course . M : Today is Friday . You 've got to relax and enjoy yourself at the weekend . W : I know . But there is a lot of reading to do . Besides , I really ought to do my washing this evening . M : Then would you like to come just for a drink later on instead ? W : Actually , I 'd like to go to bed early tonight . I 'm a bit tired . M : All right . Have a good rest . I 'll call you again tomorrow . W : Do n't call me early . I usually sleep until eleven on Saturdays . M : What ? That 'll be too late for our Saturday country drive . W : Did I say I 'll go with you for a drive to the country ? M : No , but I have already planned everything . W : Listen , Mike . I like to plan my own days myself .",
+    "question": "What does the man think people should do at the weekend ?",
+    "debate_mode": [
+      "\u2160"
+    ],
+    "sentences_chosen": [
+      "M : Then would you like to come just for a drink later on instead ?"
+    ],
+    "stances": [
+      "\u2160"
+    ],
+    "num_sents": 25,
+    "prob_dist": [
+      [
+        0.995482325553894,
+        0.0030772057361900806,
+        0.0014404457760974765
+      ]
+    ],
+    "option_logits": [
+      [
+        3.549548864364624,
+        -2.229656457901001,
+        -2.9887261390686035
+      ]
+    ],
+    "options": [
+      "Rest and have fun .",
+      "Have a good sleep .",
+      "Take some exercise ."
+    ],
+    "answer_index": 0,
+    "final_pred_answer_index": 0,
+    "advantage": 0.42252811789512634,
+    "prob": 0.995482325553894,
+    "em": 1.0
+  },
+  "4-90-q0": {
+    "passage": "M : Hello , Mary , it 's me , Mike . Am I calling at a bad time ? W : No , not really . M : I have invited some of my friends to dinner at my house this evening . I thought maybe you 'd like to come , too . W : Well , that sounds good , but I 'm afraid I 've got to do some reading for my English course . M : Today is Friday . You 've got to relax and enjoy yourself at the weekend . W : I know . But there is a lot of reading to do . Besides , I really ought to do my washing this evening . M : Then would you like to come just for a drink later on instead ? W : Actually , I 'd like to go to bed early tonight . I 'm a bit tired . M : All right . Have a good rest . I 'll call you again tomorrow . W : Do n't call me early . I usually sleep until eleven on Saturdays . M : What ? That 'll be too late for our Saturday country drive . W : Did I say I 'll go with you for a drive to the country ? M : No , but I have already planned everything . W : Listen , Mike . I like to plan my own days myself .",
+    "question": "What does the woman want to do in the evening ?",
+    "debate_mode": [
+      "\u2160"
+    ],
+    "sentences_chosen": [
+      "Besides , I really ought to do my washing this evening ."
+    ],
+    "stances": [
+      "\u2160"
+    ],
+    "num_sents": 25,
+    "prob_dist": [
+      [
+        0.9192566871643066,
+        0.02893199771642685,
+        0.051811303943395615
+      ]
+    ],
+    "option_logits": [
+      [
+        -3.084092140197754,
+        -6.5427093505859375,
+        -5.960049152374268
+      ]
+    ],
+    "options": [
+      "Stay at home .",
+      "Hold a dinner party .",
+      "Have a drink ."
+    ],
+    "answer_index": 0,
+    "final_pred_answer_index": 0,
+    "advantage": 0.5238791108131409,
+    "prob": 0.9192566871643066,
+    "em": 1.0
+  },
+  "5-806-q2": {
+    "passage": "W : What does the term \" alternative energy source \" mean ? M : When we think of energy or fuel for our homes and cars , we think of petroleum , a fossil fuel processed from oil removed from the ground , of which there is a limited supply . But alternative fuels can be many things . Wind , sun and water can all be used to create fuel . W : Is the threat of running out of petroleum real ? M : It has taken thousands of years to create the natural stores of petroleum we have available at a much faster rate than it is being produced over time . The real controversy surrounding the amount of petroleum we have is how much we need to keep in reserve for future use . Most experts agree that by around 2025 , the amount of petroleum we use will reach a peak . Then production and availability will begin to seriously decline . This is not to say there will be no petroleum at this point . But it 'll become very difficult and therefore expensive to extract . W : Is that the most important reason to develop alternative fuel and energy sources ? M : There are two very clear reasons to do so . One is that whether we have 60 or 600 years of fossil fuels left , we have to find other fuel sources eventually . So the sooner we start , the better off we will be . The other big argument is that when long time , which leads to some long - term negative effects , like global warming and the greenhouse effect .",
+    "question": "What does the man think we should do now ?",
+    "debate_mode": [
+      "\u2160"
+    ],
+    "sentences_chosen": [
+      "This is not to say there will be no petroleum at this point ."
+    ],
+    "stances": [
+      "\u2160"
+    ],
+    "num_sents": 16,
+    "prob_dist": [
+      [
+        0.9889159202575684,
+        0.011045956052839756,
+        3.8085909181972966e-05
+      ]
+    ],
+    "option_logits": [
+      [
+        6.083491325378418,
+        1.5889464616775513,
+        -4.081029415130615
+      ]
+    ],
+    "options": [
+      "Minimize the use of fossil fuels .",
+      "Start developing alternative fuels .",
+      "Find the real cause for global warming ."
+    ],
+    "answer_index": 1,
+    "final_pred_answer_index": 0,
+    "advantage": 0.44862106442451477,
+    "prob": 0.011045956052839756,
+    "em": 0.0
+  },
+  "4-1083-q0": {
+    "passage": "M : This hotel in India just got ranked the number one hotel in the world ! W : What , by some silly website that specializes in top ten lists just to sell more ads ? M : No , by Travel + Leisure magazine . W : Oh , really ? They really know their stuff . Hey , that looks more like a palace ! M : It 's designed after the ancient palaces of northern India . W : It looks like a lot of the rooms have balconies . M : Yeah , those are the suites that have direct access to private pools . But all the rooms have Wi - Fi , flat screen TVs , king - size beds , daily newspapers , and ... W : OK , stop talking ! We 've got to make our reservations ! M : Well , hang on a second . You do n't really like Indian food . W : But I thought they offer other choices besides Indian food ... M : Maybe . Also , this part of India is pretty quiet . There 's no shopping or clubbing . People go there to relax . W : That 's OK . I can go shopping anywhere . M : The rooms start at $ 350 per night , and those suites are $ 750 per night . W : Whoa ! I thought India was supposed to be inexpensive !",
+    "question": "Who ranked the number one hotel in the world ?",
+    "debate_mode": [
+      "\u2160"
+    ],
+    "sentences_chosen": [
+      "W : What , by some silly website that specializes in top ten lists just to sell more ads ?"
+    ],
+    "stances": [
+      "\u2160"
+    ],
+    "num_sents": 22,
+    "prob_dist": [
+      [
+        0.8478875756263733,
+        0.029951969161629677,
+        0.1221603974699974
+      ]
+    ],
+    "option_logits": [
+      [
+        -0.8885412812232971,
+        -4.231694221496582,
+        -2.8259544372558594
+      ]
+    ],
+    "options": [
+      "A popular website .",
+      "A famous newspaper .",
+      "A high - quality magazine ."
+    ],
+    "answer_index": 2,
+    "final_pred_answer_index": 0,
+    "advantage": 0.5565106868743896,
+    "prob": 0.1221603974699974,
+    "em": 0.0
+  },
+  "5-129-q1": {
+    "passage": "W : Oh , I 'm fed up with my job . M : Hey , there 's a perfect job for you in the paper today . You might be interested . W : Oh , what is it ? What do they want ? M : Wait a minute . Uh , here it is . The European Space Agency is recruiting translators . W : The European Space Agency ? M : Well , that 's what it says . They need an English translator to work from French or German . W : So they need a degree in French or German , I suppose . Well , I 've got that . What 's more , I have plenty of experience . What else are they asking for ? M : Just that . A university degree and three or four years of experience as a translator in a professional environment . They also say the person should have a lively and inquiring mind , effective communication skills and the ability to work individually or as a part of the team . W : Well , if I stay at my present job much longer , I wo n't have any mind or skills left . By the way , what about salary ? I just hope it is n't lower than what I get now . M : It 's said to be negotiable . It depends on the applicant 's education and experience . In addition to basic salary , there 's a list of extra benefits . Have a look yourself . W : Hm , travel and social security plus relocation expenses are paid . Hey , this is n't bad . I really want the job .",
+    "question": "What position is being advertised in the paper ?",
+    "debate_mode": [
+      "\u2160"
+    ],
+    "sentences_chosen": [
+      "It depends on the applicant 's education and experience ."
+    ],
+    "stances": [
+      "\u2160"
+    ],
+    "num_sents": 28,
+    "prob_dist": [
+      [
+        0.9705947637557983,
+        0.019208386540412903,
+        0.010196900926530361
+      ]
+    ],
+    "option_logits": [
+      [
+        4.47683048248291,
+        0.5542684197425842,
+        -0.07899492979049683
+      ]
+    ],
+    "options": [
+      "Language instructor .",
+      "Environmental engineer .",
+      "Translator ."
+    ],
+    "answer_index": 2,
+    "final_pred_answer_index": 0,
+    "advantage": 0.5718335509300232,
+    "prob": 0.010196900926530361,
+    "em": 0.0
+  },
+  "5-129-q2": {
+    "passage": "W : Oh , I 'm fed up with my job . M : Hey , there 's a perfect job for you in the paper today . You might be interested . W : Oh , what is it ? What do they want ? M : Wait a minute . Uh , here it is . The European Space Agency is recruiting translators . W : The European Space Agency ? M : Well , that 's what it says . They need an English translator to work from French or German . W : So they need a degree in French or German , I suppose . Well , I 've got that . What 's more , I have plenty of experience . What else are they asking for ? M : Just that . A university degree and three or four years of experience as a translator in a professional environment . They also say the person should have a lively and inquiring mind , effective communication skills and the ability to work individually or as a part of the team . W : Well , if I stay at my present job much longer , I wo n't have any mind or skills left . By the way , what about salary ? I just hope it is n't lower than what I get now . M : It 's said to be negotiable . It depends on the applicant 's education and experience . In addition to basic salary , there 's a list of extra benefits . Have a look yourself . W : Hm , travel and social security plus relocation expenses are paid . Hey , this is n't bad . I really want the job .",
+    "question": "What are the key factors that determine the salary of the new position ?",
+    "debate_mode": [
+      "\u2160"
+    ],
+    "sentences_chosen": [
+      "In addition to basic salary , there 's a list of extra benefits ."
+    ],
+    "stances": [
+      "\u2160"
+    ],
+    "num_sents": 28,
+    "prob_dist": [
+      [
+        0.9767753481864929,
+        0.011327349580824375,
+        0.011897272430360317
+      ]
+    ],
+    "option_logits": [
+      [
+        1.6047314405441284,
+        -2.8523049354553223,
+        -2.8032162189483643
+      ]
+    ],
+    "options": [
+      "Devotion and work efficiency .",
+      "Lively personality and inquiring mind .",
+      "Education and experience ."
+    ],
+    "answer_index": 2,
+    "final_pred_answer_index": 0,
+    "advantage": 0.6256975531578064,
+    "prob": 0.011897272430360317,
+    "em": 0.0
+  },
+  "5-806-q1": {
+    "passage": "W : What does the term \" alternative energy source \" mean ? M : When we think of energy or fuel for our homes and cars , we think of petroleum , a fossil fuel processed from oil removed from the ground , of which there is a limited supply . But alternative fuels can be many things . Wind , sun and water can all be used to create fuel . W : Is the threat of running out of petroleum real ? M : It has taken thousands of years to create the natural stores of petroleum we have available at a much faster rate than it is being produced over time . The real controversy surrounding the amount of petroleum we have is how much we need to keep in reserve for future use . Most experts agree that by around 2025 , the amount of petroleum we use will reach a peak . Then production and availability will begin to seriously decline . This is not to say there will be no petroleum at this point . But it 'll become very difficult and therefore expensive to extract . W : Is that the most important reason to develop alternative fuel and energy sources ? M : There are two very clear reasons to do so . One is that whether we have 60 or 600 years of fossil fuels left , we have to find other fuel sources eventually . So the sooner we start , the better off we will be . The other big argument is that when long time , which leads to some long - term negative effects , like global warming and the greenhouse effect .",
+    "question": "What do most experts agree on according to the man ?",
+    "debate_mode": [
+      "\u2160"
+    ],
+    "sentences_chosen": [
+      "Most experts agree that by around 2025 , the amount of petroleum we use will reach a peak ."
+    ],
+    "stances": [
+      "\u2160"
+    ],
+    "num_sents": 16,
+    "prob_dist": [
+      [
+        0.5459001660346985,
+        0.043352160602808,
+        0.4107476472854614
+      ]
+    ],
+    "option_logits": [
+      [
+        0.4204283654689789,
+        -2.1126513481140137,
+        0.1359712928533554
+      ]
+    ],
+    "options": [
+      "Oil will soon be replaced by alternative energy sources .",
+      "Oil production will begin to decline worldwide by 2025 .",
+      "Oil consumption has given rise to many global problems ."
+    ],
+    "answer_index": 1,
+    "final_pred_answer_index": 0,
+    "advantage": 0.43304434418678284,
+    "prob": 0.043352160602808,
+    "em": 0.0
+  },
+  "1-5-q1": {
+    "passage": "Paul : Sara , I 've been looking forward to our yearly camp out for three weeks . [ Me too ] It 's going to be a wonderful day for hiking tomorrow . The great outdoors . Camping under the stars . This is the life . Sara : Yeah , but Paul , I 'm a little bit worried about the weather though . The weatherman said it was going to rain later tonight . Paul : Ah , nonsense . Nothing can spoil our adventure . Those weather reports are never right . Sara : And it said there was a chance of high winds . Paul : Ah . Do n't worry . Sara : [ thunder ] Paul . Paul . Did you remember to bring our raincoats just in case , like I told you ? [ light rain ] Paul : Uh ... no . I left them on the front porch . [ heavy rain ] Sara : What are we going to do now ? Paul : We 'll have to sleep in the car ! Hurry get in ! [ door shut ] Sara : So , Paul , what are we going to do now ? Paul : How about playing a card game ? Sara : Uhh . I left them next to the picnic table . [ Hmmm ] Hey , you do n't want me to go out in this rain and get them , do you ? Paul : No . That 's okay . So what now ? Sara : Well , we could head down the mountain and stay at that hotel we passed on the way up , or go home . Paul : Hmm , why do n't we just make the best of it here and hope the weather clears . Sara : That 's a good idea .",
+    "question": "According to the weather report , when would it start raining ?",
+    "debate_mode": [
+      "\u2160"
+    ],
+    "sentences_chosen": [
+      "Paul : Sara , I 've been looking forward to our yearly camp out for three weeks ."
+    ],
+    "stances": [
+      "\u2160"
+    ],
+    "num_sents": 32,
+    "prob_dist": [
+      [
+        0.47062525153160095,
+        0.27157101035118103,
+        0.257803738117218
+      ]
+    ],
+    "option_logits": [
+      [
+        -4.33441162109375,
+        -4.884250164031982,
+        -4.936275005340576
+      ]
+    ],
+    "options": [
+      "in the afternoon",
+      "at night",
+      "in the morning"
+    ],
+    "answer_index": 1,
+    "final_pred_answer_index": 0,
+    "advantage": 0.1520737260580063,
+    "prob": 0.27157101035118103,
+    "em": 0.0
+  },
+  "5-129-q0": {
+    "passage": "W : Oh , I 'm fed up with my job . M : Hey , there 's a perfect job for you in the paper today . You might be interested . W : Oh , what is it ? What do they want ? M : Wait a minute . Uh , here it is . The European Space Agency is recruiting translators . W : The European Space Agency ? M : Well , that 's what it says . They need an English translator to work from French or German . W : So they need a degree in French or German , I suppose . Well , I 've got that . What 's more , I have plenty of experience . What else are they asking for ? M : Just that . A university degree and three or four years of experience as a translator in a professional environment . They also say the person should have a lively and inquiring mind , effective communication skills and the ability to work individually or as a part of the team . W : Well , if I stay at my present job much longer , I wo n't have any mind or skills left . By the way , what about salary ? I just hope it is n't lower than what I get now . M : It 's said to be negotiable . It depends on the applicant 's education and experience . In addition to basic salary , there 's a list of extra benefits . Have a look yourself . W : Hm , travel and social security plus relocation expenses are paid . Hey , this is n't bad . I really want the job .",
+    "question": "Why is the woman trying to find a new job ?",
+    "debate_mode": [
+      "\u2160"
+    ],
+    "sentences_chosen": [
+      "It depends on the applicant 's education and experience ."
+    ],
+    "stances": [
+      "\u2160"
+    ],
+    "num_sents": 28,
+    "prob_dist": [
+      [
+        0.9485085606575012,
+        0.004716654773801565,
+        0.046774718910455704
+      ]
+    ],
+    "option_logits": [
+      [
+        -1.173064947128296,
+        -6.476855754852295,
+        -4.182612895965576
+      ]
+    ],
+    "options": [
+      "She is thirsty for promotion .",
+      "She is tired of her present work .",
+      "She wants a much higher salary ."
+    ],
+    "answer_index": 1,
+    "final_pred_answer_index": 0,
+    "advantage": 0.5583894848823547,
+    "prob": 0.004716654773801565,
+    "em": 0.0
+  },
+  "1-5-q4": {
+    "passage": "Paul : Sara , I 've been looking forward to our yearly camp out for three weeks . [ Me too ] It 's going to be a wonderful day for hiking tomorrow . The great outdoors . Camping under the stars . This is the life . Sara : Yeah , but Paul , I 'm a little bit worried about the weather though . The weatherman said it was going to rain later tonight . Paul : Ah , nonsense . Nothing can spoil our adventure . Those weather reports are never right . Sara : And it said there was a chance of high winds . Paul : Ah . Do n't worry . Sara : [ thunder ] Paul . Paul . Did you remember to bring our raincoats just in case , like I told you ? [ light rain ] Paul : Uh ... no . I left them on the front porch . [ heavy rain ] Sara : What are we going to do now ? Paul : We 'll have to sleep in the car ! Hurry get in ! [ door shut ] Sara : So , Paul , what are we going to do now ? Paul : How about playing a card game ? Sara : Uhh . I left them next to the picnic table . [ Hmmm ] Hey , you do n't want me to go out in this rain and get them , do you ? Paul : No . That 's okay . So what now ? Sara : Well , we could head down the mountain and stay at that hotel we passed on the way up , or go home . Paul : Hmm , why do n't we just make the best of it here and hope the weather clears . Sara : That 's a good idea .",
+    "question": "What do they finally decide to do ?",
+    "debate_mode": [
+      "\u2160"
+    ],
+    "sentences_chosen": [
+      "Sara : Well , we could head down the mountain and stay at that hotel we passed on the way up , or go home ."
+    ],
+    "stances": [
+      "\u2160"
+    ],
+    "num_sents": 32,
+    "prob_dist": [
+      [
+        0.7152708172798157,
+        0.06440410763025284,
+        0.22032514214515686
+      ]
+    ],
+    "option_logits": [
+      [
+        0.9188377857208252,
+        -1.4886460304260254,
+        -0.25871899724006653
+      ]
+    ],
+    "options": [
+      "stay at a hotel",
+      "return home",
+      "sleep at the campground"
+    ],
+    "answer_index": 2,
+    "final_pred_answer_index": 0,
+    "advantage": 0.530353844165802,
+    "prob": 0.22032514214515686,
+    "em": 0.0
+  },
+  "5-806-q0": {
+    "passage": "W : What does the term \" alternative energy source \" mean ? M : When we think of energy or fuel for our homes and cars , we think of petroleum , a fossil fuel processed from oil removed from the ground , of which there is a limited supply . But alternative fuels can be many things . Wind , sun and water can all be used to create fuel . W : Is the threat of running out of petroleum real ? M : It has taken thousands of years to create the natural stores of petroleum we have available at a much faster rate than it is being produced over time . The real controversy surrounding the amount of petroleum we have is how much we need to keep in reserve for future use . Most experts agree that by around 2025 , the amount of petroleum we use will reach a peak . Then production and availability will begin to seriously decline . This is not to say there will be no petroleum at this point . But it 'll become very difficult and therefore expensive to extract . W : Is that the most important reason to develop alternative fuel and energy sources ? M : There are two very clear reasons to do so . One is that whether we have 60 or 600 years of fossil fuels left , we have to find other fuel sources eventually . So the sooner we start , the better off we will be . The other big argument is that when long time , which leads to some long - term negative effects , like global warming and the greenhouse effect .",
+    "question": "What do we usually refer to when we talk about energy according to the man ?",
+    "debate_mode": [
+      "\u2160"
+    ],
+    "sentences_chosen": [
+      "The other big argument is that when long time , which leads to some long - term negative effects , like global warming and the greenhouse effect ."
+    ],
+    "stances": [
+      "\u2160"
+    ],
+    "num_sents": 16,
+    "prob_dist": [
+      [
+        0.18230114877223969,
+        0.3658061623573303,
+        0.4518926441669464
+      ]
+    ],
+    "option_logits": [
+      [
+        -4.787586212158203,
+        -4.091142654418945,
+        -3.8798015117645264
+      ]
+    ],
+    "options": [
+      "Coal burnt daily for the comfort of our homes .",
+      "Anything that can be used to produce power .",
+      "Fuel refined from oil extracted from underground ."
+    ],
+    "answer_index": 2,
+    "final_pred_answer_index": 2,
+    "advantage": 0.136256605386734,
+    "prob": 0.4518926441669464,
+    "em": 1.0
+  },
+  "1-5-q3": {
+    "passage": "Paul : Sara , I 've been looking forward to our yearly camp out for three weeks . [ Me too ] It 's going to be a wonderful day for hiking tomorrow . The great outdoors . Camping under the stars . This is the life . Sara : Yeah , but Paul , I 'm a little bit worried about the weather though . The weatherman said it was going to rain later tonight . Paul : Ah , nonsense . Nothing can spoil our adventure . Those weather reports are never right . Sara : And it said there was a chance of high winds . Paul : Ah . Do n't worry . Sara : [ thunder ] Paul . Paul . Did you remember to bring our raincoats just in case , like I told you ? [ light rain ] Paul : Uh ... no . I left them on the front porch . [ heavy rain ] Sara : What are we going to do now ? Paul : We 'll have to sleep in the car ! Hurry get in ! [ door shut ] Sara : So , Paul , what are we going to do now ? Paul : How about playing a card game ? Sara : Uhh . I left them next to the picnic table . [ Hmmm ] Hey , you do n't want me to go out in this rain and get them , do you ? Paul : No . That 's okay . So what now ? Sara : Well , we could head down the mountain and stay at that hotel we passed on the way up , or go home . Paul : Hmm , why do n't we just make the best of it here and hope the weather clears . Sara : That 's a good idea .",
+    "question": "Where did Sara leave the playing cards ?",
+    "debate_mode": [
+      "\u2160"
+    ],
+    "sentences_chosen": [
+      "I left them next to the picnic table ."
+    ],
+    "stances": [
+      "\u2160"
+    ],
+    "num_sents": 32,
+    "prob_dist": [
+      [
+        0.9438506960868835,
+        0.04555874690413475,
+        0.010590494610369205
+      ]
+    ],
+    "option_logits": [
+      [
+        6.798713684082031,
+        3.7677483558654785,
+        2.3087024688720703
+      ]
+    ],
+    "options": [
+      "next to picnic table",
+      "on picnic table",
+      "under picnic table"
+    ],
+    "answer_index": 0,
+    "final_pred_answer_index": 0,
+    "advantage": 0.6479365825653076,
+    "prob": 0.9438506960868835,
+    "em": 1.0
+  },
+  "1-5-q0": {
+    "passage": "Paul : Sara , I 've been looking forward to our yearly camp out for three weeks . [ Me too ] It 's going to be a wonderful day for hiking tomorrow . The great outdoors . Camping under the stars . This is the life . Sara : Yeah , but Paul , I 'm a little bit worried about the weather though . The weatherman said it was going to rain later tonight . Paul : Ah , nonsense . Nothing can spoil our adventure . Those weather reports are never right . Sara : And it said there was a chance of high winds . Paul : Ah . Do n't worry . Sara : [ thunder ] Paul . Paul . Did you remember to bring our raincoats just in case , like I told you ? [ light rain ] Paul : Uh ... no . I left them on the front porch . [ heavy rain ] Sara : What are we going to do now ? Paul : We 'll have to sleep in the car ! Hurry get in ! [ door shut ] Sara : So , Paul , what are we going to do now ? Paul : How about playing a card game ? Sara : Uhh . I left them next to the picnic table . [ Hmmm ] Hey , you do n't want me to go out in this rain and get them , do you ? Paul : No . That 's okay . So what now ? Sara : Well , we could head down the mountain and stay at that hotel we passed on the way up , or go home . Paul : Hmm , why do n't we just make the best of it here and hope the weather clears . Sara : That 's a good idea .",
+    "question": "What are they planning on doing in the morning ?",
+    "debate_mode": [
+      "\u2160"
+    ],
+    "sentences_chosen": [
+      "I left them on the front porch ."
+    ],
+    "stances": [
+      "\u2160"
+    ],
+    "num_sents": 32,
+    "prob_dist": [
+      [
+        0.8194839954376221,
+        0.007104579359292984,
+        0.17341139912605286
+      ]
+    ],
+    "option_logits": [
+      [
+        -2.1785030364990234,
+        -6.926438331604004,
+        -3.731511116027832
+      ]
+    ],
+    "options": [
+      "fishing",
+      "mountain biking",
+      "hiking"
+    ],
+    "answer_index": 2,
+    "final_pred_answer_index": 0,
+    "advantage": 0.6696441173553467,
+    "prob": 0.17341139912605286,
+    "em": 0.0
+  },
+  "1-5-q2": {
+    "passage": "Paul : Sara , I 've been looking forward to our yearly camp out for three weeks . [ Me too ] It 's going to be a wonderful day for hiking tomorrow . The great outdoors . Camping under the stars . This is the life . Sara : Yeah , but Paul , I 'm a little bit worried about the weather though . The weatherman said it was going to rain later tonight . Paul : Ah , nonsense . Nothing can spoil our adventure . Those weather reports are never right . Sara : And it said there was a chance of high winds . Paul : Ah . Do n't worry . Sara : [ thunder ] Paul . Paul . Did you remember to bring our raincoats just in case , like I told you ? [ light rain ] Paul : Uh ... no . I left them on the front porch . [ heavy rain ] Sara : What are we going to do now ? Paul : We 'll have to sleep in the car ! Hurry get in ! [ door shut ] Sara : So , Paul , what are we going to do now ? Paul : How about playing a card game ? Sara : Uhh . I left them next to the picnic table . [ Hmmm ] Hey , you do n't want me to go out in this rain and get them , do you ? Paul : No . That 's okay . So what now ? Sara : Well , we could head down the mountain and stay at that hotel we passed on the way up , or go home . Paul : Hmm , why do n't we just make the best of it here and hope the weather clears . Sara : That 's a good idea .",
+    "question": "What did Paul forget to bring ?",
+    "debate_mode": [
+      "\u2160"
+    ],
+    "sentences_chosen": [
+      "Did you remember to bring our raincoats just in case , like I told you ?"
+    ],
+    "stances": [
+      "\u2160"
+    ],
+    "num_sents": 32,
+    "prob_dist": [
+      [
+        0.9993427395820618,
+        0.0001414855505572632,
+        0.0005157066625542939
+      ]
+    ],
+    "option_logits": [
+      [
+        7.0461578369140625,
+        -1.8164979219436646,
+        -0.5231568813323975
+      ]
+    ],
+    "options": [
+      "rain coats",
+      "umbrellas",
+      "rain boots"
+    ],
+    "answer_index": 0,
+    "final_pred_answer_index": 0,
+    "advantage": 0.5950336456298828,
+    "prob": 0.9993427395820618,
+    "em": 1.0
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "answers": [
+    "C"
+  ],
+  "options": [
+    [
+      "surprised",
+      "lonely",
+      "happy",
+      "sad"
+    ]
+  ],
+  "questions": [
+    "The poet felt   _   when he was writing the poem."
+  ],
+  "article": "Spring is coming, spring is coming,\nBirdies, build your nest;\nWeave   together straw and feather,\nDoing each your best.\nSpring is coming, spring is coming,\nFlowers are coming too:\nPansies, lilies, daffodillies\nNow are coming through.\nSpring is coming, spring is coming,\nAll around is _ ,\nShimmer   and quiver   on the river,\nJoy is everywhere.\n----William Blake",
+  "id": "high7666.txt"
+}

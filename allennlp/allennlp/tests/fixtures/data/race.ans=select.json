@@ -1,0 +1,164 @@
+{
+  "data": [
+    {
+      "title": "middle3540.txt",
+      "paragraphs": [
+        {
+          "context": "in England SELECT_A in America SELECT_B by Alice SELECT_C in 1910 SELECT_D In a small village in England about 150 years ago, a mail coach (    ) was standing on the street . It didn't come to that village often  . People had to pay a lot to get a letter . The person who sent the letter didn't have to pay the postage (     )  , while the receiver had to .\n\"Here's a letter for Miss Alice Brown , \" said the mailman .\n\" I'm  Alice Brown , \" a girl of about 18 said in a low voice .\nAlice looked at the envelope  for a minute , and then handed it back to the mailman .\n\" I'm sorry I can't take it , I don't have enough money to pay it\", she said .\nA gentleman standing around were very sorry for her . Then he came up and paid the postage for her .\nWhen the gentleman gave the letter to her , she said with a smile , \" Thank you very much ,This letter is from Tom . I'm going to marry him . He went to London to look for work . I've waited a long time for this letter , but now I don't need it , there is nothing in it .\"\n\" Really ? How do you know that ? \" the gentleman said in surprise .\n\" He told me that he would put some signs on the envelope . Look ,sir ,this cross in the corner means that he is well and this circle means he has found work . That's good news .\"\nThe gentleman was Sir Rowland Hill . He didn't forgot Alice and her letter .\n\" The postage to be paid by the receiver has to be changed ,\" he said to himself and had a good plan .\n\" The postage has to be much lower , what about a penny (    ) ? And the person who sends the letter pays the postage . He has to buy a stamp and put it on the envelope .\" he said .\nThe government accepted his plan . Then the first stamp was put out in 1840 . It was called the \" Penny Black \" . It had a picture of the Queen on it .",
+          "qas": [
+            {
+              "answers": [
+                {
+                  "answer_start": 11,
+                  "text": "SELECT_A"
+                }
+              ],
+              "question": "The first postage stamp was made   _   .",
+              "id": "27a783957d2b1694"
+            }
+          ]
+        },
+        {
+          "context": "she didn't know whose letter it was SELECT_A she had no money to pay the postage SELECT_B she received the letter but she didn't want to open it SELECT_C she had already known what was written in the letter SELECT_D In a small village in England about 150 years ago, a mail coach (    ) was standing on the street . It didn't come to that village often  . People had to pay a lot to get a letter . The person who sent the letter didn't have to pay the postage (     )  , while the receiver had to .\n\"Here's a letter for Miss Alice Brown , \" said the mailman .\n\" I'm  Alice Brown , \" a girl of about 18 said in a low voice .\nAlice looked at the envelope  for a minute , and then handed it back to the mailman .\n\" I'm sorry I can't take it , I don't have enough money to pay it\", she said .\nA gentleman standing around were very sorry for her . Then he came up and paid the postage for her .\nWhen the gentleman gave the letter to her , she said with a smile , \" Thank you very much ,This letter is from Tom . I'm going to marry him . He went to London to look for work . I've waited a long time for this letter , but now I don't need it , there is nothing in it .\"\n\" Really ? How do you know that ? \" the gentleman said in surprise .\n\" He told me that he would put some signs on the envelope . Look ,sir ,this cross in the corner means that he is well and this circle means he has found work . That's good news .\"\nThe gentleman was Sir Rowland Hill . He didn't forgot Alice and her letter .\n\" The postage to be paid by the receiver has to be changed ,\" he said to himself and had a good plan .\n\" The postage has to be much lower , what about a penny (    ) ? And the person who sends the letter pays the postage . He has to buy a stamp and put it on the envelope .\" he said .\nThe government accepted his plan . Then the first stamp was put out in 1840 . It was called the \" Penny Black \" . It had a picture of the Queen on it .",
+          "qas": [
+            {
+              "answers": [
+                {
+                  "answer_start": 207,
+                  "text": "SELECT_D"
+                }
+              ],
+              "question": "The girl handed the letter back to the mailman because   _   .",
+              "id": "54c4b1bed51ff8ff"
+            }
+          ]
+        },
+        {
+          "context": "Tom had told her what the signs meant before leaving SELECT_A Alice was clever and could guess the meaning of the signs SELECT_B Alice had put the signs on the envelope herself SELECT_C Tom had put the signs as Alice had told him to SELECT_D In a small village in England about 150 years ago, a mail coach (    ) was standing on the street . It didn't come to that village often  . People had to pay a lot to get a letter . The person who sent the letter didn't have to pay the postage (     )  , while the receiver had to .\n\"Here's a letter for Miss Alice Brown , \" said the mailman .\n\" I'm  Alice Brown , \" a girl of about 18 said in a low voice .\nAlice looked at the envelope  for a minute , and then handed it back to the mailman .\n\" I'm sorry I can't take it , I don't have enough money to pay it\", she said .\nA gentleman standing around were very sorry for her . Then he came up and paid the postage for her .\nWhen the gentleman gave the letter to her , she said with a smile , \" Thank you very much ,This letter is from Tom . I'm going to marry him . He went to London to look for work . I've waited a long time for this letter , but now I don't need it , there is nothing in it .\"\n\" Really ? How do you know that ? \" the gentleman said in surprise .\n\" He told me that he would put some signs on the envelope . Look ,sir ,this cross in the corner means that he is well and this circle means he has found work . That's good news .\"\nThe gentleman was Sir Rowland Hill . He didn't forgot Alice and her letter .\n\" The postage to be paid by the receiver has to be changed ,\" he said to himself and had a good plan .\n\" The postage has to be much lower , what about a penny (    ) ? And the person who sends the letter pays the postage . He has to buy a stamp and put it on the envelope .\" he said .\nThe government accepted his plan . Then the first stamp was put out in 1840 . It was called the \" Penny Black \" . It had a picture of the Queen on it .",
+          "qas": [
+            {
+              "answers": [
+                {
+                  "answer_start": 53,
+                  "text": "SELECT_A"
+                }
+              ],
+              "question": "We can know from Alice's words that   _   .",
+              "id": "x7f8c925a387c470c"
+            }
+          ]
+        },
+        {
+          "context": "the government SELECT_A Sir Rowland Hill SELECT_B Alice Brown SELECT_C Tom SELECT_D In a small village in England about 150 years ago, a mail coach (    ) was standing on the street . It didn't come to that village often  . People had to pay a lot to get a letter . The person who sent the letter didn't have to pay the postage (     )  , while the receiver had to .\n\"Here's a letter for Miss Alice Brown , \" said the mailman .\n\" I'm  Alice Brown , \" a girl of about 18 said in a low voice .\nAlice looked at the envelope  for a minute , and then handed it back to the mailman .\n\" I'm sorry I can't take it , I don't have enough money to pay it\", she said .\nA gentleman standing around were very sorry for her . Then he came up and paid the postage for her .\nWhen the gentleman gave the letter to her , she said with a smile , \" Thank you very much ,This letter is from Tom . I'm going to marry him . He went to London to look for work . I've waited a long time for this letter , but now I don't need it , there is nothing in it .\"\n\" Really ? How do you know that ? \" the gentleman said in surprise .\n\" He told me that he would put some signs on the envelope . Look ,sir ,this cross in the corner means that he is well and this circle means he has found work . That's good news .\"\nThe gentleman was Sir Rowland Hill . He didn't forgot Alice and her letter .\n\" The postage to be paid by the receiver has to be changed ,\" he said to himself and had a good plan .\n\" The postage has to be much lower , what about a penny (    ) ? And the person who sends the letter pays the postage . He has to buy a stamp and put it on the envelope .\" he said .\nThe government accepted his plan . Then the first stamp was put out in 1840 . It was called the \" Penny Black \" . It had a picture of the Queen on it .",
+          "qas": [
+            {
+              "answers": [
+                {
+                  "answer_start": 41,
+                  "text": "SELECT_B"
+                }
+              ],
+              "question": "The idea of using stamps was thought of by   _   .",
+              "id": "x4e7c645054c0fe57"
+            }
+          ]
+        },
+        {
+          "context": "People never send each other letters SELECT_A lovers almost lose every touch with each other SELECT_B people try their best to avoid  paying it SELECT_C receivers refuse to pay the coming letters SELECT_D In a small village in England about 150 years ago, a mail coach (    ) was standing on the street . It didn't come to that village often  . People had to pay a lot to get a letter . The person who sent the letter didn't have to pay the postage (     )  , while the receiver had to .\n\"Here's a letter for Miss Alice Brown , \" said the mailman .\n\" I'm  Alice Brown , \" a girl of about 18 said in a low voice .\nAlice looked at the envelope  for a minute , and then handed it back to the mailman .\n\" I'm sorry I can't take it , I don't have enough money to pay it\", she said .\nA gentleman standing around were very sorry for her . Then he came up and paid the postage for her .\nWhen the gentleman gave the letter to her , she said with a smile , \" Thank you very much ,This letter is from Tom . I'm going to marry him . He went to London to look for work . I've waited a long time for this letter , but now I don't need it , there is nothing in it .\"\n\" Really ? How do you know that ? \" the gentleman said in surprise .\n\" He told me that he would put some signs on the envelope . Look ,sir ,this cross in the corner means that he is well and this circle means he has found work . That's good news .\"\nThe gentleman was Sir Rowland Hill . He didn't forgot Alice and her letter .\n\" The postage to be paid by the receiver has to be changed ,\" he said to himself and had a good plan .\n\" The postage has to be much lower , what about a penny (    ) ? And the person who sends the letter pays the postage . He has to buy a stamp and put it on the envelope .\" he said .\nThe government accepted his plan . Then the first stamp was put out in 1840 . It was called the \" Penny Black \" . It had a picture of the Queen on it .",
+          "qas": [
+            {
+              "answers": [
+                {
+                  "answer_start": 144,
+                  "text": "SELECT_C"
+                }
+              ],
+              "question": "From the passage we know the high postage made   _   .",
+              "id": "232d0768867e8f6a"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "high9216.txt",
+      "paragraphs": [
+        {
+          "context": "You should never eat delicious foods. SELECT_A Drinking some water or soup before eating helps you to eat less. SELECT_B Holidays are happy days but they may bring you weight problems. SELECT_C Physical exercise can reduce the chance of putting on weight. SELECT_D Do you love holidays but hate gaining weight? You are not alone. Holidays are times for celebrating. Many people are worried about their weight. With proper planning, though, it is possible to keep normal weight during the holidays. The idea is to enjoy the holidays but not to eat too much. You don't have to turn away from the foods that you enjoy.\nHere are some tips for preventing weight gain and maintaining physical fitness:\nDon't skip meals. Before you leave home, have a small, low-fat meal or snack . This may help to avoid getting too excited before delicious foods.\nControl the amount of food. Use a small plate that may encourage you to \"load up  \". You should be most comfortable eating an amount of food about the size of your fist  .\nBegin with soup and fruit or vegetables. Fill up beforehand on water-based soup and raw fruit or vegetables, or drink a large glass of water before you eat to help you to feel full.\nAvoid high-fat foods. Dishes that look oily or creamy may have large amount of fat. Choose lean meat . Fill your plate with salad and green vegetables. Use lemon juice instead of creamy food.\nStick to physical activity. Don't let exercise take a break during the holidays. A 20-minute walk helps to burn off extra calories.(238 words)",
+          "qas": [
+            {
+              "answers": [
+                {
+                  "answer_start": 38,
+                  "text": "SELECT_A"
+                }
+              ],
+              "question": "Which of the following statements is WRONG according to the passage?",
+              "id": "126f0b4176a1839"
+            }
+          ]
+        },
+        {
+          "context": "Eating lean meat. SELECT_A Creamy food. SELECT_B Eating raw fruit or vegetables. SELECT_C Physical exercise. SELECT_D Do you love holidays but hate gaining weight? You are not alone. Holidays are times for celebrating. Many people are worried about their weight. With proper planning, though, it is possible to keep normal weight during the holidays. The idea is to enjoy the holidays but not to eat too much. You don't have to turn away from the foods that you enjoy.\nHere are some tips for preventing weight gain and maintaining physical fitness:\nDon't skip meals. Before you leave home, have a small, low-fat meal or snack . This may help to avoid getting too excited before delicious foods.\nControl the amount of food. Use a small plate that may encourage you to \"load up  \". You should be most comfortable eating an amount of food about the size of your fist  .\nBegin with soup and fruit or vegetables. Fill up beforehand on water-based soup and raw fruit or vegetables, or drink a large glass of water before you eat to help you to feel full.\nAvoid high-fat foods. Dishes that look oily or creamy may have large amount of fat. Choose lean meat . Fill your plate with salad and green vegetables. Use lemon juice instead of creamy food.\nStick to physical activity. Don't let exercise take a break during the holidays. A 20-minute walk helps to burn off extra calories.(238 words)",
+          "qas": [
+            {
+              "answers": [
+                {
+                  "answer_start": 40,
+                  "text": "SELECT_B"
+                }
+              ],
+              "question": "Which of the following can NOT help people to lose weight according to the passage?",
+              "id": "787beed8d18c2669"
+            }
+          ]
+        },
+        {
+          "context": "can't help eating too much SELECT_A take part in too many parties SELECT_B enjoy delicious foods sometimes SELECT_C can't help turning away from foods. SELECT_D Do you love holidays but hate gaining weight? You are not alone. Holidays are times for celebrating. Many people are worried about their weight. With proper planning, though, it is possible to keep normal weight during the holidays. The idea is to enjoy the holidays but not to eat too much. You don't have to turn away from the foods that you enjoy.\nHere are some tips for preventing weight gain and maintaining physical fitness:\nDon't skip meals. Before you leave home, have a small, low-fat meal or snack . This may help to avoid getting too excited before delicious foods.\nControl the amount of food. Use a small plate that may encourage you to \"load up  \". You should be most comfortable eating an amount of food about the size of your fist  .\nBegin with soup and fruit or vegetables. Fill up beforehand on water-based soup and raw fruit or vegetables, or drink a large glass of water before you eat to help you to feel full.\nAvoid high-fat foods. Dishes that look oily or creamy may have large amount of fat. Choose lean meat . Fill your plate with salad and green vegetables. Use lemon juice instead of creamy food.\nStick to physical activity. Don't let exercise take a break during the holidays. A 20-minute walk helps to burn off extra calories.(238 words)",
+          "qas": [
+            {
+              "answers": [
+                {
+                  "answer_start": 27,
+                  "text": "SELECT_A"
+                }
+              ],
+              "question": "Many people can't control their weight during the holidays mainly because they   _  .",
+              "id": "65e7822995b4b224"
+            }
+          ]
+        },
+        {
+          "context": "Holidays and Festivals section SELECT_A Health and Fitness section SELECT_B Fashion section SELECT_C Student Times Club section SELECT_D Do you love holidays but hate gaining weight? You are not alone. Holidays are times for celebrating. Many people are worried about their weight. With proper planning, though, it is possible to keep normal weight during the holidays. The idea is to enjoy the holidays but not to eat too much. You don't have to turn away from the foods that you enjoy.\nHere are some tips for preventing weight gain and maintaining physical fitness:\nDon't skip meals. Before you leave home, have a small, low-fat meal or snack . This may help to avoid getting too excited before delicious foods.\nControl the amount of food. Use a small plate that may encourage you to \"load up  \". You should be most comfortable eating an amount of food about the size of your fist  .\nBegin with soup and fruit or vegetables. Fill up beforehand on water-based soup and raw fruit or vegetables, or drink a large glass of water before you eat to help you to feel full.\nAvoid high-fat foods. Dishes that look oily or creamy may have large amount of fat. Choose lean meat . Fill your plate with salad and green vegetables. Use lemon juice instead of creamy food.\nStick to physical activity. Don't let exercise take a break during the holidays. A 20-minute walk helps to burn off extra calories.(238 words)",
+          "qas": [
+            {
+              "answers": [
+                {
+                  "answer_start": 67,
+                  "text": "SELECT_B"
+                }
+              ],
+              "question": "If the passage appeared in a newspaper, which section is the most suitable one?",
+              "id": "753de6cabe8a07cf"
+            }
+          ]
+        },
+        {
+          "context": "How to avoid holiday feasting. SELECT_A Do's and don'ts for keeping slim and fit. SELECT_B How to avoid weight gain over holidays. SELECT_C Wonderful holidays, boring experiences. SELECT_D Do you love holidays but hate gaining weight? You are not alone. Holidays are times for celebrating. Many people are worried about their weight. With proper planning, though, it is possible to keep normal weight during the holidays. The idea is to enjoy the holidays but not to eat too much. You don't have to turn away from the foods that you enjoy.\nHere are some tips for preventing weight gain and maintaining physical fitness:\nDon't skip meals. Before you leave home, have a small, low-fat meal or snack . This may help to avoid getting too excited before delicious foods.\nControl the amount of food. Use a small plate that may encourage you to \"load up  \". You should be most comfortable eating an amount of food about the size of your fist  .\nBegin with soup and fruit or vegetables. Fill up beforehand on water-based soup and raw fruit or vegetables, or drink a large glass of water before you eat to help you to feel full.\nAvoid high-fat foods. Dishes that look oily or creamy may have large amount of fat. Choose lean meat . Fill your plate with salad and green vegetables. Use lemon juice instead of creamy food.\nStick to physical activity. Don't let exercise take a break during the holidays. A 20-minute walk helps to burn off extra calories.(238 words)",
+          "qas": [
+            {
+              "answers": [
+                {
+                  "answer_start": 131,
+                  "text": "SELECT_C"
+                }
+              ],
+              "question": "What is the best title of the passage?",
+              "id": "6013a4dea956f3eb"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
