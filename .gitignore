@@ -1,0 +1,46 @@
+# build artifacts
+
+allennlp/.eggs/
+allennlp/.mypy_cache
+allennlp/allennlp.egg-info/
+allennlp/build/
+allennlp/dist/
+
+
+# dev tools
+
+allennlp/.envrc
+allennlp/.python-version
+allennlp/.idea/
+
+# jupyter notebooks
+
+allennlp/.ipynb_checkpoints
+
+allennlp/.DS_Store
+
+
+# miscellaneous
+
+allennlp/.cache/
+allennlp/allennlp/tools/EVALB/evalb.dSYM/
+allennlp/doc/_build/
+*.swp
+allennlp/scratch.txt
+
+# python
+
+*.pyc
+*.pyo
+allennlp/__pycache__
+
+
+# testing and continuous integration
+
+allennlp/.coverage
+allennlp/.pytest_cache/
+
+# large files
+allennlp/datasets/
+allennlp/tmp/
+allennlp/models/
