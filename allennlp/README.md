@@ -310,7 +310,7 @@ If you've already train a supervised model, you can save time by training other 
 
 ## Citation
 
-If you found our code or paper useful, consider citing us:
+If you find our code or paper useful, consider citing us:
 
 ```
 @inproceedings{perez-etal-2019-finding,
