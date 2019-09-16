@@ -143,124 +143,123 @@ For example, `--debate-mode ⅰⅱ ⅢⅣ` first will have learned agents suppor
 #### Installing the library and dependencies
 
 Clone this repo and move to `convince/allennlp/` (where all commands should be run from):
-   ```bash
-   git clone https://github.com/ethanjperez/convince.git
-   cd convince/allennlp
-   ```
+```bash
+git clone https://github.com/ethanjperez/convince.git
+cd convince/allennlp
+```
 
 Install dependencies using `pip`:
 
-   ```bash
-   pip install --editable .
-   ```
+```bash
+pip install --editable .
+```
 
 ## Downloading Data
 
 From the base directory (`convince/allennlp/`), make a folder to store datasets:
 
-   ```bash
-   mkdir datasets
-   ```
+```bash
+mkdir datasets
+```
 
 Download RACE using the Google form linked on [this page](http://www.cs.cmu.edu/~glai1/data/race/).
 You'll immediately receive an email with a link to the dataset, which you can download with:
 
-   ```bash
-   wget [link]
-   tar -xvzf RACE.tar.gz
-   mv RACE datasets/race_raw
-   rm RACE.tar.gz
-   ```
+```bash
+wget [link]
+tar -xvzf RACE.tar.gz
+mv RACE datasets/race_raw
+rm RACE.tar.gz
+```
 
 Here are the RACE dataset subsets we used for [short](https://drive.google.com/open?id=1NtHubMpsz9CUy5_0ZMXdoU6jbJ2BHR18) and [long](https://drive.google.com/open?id=1Hjgs6XMWcSh8AAReLFbaaOy0SBHhw2dQ) passages (place these in `datasets/`).
 To download Google Drive files via command line, add the following function definition to your bash profile (i.e., `~/.bashrc` or `~/.bash_profile`):
 ```bash
-    function gdrive_download () {
-      CONFIRM=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate "https://docs.google.com/uc?export=download&id=$1" -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')
-      wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$CONFIRM&id=$1" -O $2
-      rm -rf /tmp/cookies.txt
-    }
+function gdrive_download () {
+  CONFIRM=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate "https://docs.google.com/uc?export=download&id=$1" -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')
+  wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$CONFIRM&id=$1" -O $2
+  rm -rf /tmp/cookies.txt
+}
 ```
 Then, open a new terminal (or use e.g. `source ~/.bashrc`) and download via the file ID of the Google Drive links above:
-    ```bash
-    gdrive_download 1NtHubMpsz9CUy5_0ZMXdoU6jbJ2BHR18 num_sents_leq_12.zip
-    unzip num_sents_leq_12.zip
-    mv num_sents_leq_12 datasets/num_sents_leq_12
-    rm num_sents_leq_12.zip
-    
-    gdrive_download 1Hjgs6XMWcSh8AAReLFbaaOy0SBHhw2dQ num_sents_gt_26.zip
-    unzip num_sents_gt_26.zip
-    mv num_sents_gt_26 datasets/num_sents_gt_26
-    rm num_sents_gt_26.zip
-    ```
+
+```bash
+gdrive_download 1NtHubMpsz9CUy5_0ZMXdoU6jbJ2BHR18 num_sents_leq_12.zip
+unzip num_sents_leq_12.zip
+mv num_sents_leq_12 datasets/num_sents_leq_12
+rm num_sents_leq_12.zip
+
+gdrive_download 1Hjgs6XMWcSh8AAReLFbaaOy0SBHhw2dQ num_sents_gt_26.zip
+unzip num_sents_gt_26.zip
+mv num_sents_gt_26 datasets/num_sents_gt_26
+rm num_sents_gt_26.zip
+```
  
 You can split RACE into middle (`race_raw_middle`) and high school (`race_raw_high`) subsets via:
-   ```bash
-   cp -r datasets/race_raw datasets/race_raw_high
-   rm -r datasets/race_raw_high/*/middle
-   cp -r datasets/race_raw datasets/race_raw_middle
-   rm -r datasets/race_raw_middle/*/high
-   ```
+```bash
+cp -r datasets/race_raw datasets/race_raw_high
+rm -r datasets/race_raw_high/*/middle
+cp -r datasets/race_raw datasets/race_raw_middle
+rm -r datasets/race_raw_middle/*/high
+```
 
 Download DREAM:
-
-   ```bash
-   mkdir datasets/dream
-   for SPLIT in train dev test; do
-     wget https://github.com/nlpdata/dream/blob/master/data/$SPLIT.json -O datasets/dream/$SPLIT.json
-   done
-   ```
+```bash
+mkdir datasets/dream
+for SPLIT in train dev test; do
+ wget https://github.com/nlpdata/dream/blob/master/data/$SPLIT.json -O datasets/dream/$SPLIT.json
+done
+```
 
 Here is the long passage DREAM subset we used for [dev](https://drive.google.com/open?id=15c1B0LRv_RMrtmycrYV1T8zK_n0jlkES) and [test](https://drive.google.com/open?id=174l4d_oz5Qjyp0W8zUUK6JRxgdGqDIlf) (place these in `datasets/dream`). You can download these via command line:
-    ```bash
-    gdrive_download 15c1B0LRv_RMrtmycrYV1T8zK_n0jlkES datasets/dream/dev.num_sents_gt_26.json
-    gdrive_download 174l4d_oz5Qjyp0W8zUUK6JRxgdGqDIlf datasets/dream/test.num_sents_gt_26.json
-    ```
+```bash
+gdrive_download 15c1B0LRv_RMrtmycrYV1T8zK_n0jlkES datasets/dream/dev.num_sents_gt_26.json
+gdrive_download 174l4d_oz5Qjyp0W8zUUK6JRxgdGqDIlf datasets/dream/test.num_sents_gt_26.json
+```
 
 Download BERT:
-   ```bash
-   mkdir -p datasets/bert
-   cd datasets/bert
-   
-   # Download and unzip BERT Base
-   wget https://storage.googleapis.com/bert_models/2018_10_18/uncased_L-12_H-768_A-12.zip
-   unzip uncased_L-12_H-768_A-12.zip
-   
-   # [Optional] Download and unzip BERT Large
-   wget https://storage.googleapis.com/bert_models/2018_10_18/uncased_L-24_H-1024_A-16.zip
-   unzip uncased_L-24_H-1024_A-16.zip
-   
-   cd ../..
-   ```
+```bash
+mkdir -p datasets/bert
+cd datasets/bert
+
+# Download and unzip BERT Base
+wget https://storage.googleapis.com/bert_models/2018_10_18/uncased_L-12_H-768_A-12.zip
+unzip uncased_L-12_H-768_A-12.zip
+
+# [Optional] Download and unzip BERT Large
+wget https://storage.googleapis.com/bert_models/2018_10_18/uncased_L-24_H-1024_A-16.zip
+unzip uncased_L-24_H-1024_A-16.zip
+
+cd ../..
+```
 
 ## Training a BERT Judge Model
 
 The below command gave us a BERT Base QA model (available ) with 66.32% dev accuracy at epoch 5:
-
-   ```bash
-   allennlp train training_config/race.best.jsonnet --serialization-dir tmp/race.best.f --debate-mode f --accumulation-steps 32
-   ```
+```bash
+allennlp train training_config/race.best.jsonnet --serialization-dir tmp/race.best.f --debate-mode f --accumulation-steps 32
+```
 
 You can download this model from Google Drive [here](https://drive.google.com/open?id=1ymA_MziGDYonY3Ck6Wbhss7lSD7AtzX0) (unzip it and place in `tmp/`) or via command line:
-   ```bash
-   gdrive_download 1ymA_MziGDYonY3Ck6Wbhss7lSD7AtzX0 race.best.f.zip
-   unzip race.best.f.zip
-   mv race.best.f.zip tmp/
-   rm race.best.f.zip
-   ```
+```bash
+gdrive_download 1ymA_MziGDYonY3Ck6Wbhss7lSD7AtzX0 race.best.f.zip
+unzip race.best.f.zip
+mv race.best.f tmp/
+rm race.best.f.zip
+```
 
 To train a BERT Large Judge (we needed a GPU with 32GB of memory):
-   ```bash
-   allennlp train training_config/race.large.best.jsonnet --serialization-dir tmp/race.large.best.f --debate-mode f --accumulation-steps 12
-   ```
+```bash
+allennlp train training_config/race.large.best.jsonnet --serialization-dir tmp/race.large.best.f --debate-mode f --accumulation-steps 12
+```
 
 ## Using Search Agents
 
 The below command will load the judge model as part of an evidence agent (with dummy weights). The agent tries each possible sentence to choose a sentence:
-   ```bash
-   DM=Ⅰ  # Replace with Ⅱ Ⅲ Ⅳ to get evidence for other answers
-   allennlp train training_config/race.best.jsonnet --serialization-dir tmp/race.best.f.dm=$DM --judge-filename tmp/race.best.f/model.tar.gz --eval-mode --debate-mode $DM --search-outputs-path tmp/race.best.f.dm=$DM/search_outputs.pkl
-   ```
+```bash
+DM=Ⅰ  # Replace with Ⅱ Ⅲ Ⅳ to get evidence for other answers
+allennlp train training_config/race.best.jsonnet --serialization-dir tmp/race.best.f.dm=$DM --judge-filename tmp/race.best.f/model.tar.gz --eval-mode --debate-mode $DM --search-outputs-path tmp/race.best.f.dm=$DM/search_outputs.pkl
+```
 
 The above command will pretty print the single best search-chosen evidence for the first answer option in every RACE validation example.
 The results will be saved to a json file starting with `debate_log` in the serialization directory `tmp/race.best.f.dm=$DM`.
@@ -268,28 +267,28 @@ You can also change the evaluation dataset by copying `training_config/race.best
 You can change the training dataset in a similar way; if you're just running inference/evaluation (as you are for search agents), you can save the time to load RACE's training set by changing `train_data_path: datasets/race_raw/train` to `train_data_path: allennlp/tests/fixtures/data/race_raw/train` (tiny slice of the dataset).
 
 To show a more complicated example, here's how you can run round-robin evidence selections with multiple turns (6 per agent):
-   ```bash
-   for DM in ⅠⅡ ⅠⅢ ⅠⅣ ⅡⅢ ⅡⅣ ⅢⅣ; do
-     allennlp train training_config/race.best.jsonnet --serialization-dir tmp/race.best.f.dm=${DM}_${DM}_${DM}_${DM}_${DM}_${DM} --judge-filename tmp/race.best.f/model.tar.gz --eval-mode --debate-mode $DM $DM $DM $DM $DM $DM --search-outputs-path tmp/race.best.f.dm=${DM}_${DM}_${DM}_${DM}_${DM}_${DM}/search_outputs.pkl
-   done
-   ```
+```bash
+for DM in ⅠⅡ ⅠⅢ ⅠⅣ ⅡⅢ ⅡⅣ ⅢⅣ; do
+ allennlp train training_config/race.best.jsonnet --serialization-dir tmp/race.best.f.dm=${DM}_${DM}_${DM}_${DM}_${DM}_${DM} --judge-filename tmp/race.best.f/model.tar.gz --eval-mode --debate-mode $DM $DM $DM $DM $DM $DM --search-outputs-path tmp/race.best.f.dm=${DM}_${DM}_${DM}_${DM}_${DM}_${DM}/search_outputs.pkl
+done
+```
 
 ## Training Learned Agents
 
 With the below commands, you can train a learned agent to predict the search-chosen sentence:
-   ```bash
-   # Learn to predict search-chosen sentence
-   # We got 56.8% accuracy at Epoch 6
-   allennlp train training_config/race.best.debate.sl.lr=5e-6.jsonnet --judge-filename tmp/race.best.f/model.tar.gz --debate-mode e --search-outputs-path tmp/race.best.f/search_outputs.pkl --accumulation-steps 12 --reward-method sl --serialization-dir tmp/race.e.c=concat.bsz=12.lr=5e-6.m=sl
+```bash
+# Learn to predict search-chosen sentence
+# We got 56.8% accuracy at Epoch 6
+allennlp train training_config/race.best.debate.sl.lr=5e-6.jsonnet --judge-filename tmp/race.best.f/model.tar.gz --debate-mode e --search-outputs-path tmp/race.best.f/search_outputs.pkl --accumulation-steps 12 --reward-method sl --serialization-dir tmp/race.e.c=concat.bsz=12.lr=5e-6.m=sl
 
-   # Learn to predict the Judge Model's probability given each sentence
-   # We got 55.1% accuracy at predicting the search-chosen sentence at Epoch 5
-   allennlp train training_config/race.best.debate.sl.lr=1e-5.jsonnet --judge-filename tmp/race.best.f/model.tar.gz --debate-mode e --search-outputs-path tmp/race.best.f/search_outputs.pkl --accumulation-steps 12 --reward-method sl-sents --serialization-dir tmp/race.e.c=concat.bsz=12.lr=1e-5.m=sl-sents
+# Learn to predict the Judge Model's probability given each sentence
+# We got 55.1% accuracy at predicting the search-chosen sentence at Epoch 5
+allennlp train training_config/race.best.debate.sl.lr=1e-5.jsonnet --judge-filename tmp/race.best.f/model.tar.gz --debate-mode e --search-outputs-path tmp/race.best.f/search_outputs.pkl --accumulation-steps 12 --reward-method sl-sents --serialization-dir tmp/race.e.c=concat.bsz=12.lr=1e-5.m=sl-sents
 
-   # Learn to predict the Judge Model's change in probability given each sentence
-   # We got 54.3% accuracy at predicting the search-chosen sentence at Epoch 4
-   allennlp train training_config/race.best.debate.sl.lr=1e-5.jsonnet --judge-filename tmp/race.best.f/model.tar.gz --debate-mode e --search-outputs-path tmp/race.best.f/search_outputs.pkl --accumulation-steps 12 --reward-method sl-sents --influence --serialization-dir tmp/race.e.c=concat.bsz=12.lr=1e-5.m=sl-sents.i
-   ```
+# Learn to predict the Judge Model's change in probability given each sentence
+# We got 54.3% accuracy at predicting the search-chosen sentence at Epoch 4
+allennlp train training_config/race.best.debate.sl.lr=1e-5.jsonnet --judge-filename tmp/race.best.f/model.tar.gz --debate-mode e --search-outputs-path tmp/race.best.f/search_outputs.pkl --accumulation-steps 12 --reward-method sl-sents --influence --serialization-dir tmp/race.e.c=concat.bsz=12.lr=1e-5.m=sl-sents.i
+```
 
 Training to convergence takes roughly 1 week on a v100 (16GB).
 During the first epoch, we run a search agent to find the judge predictions given each sentence.
