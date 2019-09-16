@@ -251,7 +251,7 @@ You can download this model from Google Drive [here](https://drive.google.com/op
 
 To train a BERT Large Judge (we needed a GPU with 32GB of memory):
    ```bash
-   allennlp train training_config/race.large.best.jsonnet --serialization-dir tmp/race.large.best.f --debate-mode f --accumulation-steps 32
+   allennlp train training_config/race.large.best.jsonnet --serialization-dir tmp/race.large.best.f --debate-mode f --accumulation-steps 12
    ```
 
 ## Using Search Agents
