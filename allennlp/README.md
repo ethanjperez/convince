@@ -13,39 +13,39 @@ Our code was forked from AllenNLP ([Jan 18, 2019 commit](https://github.com/alle
 Our paper's core code involves changes/additions to AllenNLP in the below files and folders:
 <table>
 <tr>
-    <td><b> allennlp/training/trainer.py </b></td>
+    <td> <a href="https://github.com/ethanjperez/convince/blob/master/allennlp/allennlp/training/trainer.py">allennlp/training/trainer.py</a> </td>
     <td> The main training logic for BERT Judge Models and Evidence Agents </td>
 </tr>
 <tr>
-    <td><b> allennlp/commands/train.py </b></td>
+    <td> <a href="https://github.com/ethanjperez/convince/blob/master/allennlp/allennlp/commands/train.py">allennlp/commands/train.py</a> </td>
     <td> Command line flags and initial setup to train BERT Judge Models and Evidence Agents </td>
 </tr>
 <tr>
-    <td><b> allennlp/data/dataset_readers/ reading_comprehension/{race,dream}_mc.py </b></td>
+    <td> <a href="https://github.com/ethanjperez/convince/blob/master/allennlp/allennlp/data/dataset_readers/reading_comprehension/race_mc.py">allennlp/data/dataset_readers/ reading_comprehension/race_mc.py</a> and <a href="https://github.com/ethanjperez/convince/blob/master/allennlp/allennlp/data/dataset_readers/reading_comprehension/dream_mc.py">dream_mc.py</a> </td>
     <td> Code to read RACE and DREAM datasets </td>
 </tr>
 <tr>
-    <td><b> allennlp/models/ reading_comprehension/bert_mc.py </b></td>
+    <td> <a href="https://github.com/ethanjperez/convince/blob/master/allennlp/allennlp/models/reading_comprehension/bert_mc.py">allennlp/models/ reading_comprehension/bert_mc.py</a> </td>
     <td> Code for BERT QA Models </td>
 </tr>
 <tr>
-    <td><b> allennlp/tests/fixtures/data/ </b></td>
+    <td> <a href="https://github.com/ethanjperez/convince/tree/master/allennlp/allennlp/tests/fixtures/data">allennlp/tests/fixtures/data/</a> </td>
     <td> Mini datasets files for debugging </td>
 </tr>
 <tr>
-    <td><b> eval/ </b></td>
-    <td> Evidence Agent sentence selections, which we used for human evaluation (eval/mturk/) and testing for improved Judge generalization (eval/generalization/) </td>
+    <td> <a href="https://github.com/ethanjperez/convince/tree/master/allennlp/eval">eval/</a> </td>
+    <td> Evidence Agent sentence selections, which we used for human evaluation (<a href="https://github.com/ethanjperez/convince/tree/master/allennlp/eval/mturk">eval/mturk/</a>)) and testing for improved Judge generalization (<a href="https://github.com/ethanjperez/convince/tree/master/allennlp/eval/generalization">eval/generalization/</a>)) </td>
 </tr>
 <tr>
-    <td><b> fasttext/ </b></td>
+    <td> <a href="https://github.com/ethanjperez/convince/tree/master/allennlp/fasttext">fasttext/</a> </td>
     <td> Code for training FastText Judge Models and Search-based Evidence Agents </td>
 </tr>
 <tr>
-    <td><b> tf_idf/ </b></td>
+    <td> <a href="https://github.com/ethanjperez/convince/tree/master/allennlp/tf_idf">tf_idf/</a> </td>
     <td> Code for training TF-IDF Judge Models and Search-based Evidence Agents </td>
 </tr>
 <tr>
-    <td><b> training_config/ </b></td>
+    <td> <a href="https://github.com/ethanjperez/convince/tree/master/allennlp/training_config">training_config/</a> </td>
     <td> Config files for training models with various hyperparameters </td>
 </tr>
 </table>
@@ -251,7 +251,7 @@ You can download this model from Google Drive [here](https://drive.google.com/op
 
 To train a BERT Large Judge (we needed a GPU with 32GB of memory):
    ```bash
-   allennlp train training_config/race.large.best.jsonnet --serialization-dir tmp/race.large.best.f --debate-mode f --accumulation-steps 32
+   allennlp train training_config/race.large.best.jsonnet --serialization-dir tmp/race.large.best.f --debate-mode f --accumulation-steps 12
    ```
 
 ## Using Search Agents
@@ -310,7 +310,7 @@ If you've already train a supervised model, you can save time by training other 
 
 ## Citation
 
-If you found our code or paper useful, consider citing us:
+If you find our code or paper useful, consider citing us:
 
 ```
 @inproceedings{perez-etal-2019-finding,
