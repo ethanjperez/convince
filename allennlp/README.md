@@ -1,8 +1,6 @@
 # Finding Generalizable Evidence by Learning to Convince Q&A Models
 
-TODO: Replace below with paper GIF.
-
-<p align="center"><img width="40%" src="doc/static/allennlp-logo-dark.png" /></p>
+<p align="center"><img width="40%" src="doc/static/Learning-to-Convince-Figure.png" /></p>
 
 ## Code Overview
 
@@ -46,9 +44,6 @@ Our paper's core code involves changes/additions to AllenNLP in the below files 
     <td> Config files for training models with various hyperparameters </td>
 </tr>
 </table>
-
-TODO: Rename folders in eval/ to match paper
-TODO: Add code links for above
 
 ## Key arguments
 
