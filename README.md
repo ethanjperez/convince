@@ -2,4 +2,4 @@
 
 <p align="center"><img width="40%" src="allennlp/doc/static/Learning-to-Convince-Figure.png" /></p>
 
-The code for training Judge Models and Evidence Agents is available in `allennlp/`.
+The code and instructions for training Judge Models and Evidence Agents is available in `allennlp/`.
