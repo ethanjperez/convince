@@ -237,7 +237,9 @@ unzip uncased_L-24_H-1024_A-16.zip
 cd ../..
 ```
 
-## Training a BERT Judge Model
+## BERT-based Judge Models and Evidence Agents
+
+#### Training a BERT Judge Model
 
 The below command gave us a BERT Base QA model (available ) with 66.32% dev accuracy at epoch 5:
 ```bash
@@ -257,7 +259,7 @@ To train a BERT Large Judge (we needed a GPU with 32GB of memory):
 allennlp train training_config/race.large.best.jsonnet --serialization-dir tmp/race.large.best.f --debate-mode f --accumulation-steps 12
 ```
 
-## Using Search Agents
+#### Using BERT-based Search Agents
 
 The below command will load the judge model as part of an evidence agent (with dummy weights). The agent tries each possible sentence to choose a sentence:
 ```bash
@@ -277,32 +279,7 @@ for DM in ⅠⅡ ⅠⅢ ⅠⅣ ⅡⅢ ⅡⅣ ⅢⅣ; do
 done
 ```
 
-## Using TF-IDF and FastText Search Agents
-
-To select evidence by searching over a TF-IDF judge, you can use the following command:
-
-```bash
-python tfidf/run.py -t <PATH/TO/RACE/TRAIN> -v <PATH/TO/RACE/VALID> -s race -r debate
-```
-
-This dumps debates for each answer choice (I, II, III, IV) to `tfidf/debate_race_test_tfidf_<I|II|III|IV>.json`
-
-You can also condition on the question in addition to the answer (Q + A) by using the `-q` flag.
-
-Similar to training a TF-IDF Judge, you can run on the DREAM dataset as well (this time, by using the `-s dream` flag),
-passing in the appropriate paths to DREAM training and validation data.
-
-To select evidence by searching over a FastText judge, you can use the following command:
-
-```bash
-python fasttext/run.py -v <PATH/TO/RACE/VALID> -d race -r debate
-```
-
-This dumps debates for each answer choice (I, II, III, IV) to `fasttext/debate_race_test_fasttext_<I|II|III|IV>.json`
-
-You can run on the DREAM dataset by uisng `-d dream` and passing in the appropriate path to DREAM validation data.
-
-## Training Learned Agents
+#### Training Learned Agents
 
 With the below commands, you can train a learned agent to predict the search-chosen sentence:
 ```bash
@@ -325,7 +302,7 @@ We then cache the judge predictions to the file specified after `--search-output
 The cached predictions are used throughout the rest of the training (i.e., epochs after the first are faster).
 If you've already train a supervised model, you can save time by training other models simply using the cached predictions from training that model (as in the commands above).  
 
-## Implementation Notes
+#### Implementation Notes
 
 - The code also support the following training options that we don't use in the paper, most notably:
     - *Reinforcement Learning* to train evidence agents. You can train agents to maximize the Judge's probability on an agent's answer by setting `--reward-method prob`. RL agents could learn to convince the Judge of correct answers (~70% of the time vs. ~80% for supervised learning agents). However, we couldn't really get RL agents to learn to convince the Judge of incorrect answers (RL agents performed marginally better than random sentence selection).
@@ -336,7 +313,9 @@ If you've already train a supervised model, you can save time by training other 
     - *Avoid loading the training set* to save time while debugging or only running inference/validation. To do so, replace `train_data_path: datasets/race_raw/train` to `train_data_path: allennlp/tests/fixtures/data/race_raw/train` (a tiny slice of the dataset). If debugging, you can also replace `validation_data_path: datasets/race_raw/train` to `validation_data_path: allennlp/tests/fixtures/data/race_raw/train` to save time and to check that you can overfit the training set.
 - If you have any issue, feel free to email [Ethan](mailto:perez@nyu.edu)!
 
-## Training a TFIDF Judge Model
+## TFIDF/FastText Judge Models and Evidence Agents
+
+#### Training a TFIDF Judge Model
 
 Use the following command to train a TF-IDF model and evaluate on the corresponding validation set:
 ```bash
@@ -357,7 +336,7 @@ In other words, pass in each of the debate logs created by an evidence agent as 
 
 To run on DREAM data (instead of RACE), run with `-d dream` and the corresponding paths to the DREAM JSON data for the training `-t` and validation `-v` arguments.
 
-## Training a Fasttext Judge Model
+#### Training a Fasttext Judge Model
 
 Training a FastText judge is similar to training a TF-IDF judge (above). Use the following command to train a baseline FastText model and evaluate
 on the given validation set:
@@ -377,6 +356,29 @@ python baselines/fasttext.py -m cross-model -d race -v <PATH/TO/DEBATE_LOGS_OPTI
 ```
 
 To evaluate on DREAM data, run with `-d dream` and the corresponding DREAM JSON Data/Debate Logs passed to the `-v` flag.
+
+#### Using TF-IDF and FastText Search Agents
+
+To select evidence by searching over a TF-IDF judge, use the following command:
+```bash
+python tfidf/run.py -t <PATH/TO/RACE/TRAIN> -v <PATH/TO/RACE/VALID> -s race -r debate
+```
+
+The above command dumps debates for each answer choice (I, II, III, IV) to `tfidf/debate_race_test_tfidf_<I|II|III|IV>.json`
+
+You can also condition on the question in addition to the answer (Q + A) by using the `-q` flag.
+
+Similar to training a TF-IDF Judge, you can run on the DREAM dataset as well (this time, by using the `-s dream` flag),
+passing in the appropriate paths to DREAM training and validation data.
+
+To select evidence by searching over a FastText judge, use the following command:
+```bash
+python fasttext/run.py -v <PATH/TO/RACE/VALID> -d race -r debate
+```
+
+The above command dumps debates for each answer choice (I, II, III, IV) to `fasttext/debate_race_test_fasttext_<I|II|III|IV>.json`
+
+You can run on DREAM data by using `-d dream` and passing in the appropriate path to DREAM validation data.
 
 ## Citation
 
