@@ -33,12 +33,12 @@ Our paper's core code involves changes/additions to AllenNLP in the below files 
     <td> Mini datasets files for debugging </td>
 </tr>
 <tr>
-    <td> <a href="https://github.com/ethanjperez/convince/tree/master/allennlp/eval">eval/</a> </td>
-    <td> Evidence Agent sentence selections, which we used for human evaluation (<a href="https://github.com/ethanjperez/convince/tree/master/allennlp/eval/mturk">eval/mturk/</a>)) and testing for improved Judge generalization (<a href="https://github.com/ethanjperez/convince/tree/master/allennlp/eval/generalization">eval/generalization/</a>)) </td>
-</tr>
-<tr>
     <td> <a href="http://github.com/ethanjperez/convince/tree/master/allennlp/baselines">baselines/</a></td>
     <td> Code for training TF-IDF and FastText Judge Models</td>
+</tr>
+<tr>
+    <td> <a href="https://github.com/ethanjperez/convince/tree/master/allennlp/eval">eval/</a> </td>
+    <td> Evidence Agent sentence selections, which we used for human evaluation (<a href="https://github.com/ethanjperez/convince/tree/master/allennlp/eval/mturk">eval/mturk/</a>)) and testing for improved Judge generalization (<a href="https://github.com/ethanjperez/convince/tree/master/allennlp/eval/generalization">eval/generalization/</a>)) </td>
 </tr>
 <tr>
     <td> <a href="https://github.com/ethanjperez/convince/tree/master/allennlp/fasttext">fasttext/</a> </td>
