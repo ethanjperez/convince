@@ -37,12 +37,16 @@ Our paper's core code involves changes/additions to AllenNLP in the below files 
     <td> Evidence Agent sentence selections, which we used for human evaluation (<a href="https://github.com/ethanjperez/convince/tree/master/allennlp/eval/mturk">eval/mturk/</a>)) and testing for improved Judge generalization (<a href="https://github.com/ethanjperez/convince/tree/master/allennlp/eval/generalization">eval/generalization/</a>)) </td>
 </tr>
 <tr>
+    <td> <a href="http://github.com/ethanjperez/convince/tree/master/allennlp/baselines">baselines/</a></td>
+    <td> Code for training TF-IDF and FastText Judge Models</td>
+</tr>
+<tr>
     <td> <a href="https://github.com/ethanjperez/convince/tree/master/allennlp/fasttext">fasttext/</a> </td>
-    <td> Code for training FastText Judge Models and Search-based Evidence Agents </td>
+    <td> Code for training FastText Search-based Evidence Agents </td>
 </tr>
 <tr>
     <td> <a href="https://github.com/ethanjperez/convince/tree/master/allennlp/tf_idf">tf_idf/</a> </td>
-    <td> Code for training TF-IDF Judge Models and Search-based Evidence Agents </td>
+    <td> Code for training TF-IDF Search-based Evidence Agents </td>
 </tr>
 <tr>
     <td> <a href="https://github.com/ethanjperez/convince/tree/master/allennlp/training_config">training_config/</a> </td>
@@ -126,7 +130,7 @@ For example, `--debate-mode ⅰⅱ ⅢⅣ` first will have learned agents suppor
 
 [Conda](https://conda.io/) can be used set up a virtual environment (Python 3.6 or 3.7):
 
-1.  [Download and install Conda](https://conda.io/docs/download.html).
+1.  [Download and install Conda](https://conda.io/projects/conda/en/latest/user-guide/install/index.html).
 
 2.  Create a Conda environment with Python 3.6
 
@@ -194,7 +198,7 @@ unzip num_sents_gt_26.zip
 mv num_sents_gt_26 datasets/num_sents_gt_26
 rm num_sents_gt_26.zip
 ```
- 
+
 You can split RACE into middle (`race_raw_middle`) and high school (`race_raw_high`) subsets via:
 ```bash
 cp -r datasets/race_raw datasets/race_raw_high
@@ -273,6 +277,31 @@ for DM in ⅠⅡ ⅠⅢ ⅠⅣ ⅡⅢ ⅡⅣ ⅢⅣ; do
 done
 ```
 
+## Using TF-IDF and FastText Search Agents
+
+To select evidence by searching over a TF-IDF judge, you can use the following command:
+
+```bash
+python tfidf/run.py -t <PATH/TO/RACE/TRAIN> -v <PATH/TO/RACE/VALID> -s race -r debate
+```
+
+This dumps debates for each answer choice (I, II, III, IV) to `tfidf/debate_race_test_tfidf_<I|II|III|IV>.json`
+
+You can also condition on the question in addition to the answer (Q + A) by using the `-q` flag.
+
+Similar to training a TF-IDF Judge, you can run on the DREAM dataset as well (this time, by using the `-s dream` flag),
+passing in the appropriate paths to DREAM training and validation data.
+
+To select evidence by searching over a FastText judge, you can use the following command:
+
+```bash
+python fasttext/run.py -v <PATH/TO/RACE/VALID> -d race -r debate
+```
+
+This dumps debates for each answer choice (I, II, III, IV) to `fasttext/debate_race_test_fasttext_<I|II|III|IV>.json`
+
+You can run on the DREAM dataset by uisng `-d dream` and passing in the appropriate path to DREAM validation data.
+
 ## Training Learned Agents
 
 With the below commands, you can train a learned agent to predict the search-chosen sentence:
@@ -298,14 +327,56 @@ If you've already train a supervised model, you can save time by training other 
 
 ## Implementation Notes
 
-- The code also support the following training options that we don't use in the paper, most notably: 
+- The code also support the following training options that we don't use in the paper, most notably:
     - *Reinforcement Learning* to train evidence agents. You can train agents to maximize the Judge's probability on an agent's answer by setting `--reward-method prob`. RL agents could learn to convince the Judge of correct answers (~70% of the time vs. ~80% for supervised learning agents). However, we couldn't really get RL agents to learn to convince the Judge of incorrect answers (RL agents performed marginally better than random sentence selection).
     - `--qa-loss-weight W`: Give agents an auxiliary supervised, question-answering loss with weight W. W=1 just adds the extra QA loss to the loss for predicting the Judge's behavior. In our experiments, this option did not clearly improve agents' ability to convince the Judge.
     - `--theory-of-mind`: Have agents use the Judge's activations (after the Judge reads the passage) as an auxiliary input. In our experiments, this option did not clearly improve agents' ability to convince the Judge.
 - Make a new training_config file to change the pre-trained weights, training or validation data, or training hyperparameters. It's easiest to modify an existing config (i.e., `training_config/race.best.jsonnet`).
     - *Increase batch_size* for faster training if you have more GPU memory. Decrease the value for --accumulation-steps by the same factor (to maintain the same effective training batch size).
     - *Avoid loading the training set* to save time while debugging or only running inference/validation. To do so, replace `train_data_path: datasets/race_raw/train` to `train_data_path: allennlp/tests/fixtures/data/race_raw/train` (a tiny slice of the dataset). If debugging, you can also replace `validation_data_path: datasets/race_raw/train` to `validation_data_path: allennlp/tests/fixtures/data/race_raw/train` to save time and to check that you can overfit the training set.
-- If you have any issue, feel free to email [Ethan](mailto:perez@nyu.edu)
+- If you have any issue, feel free to email [Ethan](mailto:perez@nyu.edu)!
+
+## Training a TFIDF Judge Model
+
+Use the following command to train a TF-IDF model and evaluate on the corresponding validation set:
+```bash
+python baselines/tfidf.py -m judge -d race -t <PATH/TO/RACE-TRAIN> -v <PATH/TO/RACE-VAL>
+```
+
+The above command will train and evaluate a TF-IDF model where the best answer is chosen by finding the answer with the TF-IDF
+vector with the highest cosine similarity with the TF-IDF vector of the passage.
+
+We also provide functionality to search for the best answer conditioned on both the question as well as the answer (Q + A).
+To train and evaluate a TF-IDF model in this mode, use the `-q` flag (with question).
+
+Rather than evaluating on the raw validation set, we also provide functionality for running on the evidence chosen by other agents (TF-IDF, Fasttext, or BERT-based agents). To run in this mode, use the following command (We refer to evaluation files of the form `debate_log.*.json` as "Debate Logs" - these files are saved e.g. by BERT-baseed evidence agents during inference on validation):
+```bash
+python baselines/tfidf.py -m cross-model -d race -t <PATH/TO/RACE-TRAIN> -v <PATH/TO/DEBATE_LOGS_OPTION_I> <PATH/TO/DEBATE_LOGS_OPTION_II> <PATH/TO/DEBATE_LOGS_OPTION_III> <PATH/TO/DEBATE_LOGS_OPTION_IV>
+```
+In other words, pass in each of the debate logs created by an evidence agent as the argument for the `-v` flag.
+
+To run on DREAM data (instead of RACE), run with `-d dream` and the corresponding paths to the DREAM JSON data for the training `-t` and validation `-v` arguments.
+
+## Training a Fasttext Judge Model
+
+Training a FastText judge is similar to training a TF-IDF judge (above). Use the following command to train a baseline FastText model and evaluate
+on the given validation set:
+
+```bash
+python baselines/fasttext.py -m judge -d race -v <PATH/TO/RACE-VAL>
+```
+
+The above command will download the FastText vectors to datasets/fasttext and then evaluate FastText on the RACE validation
+set.
+
+To run on the evidence chosen by other agents, use the following command, pointing to the Debate Logs
+generated for each answer option from the appropriate model (e.g. BERT-Base, TF-IDF, etc.).
+
+```bash
+python baselines/fasttext.py -m cross-model -d race -v <PATH/TO/DEBATE_LOGS_OPTION_I> <PATH/TO/DEBATE_LOGS_OPTION_II> <PATH/TO/DEBATE_LOGS_OPTION_III> <PATH/TO/DEBATE_LOGS_OPTION_IV>
+```
+
+To evaluate on DREAM data, run with `-d dream` and the corresponding DREAM JSON Data/Debate Logs passed to the `-v` flag.
 
 ## Citation
 
