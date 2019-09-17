@@ -30,7 +30,7 @@ We made our own ParlAI task which contains all code specific to our evaluations 
 </tr>
 </table>
 
-We also added data reading/processing code for RACE ([convince/ParlAI/parlai/tasks/race/](https://github.com/ethanjperez/convince/tree/master/ParlAI/parlai/tasks/race)) and DREAM ([convince/ParlAI/parlai/tasks/dream/](https://github.com/ethanjperez/convince/tree/master/ParlAI/parlai/tasks/dream))
+We also added data reading/processing code for RACE ([convince/ParlAI/parlai/tasks/race/](https://github.com/ethanjperez/convince/tree/master/ParlAI/parlai/tasks/race)) and DREAM ([convince/ParlAI/parlai/tasks/dream/](https://github.com/ethanjperez/convince/tree/master/ParlAI/parlai/tasks/dream)).
 
 ## Installation
 
@@ -38,7 +38,7 @@ We also added data reading/processing code for RACE ([convince/ParlAI/parlai/tas
 
 [Conda](https://conda.io/) can be used set up a virtual environment (Python 3):
 
-1.  [Download and install Conda](https://conda.io/docs/download.html).
+1.  [Download and install Conda](https://conda.io/projects/conda/en/latest/user-guide/install/index.html).
 
 2.  Create a Conda environment with Python 3.6
 
