@@ -194,6 +194,8 @@ mv num_sents_gt_26 datasets/num_sents_gt_26
 rm num_sents_gt_26.zip
 ```
 
+If you run into issues with `gdrive_download`, you can also `pip install gdown` and then run e.g. `gdown --id 1NtHubMpsz9CUy5_0ZMXdoU6jbJ2BHR18` to download a Google Drive file with the ID `1NtHubMpsz9CUy5_0ZMXdoU6jbJ2BHR18`.
+
 You can split RACE into middle (`race_raw_middle`) and high school (`race_raw_high`) subsets via:
 ```bash
 cp -r datasets/race_raw datasets/race_raw_high
@@ -241,9 +243,9 @@ The below command gave us a BERT Base QA model (available ) with 66.32% dev accu
 allennlp train training_config/race.best.jsonnet --serialization-dir tmp/race.best.f --debate-mode f --accumulation-steps 32
 ```
 
-You can download this model from Google Drive [here](https://drive.google.com/open?id=1ymA_MziGDYonY3Ck6Wbhss7lSD7AtzX0) (unzip it and place in `tmp/`) or via command line:
+You can download this model from Google Drive [here](https://drive.google.com/uc?id=1bfGiZTpo4QPGzR8-xbVsZAzHFjTuuKSJ) (unzip it and place in `tmp/`) or via command line:
 ```bash
-gdrive_download 1ymA_MziGDYonY3Ck6Wbhss7lSD7AtzX0 race.best.f.zip
+gdrive_download 1bfGiZTpo4QPGzR8-xbVsZAzHFjTuuKSJ race.best.f.zip
 unzip race.best.f.zip
 mv race.best.f tmp/
 rm race.best.f.zip
